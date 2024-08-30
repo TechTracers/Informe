@@ -11,8 +11,8 @@
 ### Startup: Debuggers
 #### Team Members
 - Arrunátegui Aguilar, Josué David 
-- Chero Eme, Eduardo Andre
 - Causso Mariano, Giakomo Rodolfo
+- Chero Eme, Eduardo Andre
 - Dávila Ramirez, Yoimer Yanir
 - Melgar Takahashi, Adrian Gonzalo
 #### Sección: SI728
@@ -99,6 +99,27 @@ ___
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 ### 1.1.2. Perfiles de integrantes del equipo
+
+| Integrante        | Arrunátegui Aguilar, Josué David                        |
+|-------------------|---------------------------------------------------------|
+| **Código:** U202111033 <br> **Carrera:** Ingeniería de Software <br> **Acerca de mí:** Me gusta dibujar, tocar guitarra y jugar videojuegos. Tengo conocimiento en el desarrollo frontend con lenguajes como angular y vue.js, así como desarrollo móvil con flutter. Planeo especializarme en desarrollo web o como Analista de Datos. | ![Josué Perfil](assets/capitulo1/integrantes/josue.jpg) |
+
+| Integrante        | Causso Mariano, Giakomo Rodolfo                         |
+|-----------------------------------------------------------------------------|
+| **Código:**  <br>  **Carrera:** Ingeniería de Software <br> **Acerca de mí:** |  |
+
+| Integrante        | Chero Eme, Eduardo Andre                                    |
+|-------------------|-------------------------------------------------------------|
+| **Código:** U20201F282 <br> **Carrera:** Ingeniería de software <br> **Acerca de mí:** Me gustan los videojuegos y las series, quiero especializarme en ciberseguridad para tener una ganancia estable mientras creo videojuegos aparte por pasión. | ![Eduardo Perfil](assets/capitulo1/integrantes/eduardo.jpg) |
+
+| Integrante        | Dávila Ramirez, Yoimer Yanir                            |
+|-----------------------------------------------------------------------------|
+| **Código:**  <br>  **Carrera:** Ingeniería de Software <br> **Acerca de mí:** |  |
+
+| Integrante        | Melgar Takahashi, Adrian Gonzalo                        |
+|-----------------------------------------------------------------------------|
+| **Código:**  <br>  **Carrera:** Ingeniería de Software <br> **Acerca de mí:** |  |
+
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
 ### 1.2.2 Lean UX Process
