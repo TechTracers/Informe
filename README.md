@@ -369,10 +369,29 @@ ___
 
 ## 4.2. Strategic-Level Domain-Driven Design
 ### 4.2.1. EventStorming
-
-
+![EventStorming](./assets/capitulo4/CandidateContextDiscovery/step7.jpg)
 ### 4.2.2. Candidate Context Discovery
+Paso 1: <br>
+![Step 1](./assets/capitulo4/CandidateContextDiscovery/step1.jpg)
+Paso 2:<br>
+![Step 2](./assets/capitulo4/CandidateContextDiscovery/step2.jpg)
+Paso 3:<br>
+![Step 3](./assets/capitulo4/CandidateContextDiscovery/step3.jpg)
+Paso 4:<br>
+![Step 4](./assets/capitulo4/CandidateContextDiscovery/step4.jpg)
+Paso 5:<br>
+![Step 5](./assets/capitulo4/CandidateContextDiscovery/step5.jpg)
+Paso 6:<br>
+![Step 6](./assets/capitulo4/CandidateContextDiscovery/step6.jpg)
+Paso 7:<br>
+![Step 7](./assets/capitulo4/CandidateContextDiscovery/step7.jpg)
 ### 4.2.3. Domain Message Flows Modeling
+Escenario: Buscar Prenda <br>
+![scenario 1](./assets/capitulo4/DomainMessageFlowsModeling/scenario1.png)
+Escenario: Ver Detalle Prenda <br>
+![scenario 2](./assets/capitulo4/DomainMessageFlowsModeling/scenario2.png)
+Escenario: Localizar Prenda  <br>
+![scenario 3](./assets/capitulo4/DomainMessageFlowsModeling/scenario3.png)
 ### 4.2.4. Bounded Context Canvases
 ### 4.2.5. Context Mapping
 ## 4.3. Software Architecture
