@@ -156,11 +156,221 @@ ___
 #### 4.1.2.1. Primary Functionality (Primary User Stories)
 #### 4.1.2.2. Quality attribute Scenarios
 #### 4.1.2.3. Constraints
+
+<table border="1" cellpadding="10">
+  <thead>
+    <tr>
+      <th>Technical Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CS01</td>
+      <td>Seguridad de Datos</td>
+      <td>La seguridad es una prioridad. La información del cliente y del inventario debe ser protegida contra accesos no autorizados y cumplir con las normativas de protección de datos locales (GDPR/LPDP).</td>
+      <td>DADO que un intento de acceso no autorizado es detectado, ENTONCES el sistema debe bloquear el acceso y notificar al administrador en menos de 1 minuto.</td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>CS02</td>
+      <td>Rendimiento de Respuesta</td>
+      <td>El sistema debe ser capaz de responder rápidamente a las solicitudes de localización de prendas, sin comprometer la experiencia de usuario, independientemente de la carga del sistema.</td>
+      <td>DADO que un cliente busque una prenda en la app, ENTONCES la ubicación debe mostrarse en menos de 2 segundos bajo condiciones normales de operación.</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>CS03</td>
+      <td>Alta Disponibilidad</td>
+      <td>El sistema debe asegurar alta disponibilidad, garantizando que la aplicación esté operativa incluso en casos de fallos de servidores o incrementos repentinos de tráfico.</td>
+      <td>DADO que falle un servidor, ENTONCES el sistema debe redirigir las operaciones a un servidor de respaldo en menos de 10 segundos para asegurar continuidad de servicio.</td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>CS04</td>
+      <td>Escalabilidad Automática</td>
+      <td>El sistema debe escalar automáticamente para soportar incrementos en el número de usuarios, asegurando un desempeño continuo sin degradación, particularmente durante eventos de alto tráfico como promociones o rebajas.</td>
+      <td>DADO que el número de usuarios del sistema aumente significativamente, ENTONCES la infraestructura debe escalar automáticamente sin afectar el tiempo de respuesta, en menos de 5 minutos.</td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>CS05</td>
+      <td>Integración con Sistemas ERP</td>
+      <td>El sistema debe integrarse de manera fluida con los sistemas ERP existentes en las tiendas, garantizando que los datos de inventario estén siempre sincronizados y actualizados en tiempo real.</td>
+      <td>DADO que se realice una operación de inventario en el sistema ERP, ENTONCES los cambios deben reflejarse en el sistema <strong>LockItem</strong> en menos de 10 segundos.</td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>CS06</td>
+      <td>Compatibilidad de Dispositivos</td>
+      <td>La aplicación móvil debe ser compatible con una amplia gama de dispositivos móviles y sistemas operativos para maximizar la cantidad de usuarios potenciales.</td>
+      <td>DADO que un cliente utilice la app en dispositivos Android o iOS, ENTONCES la app debe funcionar de manera fluida y sin errores, manteniendo la interfaz responsive en todos los casos.</td>
+      <td>EP01</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 4.1.3. Architectural Drivers Backlog
+
+<table border="1" cellpadding="10">
+  <thead>
+    <tr>
+      <th>Driver ID</th>
+      <th>Título de Driver</th>
+      <th>Descripción</th>
+      <th>Importancia para Stakeholders</th>
+      <th>Impacto en Architecture Technical Complexity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AD01</td>
+      <td>Rendimiento en la Localización de Prendas</td>
+      <td>El sistema debe permitir la localización rápida y precisa de prendas para mejorar la experiencia del cliente, mostrando la ubicación en menos de 2 segundos.</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>AD02</td>
+      <td>Seguridad de Datos</td>
+      <td>La protección de la información del cliente y del inventario es crítica, cumpliendo con las normativas de privacidad y bloqueando accesos no autorizados.</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>AD03</td>
+      <td>Alta Disponibilidad</td>
+      <td>El sistema debe asegurar su operatividad continua, incluso en caso de fallos de servidor o sobrecarga de tráfico, garantizando un tiempo de recuperación menor a 10 segundos.</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>AD04</td>
+      <td>Escalabilidad Automática</td>
+      <td>La infraestructura debe escalar automáticamente para soportar aumentos en el número de usuarios sin afectar el rendimiento.</td>
+      <td>Medium</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>AD05</td>
+      <td>Integración con ERP</td>
+      <td>El sistema debe integrarse con los sistemas ERP existentes en las tiendas, sincronizando el inventario en tiempo real con un desfase máximo de 10 segundos.</td>
+      <td>High</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>AD06</td>
+      <td>Compatibilidad con Dispositivos Móviles</td>
+      <td>La app móvil debe ser compatible con una amplia gama de dispositivos, incluyendo sistemas operativos Android e iOS, y ofrecer una interfaz fluida y responsive.</td>
+      <td>Medium</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>AD07</td>
+      <td>Monitoreo de Stock en Tiempo Real</td>
+      <td>El sistema debe mostrar el stock actualizado en tiempo real, permitiendo a los operadores ver la cantidad exacta de prendas disponibles en todo momento.</td>
+      <td>Medium</td>
+      <td>Medium</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 4.1.4. Architectural Design Decisions
+
+<table border="1" cellpadding="10">
+  <thead>
+    <tr>
+      <th>Driver ID</th>
+      <th>Título de Driver</th>
+      <th>Pattern 1</th>
+      <th>Pro</th>
+      <th>Con</th>
+      <th>Pattern 2</th>
+      <th>Pro</th>
+      <th>Con</th>
+      <th>Pattern 3</th>
+      <th>Pro</th>
+      <th>Con</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AD01</td>
+      <td>Rendimiento en la Localización de Prendas</td>
+      <td>Event-Driven Architecture</td>
+      <td>Alta capacidad de respuesta</td>
+      <td>Complejidad en el manejo de eventos</td>
+      <td>Microservices</td>
+      <td>Escalabilidad independiente</td>
+      <td>Mayor complejidad de gestión</td>
+      <td>Monolithic</td>
+      <td>Simplicidad de implementación</td>
+      <td>Escalabilidad limitada</td>
+    </tr>
+    <tr>
+      <td>AD02</td>
+      <td>Seguridad de Datos</td>
+      <td>Layered Security</td>
+      <td>Defensa en profundidad</td>
+      <td>Mayor coste de implementación</td>
+      <td>Token-Based Authentication</td>
+      <td>Menor latencia en autenticación</td>
+      <td>Complejidad de integración</td>
+      <td>OAuth 2.0</td>
+      <td>Estándar ampliamente adoptado</td>
+      <td>Configuración compleja</td>
+    </tr>
+    <tr>
+      <td>AD03</td>
+      <td>Alta Disponibilidad</td>
+      <td>Load Balancing</td>
+      <td>Distribución eficiente de tráfico</td>
+      <td>Configuración inicial compleja</td>
+      <td>Failover Clustering</td>
+      <td>Redundancia de servidores</td>
+      <td>Costo adicional en infraestructura</td>
+      <td>Redundancy via Replication</td>
+      <td>Alta disponibilidad de datos</td>
+      <td>Sincronización lenta en grandes volúmenes</td>
+    </tr>
+    <tr>
+      <td>AD04</td>
+      <td>Escalabilidad Automática</td>
+      <td>Horizontal Scaling</td>
+      <td>Escalabilidad flexible</td>
+      <td>Mayor complejidad de orquestación</td>
+      <td>Vertical Scaling</td>
+      <td>Simplicidad en administración</td>
+      <td>Limitaciones físicas del hardware</td>
+      <td>Containerization</td>
+      <td>Implementación ágil y flexible</td>
+      <td>Mayor uso de recursos</td>
+    </tr>
+    <tr>
+      <td>AD05</td>
+      <td>Integración con ERP</td>
+      <td>RESTful API</td>
+      <td>Interoperabilidad sencilla</td>
+      <td>Limitaciones en manejo de grandes datos</td>
+      <td>Message Queues</td>
+      <td>Desacoplamiento de servicios</td>
+      <td>Mayor latencia en la comunicación</td>
+      <td>SOAP</td>
+      <td>Estándar robusto</td>
+      <td>Mayor sobrecarga en mensajes</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 4.1.5. Quality Attribute Scenario Refinements
+
 ## 4.2. Strategic-Level Domain-Driven Design
 ### 4.2.1. EventStorming
+
+
 ### 4.2.2. Candidate Context Discovery
 ### 4.2.3. Domain Message Flows Modeling
 ### 4.2.4. Bounded Context Canvases
