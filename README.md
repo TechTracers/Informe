@@ -337,10 +337,11 @@ Propietarios de tiendas de ropa, hombres y mujeres de entre 21 y 55 años, que b
 | 15    | Monitoreo de Actividad del Usuario         | Desarrollar herramientas para que los gerentes puedan monitorear la actividad de los usuarios en la app | 3                              |
 
 
-
-
 # Capítulo IV: Strategic-Level Software Design
 ## 4.1. Strategic-Level Attribute-Driven Design
+
+El objetivo es diseñar una solución que mejore la experiencia de compra en tiendas de ropa mediante el uso de tecnología IoT para la localización precisa de prendas. Esto no solo facilitará la búsqueda de productos por parte de los clientes, sino que también optimizará la gestión de inventarios y la operación general de las tiendas. 
+
 ### 4.1.1. Design Purpose
 ### 4.1.2. Attribute-Driven Design Inputs
 #### 4.1.2.1. Primary Functionality (Primary User Stories)
