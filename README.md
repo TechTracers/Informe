@@ -381,6 +381,13 @@ Inputs para el Proceso de Diseño con ADD:
 - Restricciones 
 
 #### 4.1.2.1. Primary Functionality (Primary User Stories)
+
+| Epic / User Story ID | Título                         | Descripción                                                                      | Criterios de Aceptación                                                                                                                       | Relacionado con (Epic ID) |
+|----------------------|--------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| US01                 | Localización de prendas        | Como cliente, quiero poder localizar fácilmente prendas específicas usando la app para ahorrar tiempo en la tienda. | Escenario 1: Localizar una prenda. DADO que tengo la app abierta, CUANDO ingreso el nombre de la prenda en la búsqueda, ENTONCES se me muestra la ubicación exacta de la prenda en el mapa de la tienda. | EP01                      |
+| US06                 | Monitor de stock en tiempo real | Como encargado de inventario, necesito ver el stock actualizado en tiempo real.  | Escenario 1: Verificar stock en tiempo real. DADO que accedo al panel de control de inventario, CUANDO consulto el stock de una prenda, ENTONCES veo el número actualizado de unidades disponibles.  | EP02                      |
+
+
 #### 4.1.2.2. Quality attribute Scenarios
 #### 4.1.2.3. Constraints
 
