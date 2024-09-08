@@ -657,11 +657,11 @@ Paso 7:<br>
 ![Step 7](./assets/capitulo4/CandidateContextDiscovery/step7.jpg)
 ### 4.2.3. Domain Message Flows Modeling
 Escenario: Buscar Prenda <br>
-![scenario 1](./assets/capitulo4/DomainMessageFlowsModeling/scenario1.png)
+![scenario 1](./assets/capitulo4/DomainMessageFlowsModeling/scenario1.png) <br>
 Escenario: Ver Detalle Prenda <br>
-![scenario 2](./assets/capitulo4/DomainMessageFlowsModeling/scenario2.png)
+![scenario 2](./assets/capitulo4/DomainMessageFlowsModeling/scenario2.png) <br>
 Escenario: Localizar Prenda  <br>
-![scenario 3](./assets/capitulo4/DomainMessageFlowsModeling/scenario3.png)
+![scenario 3](./assets/capitulo4/DomainMessageFlowsModeling/scenario3.png) <br>
 ### 4.2.4. Bounded Context Canvases
 #### User bounded context canvas
 ![user context](./assets/capitulo4/ContextCanvases/user.png)
