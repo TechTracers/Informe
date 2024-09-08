@@ -119,9 +119,11 @@ Convertirnos en la empresa líder en la implementación de tecnologías IoT para
 |-------------------|---------------------------------------------------------|
 | **Código:** U202111033 <br> **Carrera:** Ingeniería de Software <br> **Acerca de mí:** Me gusta dibujar, tocar guitarra y jugar videojuegos. Tengo conocimiento en el desarrollo frontend con lenguajes como angular y vue.js, así como desarrollo móvil con flutter. Planeo especializarme en desarrollo web o como Analista de Datos. | ![Josué Perfil](assets/capitulo1/integrantes/josue.jpg) |
 
+
+
 | Integrante        | Causso Mariano, Giakomo Rodolfo                         |
-|-----------------------------------------------------------------------------|
-| **Código:**  <br>  **Carrera:** Ingeniería de Software <br> **Acerca de mí:** |  |
+|-----|-----------------------------------------------------------------------------|
+| **Código:** U202118374  <br>  **Carrera:** Ingeniería de Software <br> **Acerca de mí:** Me gusta programar y en el progreso que obtuve respecto a mis conocimientos académicos, pude aprender lenguajes como Java, JavaScript, C++, C#, SQL, HTML y CSS. Dentro del desarrollo de la carrera de Ingeniería de software puede tener un mayor concepto referente a proyectos y gracias a eso es sido capaz de desarrollar habilidades como el liderazgo, compañerismo, compromiso, responsabilidad y creatividad |![Giakomo Perfil](assets/capitulo1/integrantes/giako.png)  |
 
 | Integrante                                                                                                                                                                                                                                                                                                                               | Chero Eme, Eduardo Andre                                    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
@@ -258,9 +260,21 @@ Propietarios de tiendas de ropa, hombres y mujeres de entre 21 y 55 años, que b
 ## 2.4. Ubiquitous Language
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
+- Segmento de los clientes de tiendas de ropa:
+
+![](assets/capitulo3/1.png)
+
+- Segmento de los dueños de tiendas de ropa: 
+
+![](assets/capitulo3/2.png)
+
 ## 3.2. User Stories
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
+
+
+
+
 # Capítulo IV: Strategic-Level Software Design
 ## 4.1. Strategic-Level Attribute-Driven Design
 ### 4.1.1. Design Purpose
