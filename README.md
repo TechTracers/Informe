@@ -369,6 +369,17 @@ Beneficios Esperados:
 Este diseño se alinea estrechamente con la misión de Debuggers de proporcionar soluciones tecnológicas innovadoras que conectan el mundo físico y digital, mejorando las operaciones de las empresas minoristas y la experiencia de sus clientes. 
 
 ### 4.1.2. Attribute-Driven Design Inputs
+
+La metodología de diseño basada en atributos (ADD) es fundamental para asegurar que la solución LockItem sea robusta, escalable y satisfaga las necesidades tanto de los usuarios finales como de las tiendas asociadas. Esta sección describe los tres tipos de inputs utilizados en el proceso de ADD para el diseño de LockItem, cada uno enfocado en distintos aspectos críticos del sistema. 
+
+Inputs para el Proceso de Diseño con ADD: 
+
+- Funcionalidad Primaria (Historias de Usuario Primarias) 
+
+- Escenarios de Atributos de Calidad 
+
+- Restricciones 
+
 #### 4.1.2.1. Primary Functionality (Primary User Stories)
 #### 4.1.2.2. Quality attribute Scenarios
 #### 4.1.2.3. Constraints
