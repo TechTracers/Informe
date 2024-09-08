@@ -313,7 +313,28 @@ Propietarios de tiendas de ropa, hombres y mujeres de entre 21 y 55 años, que b
 
 
 ## 3.3. Impact Mapping
+
+![](assets/capitulo3/3.png)
+
 ## 3.4. Product Backlog
+
+| Orden | User Story ID                              | Description                                                                          | Story Points (1 / 2 / 3 / 5 / 8) |
+|-------|--------------------------------------------|--------------------------------------------------------------------------------------|----------------------------------|
+| 1     | Implementación de Autenticación Segura     | Desarrollar un sistema de autenticación robusto con multi-factor.                    | 8                                |
+| 2     | Gestión de Inventario en Tiempo Real       | Permitir a las tiendas visualizar y gestionar el inventario en tiempo real.         | 8                                |
+| 3     | Alertas de Stock Bajo                      | Configurar alertas automáticas para cuando el inventario de ciertas prendas esté bajo. | 5                              |
+| 4     | Localización de Prendas                    | Desarrollar la funcionalidad para que los clientes puedan localizar prendas mediante la app. | 8                              |
+| 5     | Integración con ERP (Enterprise Resource Planning) | Integrar la solución LockItem con sistemas ERP de las tiendas.                       | 8                                |
+| 6     | Reportes de Ventas y Análisis              | Generar reportes automatizados de ventas y ofrecer análisis de tendencias.           | 5                                |
+| 7     | Personalización de la Aplicación           | Permitir a los usuarios personalizar la interfaz y las notificaciones de la app.    | 3                                |
+| 8     | Sistema de Reservas de Prendas             | Desarrollar un sistema para que los clientes puedan reservar prendas a través de la app. | 5                              |
+| 9     | Auditorías de Seguridad                    | Implementar auditorías de seguridad regulares y correcciones basadas en sus resultados. | 5                              |
+| 10    | Soporte Técnico Continuo                   | Establecer un servicio de soporte técnico 24/7 para las tiendas.                     | 3                                |
+| 11    | Capacitación del Personal                  | Desarrollar materiales y sesiones de capacitación para el personal de las tiendas sobre cómo utilizar LockItem. | 2    |
+| 12    | Mejoras de UI/UX                           | Mejorar la interfaz de usuario y la experiencia del usuario basada en el feedback de los usuarios. | 5                                |
+| 13    | Actualizaciones de Seguridad               | Implementar actualizaciones de seguridad para proteger los datos de los usuarios.    | 5                                |
+| 14    | Cifrado de Datos                           | Asegurar que todos los datos sensibles estén cifrados tanto en tránsito como en reposo. | 8                              |
+| 15    | Monitoreo de Actividad del Usuario         | Desarrollar herramientas para que los gerentes puedan monitorear la actividad de los usuarios en la app | 3                              |
 
 
 
