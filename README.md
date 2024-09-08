@@ -120,7 +120,7 @@ ___
 
 | Integrante        | Melgar Takahashi, Adrian Gonzalo                        |
 |-----------------------------------------------------------------------------|
-| **Código:**  <br>  **Carrera:** Ingeniería de Software <br> **Acerca de mí:** |  |
+| **Código:** U201819465 <br>  **Carrera:** Ingeniería de Software <br> **Acerca de mí:** Soy un entusiasta de la tecnología en diversas facetas, y también disfruto colaborar en proyectos en equipo. En cuanto a mis habilidades, sobresale mi experiencia en liderazgo, conocimientos en metodologías ágiles, competencia en codificación utilizando lenguajes como HTML, CSS, JavaScript y Python, y experiencia en la gestión de bases de datos como MySQL, SQL Server y MongoDB. | ![Melgar Perfil](assets/capitulo1/integrantes/adrian-melgar.jpeg) |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
