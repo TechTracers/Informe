@@ -343,6 +343,31 @@ Propietarios de tiendas de ropa, hombres y mujeres de entre 21 y 55 años, que b
 El objetivo es diseñar una solución que mejore la experiencia de compra en tiendas de ropa mediante el uso de tecnología IoT para la localización precisa de prendas. Esto no solo facilitará la búsqueda de productos por parte de los clientes, sino que también optimizará la gestión de inventarios y la operación general de las tiendas. 
 
 ### 4.1.1. Design Purpose
+
+El propósito del diseño de LockItem es desarrollar una solución que integra tecnología IoT con la experiencia de compra en tiendas de ropa, abordando desafíos específicos que afectan tanto a clientes como a los operadores de las tiendas. Este diseño busca resolver dos problemas principales: 
+
+1. Dificultad de los Clientes para Localizar Prendas: Frecuentemente, las prendas de ropa no se encuentran en su lugar esperado debido a que otros clientes las mueven. Esto puede llevar a una experiencia de compra frustrante y a un aumento en el tiempo que los clientes pasan en la tienda, lo cual a veces resulta en la pérdida de ventas cuando los clientes deciden no realizar una compra. 
+
+2. Gestión Ineficiente del Inventario por Parte de las Tiendas: La dificultad para rastrear el movimiento de las prendas dentro de la tienda conlleva a ineficiencias en la gestión del inventario y requiere un esfuerzo adicional del personal para reorganizar las prendas. 
+
+Objetivos del Diseño: 
+
+- Mejorar la Experiencia de Compra del Cliente: Mediante sensores integrados en las etiquetas de seguridad (piochas), LockItem permitirá a los clientes localizar rápidamente cualquier prenda a través de una aplicación móvil, mostrando su ubicación exacta dentro de la tienda en tiempo real. 
+
+- Optimizar la Gestión de Inventario: La solución proporcionará a las tiendas una herramienta efectiva para monitorear la ubicación de las prendas en tiempo real, mejorando la precisión del inventario y reduciendo el tiempo necesario para gestionarlo. 
+
+- Integración con Sistemas Existentes: LockItem se diseñará para integrarse sin problemas con los sistemas ERP (Enterprise Resource Planning) de las tiendas, asegurando que la información del inventario esté siempre actualizada y sea accesible. 
+
+Beneficios Esperados: 
+
+- Reducción en el Tiempo de Búsqueda de los Clientes: Al proporcionar a los clientes una herramienta para localizar rápidamente las prendas, esperamos reducir significativamente el tiempo que pasan en la tienda, mejorando así su satisfacción y aumentando las probabilidades de que realicen compras. 
+
+- Eficiencia Operativa Mejorada: Con mejor visibilidad del inventario y menor necesidad de reorganización manual, las tiendas pueden operar más eficientemente, lo que se traduce en costos operativos reducidos y menos errores en el manejo del inventario. 
+
+- Experiencia de Compra Mejorada: Al eliminar uno de los principales puntos de fricción en la experiencia de compra en tiendas de ropa, LockItem ayudará a mejorar la satisfacción general del cliente, incentivando a los clientes a volver y potencialmente aumentando la fidelidad del cliente. 
+
+- Este diseño se alinea estrechamente con la misión de Debuggers de proporcionar soluciones tecnológicas innovadoras que conectan el mundo físico y digital, mejorando las operaciones de las empresas minoristas y la experiencia de sus clientes. 
+
 ### 4.1.2. Attribute-Driven Design Inputs
 #### 4.1.2.1. Primary Functionality (Primary User Stories)
 #### 4.1.2.2. Quality attribute Scenarios
