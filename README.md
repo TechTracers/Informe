@@ -389,6 +389,16 @@ Inputs para el Proceso de Diseño con ADD:
 
 
 #### 4.1.2.2. Quality attribute Scenarios
+
+| Atributo      | Fuente    | Estímulo                           | Artefacto         | Entorno            | Respuesta                                       | Medida                             |
+|---------------|-----------|------------------------------------|-------------------|--------------------|-------------------------------------------------|------------------------------------|
+| Rendimiento   | Usuario   | Solicitud de localización de prenda | Sistema LockItem  | App en tiempo real | Mostrar ubicación en menos de 2 segundos        | Tiempo de respuesta < 2 segundos   |
+| Seguridad     | Ataque externo | Intento de acceso no autorizado     | Servidor de datos | Operación normal   | Bloqueo de acceso y alerta al administrador     | Tiempo de detección < 1 minuto     |
+| Disponibilidad| Sistema   | Fallo de un servidor                | Servidores        | Operación bajo carga | Re-direccionamiento a servidor backup          | Recuperación < 10 segundos         |
+| Usabilidad    | Cliente   | Interacción con la interfaz         | App móvil         | Uso diario         | Interfaz intuitiva y responsive                 | Tasa de error < 1%                 |
+| Escalabilidad | Crecimiento del sistema | Aumento en el número de usuarios | Sistema LockItem  | Expansión comercial | Escalar automáticamente sin degradar el rendimiento | Tiempo de escalado < 5 minutos   |
+
+
 #### 4.1.2.3. Constraints
 
 <table border="1" cellpadding="10">
