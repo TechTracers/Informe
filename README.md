@@ -366,7 +366,7 @@ Beneficios Esperados:
 
 - Experiencia de Compra Mejorada: Al eliminar uno de los principales puntos de fricción en la experiencia de compra en tiendas de ropa, LockItem ayudará a mejorar la satisfacción general del cliente, incentivando a los clientes a volver y potencialmente aumentando la fidelidad del cliente. 
 
-- Este diseño se alinea estrechamente con la misión de Debuggers de proporcionar soluciones tecnológicas innovadoras que conectan el mundo físico y digital, mejorando las operaciones de las empresas minoristas y la experiencia de sus clientes. 
+Este diseño se alinea estrechamente con la misión de Debuggers de proporcionar soluciones tecnológicas innovadoras que conectan el mundo físico y digital, mejorando las operaciones de las empresas minoristas y la experiencia de sus clientes. 
 
 ### 4.1.2. Attribute-Driven Design Inputs
 #### 4.1.2.1. Primary Functionality (Primary User Stories)
