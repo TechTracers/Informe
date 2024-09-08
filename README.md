@@ -663,9 +663,21 @@ Escenario: Ver Detalle Prenda <br>
 Escenario: Localizar Prenda  <br>
 ![scenario 3](./assets/capitulo4/DomainMessageFlowsModeling/scenario3.png)
 ### 4.2.4. Bounded Context Canvases
+#### User bounded context canvas
+![user context](./assets/capitulo4/ContextCanvases/user.png)
+#### Iot device management bounded context canvas
+![user context](./assets/capitulo4/ContextCanvases/iot.png)
+#### Inventory management bounded context canvas
+![user context](./assets/capitulo4/ContextCanvases/inventory.png)
+#### ERP integration bounded context canvas
+![user context](./assets/capitulo4/ContextCanvases/erp.png)
 ### 4.2.5. Context Mapping
 ## 4.3. Software Architecture
 ### 4.3.1. Software Architecture System Landscape Diagram
+![user context](./assets/capitulo4/SoftwareArchitecture/landscape.png)
 ### 4.3.2. Software Architecture Context Level Diagrams
+![user context](./assets/capitulo4/SoftwareArchitecture/context.png)
 ### 4.3.3. Software Architecture Container Level Diagrams
+![user context](./assets/capitulo4/SoftwareArchitecture/containers.png)
 ### 4.3.4. Software Architecture Deployment Diagrams
+![user context](./assets/capitulo4/SoftwareArchitecture/deployment.png)
