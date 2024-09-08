@@ -228,7 +228,7 @@ Creemos que mostrar la disponibilidad de tallas y colores en tiempo real en la a
 
 #### 1.2.2.4. Lean UX Canvas
 
-![LocItem Canvas](assets/capitulo1/integrantes/LockItem_Canvas.png)
+![LocItem Canvas](assets/capitulo1/images/LockItem_Canvas.png)
 
 Canvas link: [Lockitem canvas](https://miro.com/app/board/uXjVKhk9JzU=/?share_link_id=865796187242)
 
