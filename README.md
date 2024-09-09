@@ -95,7 +95,7 @@ ___
 | ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.                                |                     |              |
 
 ---
-<div align="justify">
+
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
@@ -246,11 +246,176 @@ Propietarios de tiendas de ropa, hombres y mujeres de entre 21 y 55 años, que b
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
+
+* **Pricer:** Pricer utiliza etiquetas electrónicas de precio (ESL) para ayudar a los minoristas a actualizar precios y gestionar inventarios en tiempo real, mejorando la eficiencia operativa.
+* **Neurolabs:** Neurolabs emplea visión artificial y aprendizaje automático para controlar inventarios en tiempo real y predecir el comportamiento de los consumidores sin necesidad de etiquetas físicas.
+
 ### 2.1.1. Análisis competitivo
+
+<table border="1" cellpadding="10" cellspacing="0" style="margin-left: auto; margin-right: auto;">
+  <tr>
+    <th colspan="6">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="4">El objetivo que tenemos con este análisis es conocer de mejor manera a nuestra competencia y así poder evaluar nuestras oportunidades y ventajas como empresa buscando poder destacar sobre las otras</td>
+  </tr>
+  <tr>
+    <td colspan="4">¿Qué aporte de valor podría ofrecer nuestro producto en contraste al resto de competidores? </td>
+  </tr>
+  <tr>
+   <td colspan="2"></td>
+    <td>LockItem</td>
+    <td>Pricer</td>
+    <td>Neurolabs</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Perfil</td>
+    <td>Overview</td>
+    <td>Solución IoT para la localización de productos movidos en tiendas de ropa</td>
+    <td>Ofrece etiquetas electrónicas de precios para minoristas</td>
+    <td>Utiliza visión artificial para la gestión de inventarios</td>
+  </tr>
+  <tr>
+    <td>Ventaja competitiva ¿Que valor ofrece a los clientes?</td>
+    <td>Locaclización en tiempo real mediante sensores IoT en prendas</td>
+    <td>Automatización de precios e inventarios, con actualizaciones en tiempo real</td>
+    <td>Análisis predictivo y control sin necesidad de etiquetas físicas</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Perfil de Marketing</td>
+    <td>Mercado objetivo</td>
+    <td>Hombres y mujeres entre 18 y 45 años. Tiendas de ropa en Perú</td>
+    <td>Minoristas globales, especialmente supermercados y tiendas grandes</td>
+    <td>Minoristas que buscan automatizar la gestión de inventorios sin contacto</td>
+  </tr>
+  <tr>
+    <td>Estrategias de marketing</td>
+    <td>Enfocada en la eficiencia operativa y mejora de la experiencia del cliente</td>
+    <td>Se posiciona como líder en automatización y eficiencia en minoristas </td>
+    <td>Apuesta por la innovación y la automatización sin contacto </td>
+  </tr>
+  <tr>
+    <td rowspan="3">Perfil de Producto</td>
+    <td>Productos & Servicios</td>
+    <td>Sensores IoT para etiquetas de prendas y app de localización en tiempo real</td>
+    <td>Sensores IoT para etiquetas de prendas y app de localización en tiempo rea</td>
+    <td>Visión artificial, IA para monitoreo de inventarios y comportamiento</td>
+  </tr>
+  <tr>
+    <td>Precios & Costos</td>
+    <td>Costos basados en suscripción y sensores según el tamaño de la tienda </td>
+    <td>Dependiendo del tamaño de la tienda y volumen de etiquetas necesarias </td>
+    <td>Costo de implementación de IA y software personalizado </td>
+  </tr>
+  <tr>
+    <td>Canales de distribucion (Web y/o Movil)</td>
+    <td>App móvil y web para tiendas minoristas </td>
+    <td>Plataforma web y hardware de etiquetas electrónicas </td>
+    <td>Plataforma basada en web con integración a sistemas de inventario </td>
+  </tr>
+  <tr>
+    <td rowspan="5">Analisis SWOT</td>
+    <td colspan="5">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus
+    oportunidades y contribuir a lo que ustedes definen como su posible ventaja
+    competitiva. </td>
+  </tr>
+  <tr>
+    <td>Fortalezas</td>
+    <td>Integración IoT sencilla con sistema de seguridad; mejora la experiencia de compra</td>
+    <td>Reducción de costos operativos, optimización de inventarios y precios en tiempo real </td>
+    <td>Automatización sin necesidad de etiquetas, precisión en el monitoreo </td>
+  </tr>
+  <tr>
+    <td>Debilidades</td>
+    <td> Dependencia de hardware específico en las tiendas </td>
+    <td>Costo elevado de instalación inicial de etiquetas electrónicas </td>
+    <td>Necesidad de grandes volúmenes de datos para un análisis preciso </td>
+  </tr>
+  <tr>
+    <td>Oportunidades</td>
+    <td>Expansión a otros sectores minoristas más allá de la ropa </td>
+    <td>Ampliar el uso de la tecnología a mercados emergentes </td>
+    <td>Ampliar la tecnología para otros usos, como la personalización de experiencias </td>
+  </tr>
+  <tr>
+    <td>Amenazas</td>
+    <td>Competencia en tecnologías IoT de otros mercados </td>
+    <td>Nuevas soluciones de bajo costo en el mercado de etiquetas electrónicas </td>
+    <td>Competidores que ofrezcan IA con mejores modelos predictivos </td>
+  </tr>
+</table>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+* Diferenciar la oferta destacando la integración con sistemas de seguridad, para asegurar la protección de productos en tiendas, además de la localización en tiempo real
+* Expandir el mercado objetivo más allá de tiendas de ropa, incluyendo otros sectores minoristas, para diversificar el riesgo y aprovechar nuevas oportunidades
+* Fortalecer la experiencia del cliente mediante la mejora continua de la app móvil, asegurando que sea intuitiva y ofrezca funcionalidades adicionales como reportes personalizados
+* Desarrollar alianzas estratégicas con proveedores de hardware y software para reducir costos de implementación y mejorar la escalabilidad del sistema
+* Innovar en la tecnología IoT de sensores para ofrecer soluciones que requieran menos mantenimiento y sean más adaptables a diferentes entornos de tienda
+* Optimizar la estrategia de precios para ofrecer opciones de suscripción flexible, permitiendo a las tiendas ajustar su inversión según el tamaño y el volumen de la tienda
+
 ## 2.2. Entrevistas
+
+**Clientes de tiendas de ropa:**
+
+* ¿Qué desafíos enfrentas cuando buscas una prenda específica en una tienda de ropa?
+* ¿Qué aspectos de la experiencia de compra te resultan más frustrantes?
+* ¿Utilizas alguna aplicación o herramienta para ayudarte en las compras?
+* ¿Qué funcionalidades esperas de una aplicación de tienda para mejorar tu experiencia de compra?
+* ¿Qué tan importante es para ti poder localizar rápidamente las prendas en una tienda?
+* ¿Cómo crees que la tecnología de localización podría mejorar tu experiencia de compra?
+* ¿Qué características considerarías más valiosas en una solución de localización de prendas?
+* ¿Qué tipo de información te gustaría recibir en una aplicación de tienda?
+* ¿Alguna vez has usado una tecnología similar en tiendas? ¿Cómo fue tu experiencia?
+* ¿Qué mejorarías en las soluciones actuales que has visto o usado?
+
+**Dueños de Tiendas de Ropa:**
+
+* ¿Cómo gestionan actualmente el inventario en su tienda?
+* ¿Qué desafíos enfrentan con el seguimiento de prendas y el manejo de inventarios?
+* ¿Qué tipo de tecnologías utilizan para la gestión de inventarios y la experiencia del cliente?
+* ¿Qué tan abiertos están a adoptar nuevas tecnologías como la localización de prendas mediante IoT?
+* ¿Cómo creen que una solución de localización de prendas podría beneficiar a su tienda?
+* ¿Qué funcionalidades específicas les interesan en una solución de localización?
+* ¿Cuál es su presupuesto para nuevas tecnologías y soluciones?
+* ¿Cómo evalúan el retorno de inversión (ROI) para la adopción de nuevas tecnologías?
+* ¿Qué aspectos consideran cruciales para la implementación de nuevas tecnologías en su tienda?
+* ¿Qué tipo de soporte esperan durante y después de la implementación?
+
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
+
+**Clientes de tiendas de ropa:**
+
+<table>
+  <tr>
+    <th>Nombres y Apellidos: </th>
+    <th>María Cabrejos</th>
+  </tr>
+  <tr>
+    <td>Edad:</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Dirección:</td>
+    <td>Ate, Lima</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/capitulo2/entrevista_cliente_1.png" alt="entrevista cliente 1"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="https://www.youtube.com/watch?v=ejemplo" target="_blank">Entrevista sector cliente.mp4</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">Entrevistador: Josué David Arrunátegui Aguilar </td>
+  </tr>
+  <tr>
+    <td colspan="2">Resumen: María Cabrejos, de 20 años, comenta que al comprar ropa enfrenta dificultades para encontrar prendas de su talla y color, sumado a la falta de organización en algunas tiendas. Considera frustrantes las largas filas en probadores y cajas. Aunque no usa aplicaciones de tienda con frecuencia, le gustaría que mejoren la localización de productos, ofrezcan información sobre descuentos y permitan escanear prendas para más detalles. Sugiere mejorar la precisión del inventario en tiempo real y hacer las interfaces más intuitivas para facilitar el proceso de compra. </td>
+  </tr>
+</table>
+
+**Dueños de Tiendas de Ropa:**
 
 | Atributo                    | Descripción                                                                                                                                                                                                                                                                                                                                                           |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -275,15 +440,151 @@ Propietarios de tiendas de ropa, hombres y mujeres de entre 21 y 55 años, que b
 | **Resumen**                 | Aracely Gallardo, quien estudia contabilidad en Comas y dirige una tienda de venta de ropa al por mayor y menor, maneja su inventario con métodos manuales y un software básico. Aunque estos métodos son funcionales, enfrenta desafíos como la lentitud para localizar prendas y desórdenes que afectan la disponibilidad del producto, lo que impacta negativamente en la experiencia del cliente. Interesada en mejorar esta situación, está abierta a adoptar nuevas tecnologías como el IoT para una mejor organización y acceso rápido al stock, tanto para el personal como para los clientes. Evalúa las inversiones en tecnología basándose en su capacidad para aumentar la eficiencia y las ventas, con un presupuesto flexible que se ajusta al impacto esperado de las soluciones. Espera que cualquier nueva tecnología implementada sea eficaz, fácil de usar y mantenga la integridad de los datos importantes, con un soporte técnico que sea eficiente pero no disruptivo. |
 
 
-
-
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+
+**Clientes de tiendas de ropa**
+
+![user_persona_cliente](assets/capitulo2/user_persona_cliente.png)
+
+**Dueños de tiendas de ropa**
+
+![user_persona_dueño](assets/capitulo2/user_persona_dueño.png)
+
 ### 2.3.2. User Task Matrix
+
+<table>
+  <tr>
+    <th colspan="3">User Persona 1: Clientes de tiendas de ropa </th>
+  </tr>
+  <tr>
+    <td>Descripción</td>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+  </tr>
+  <tr>
+    <td>Buscar prendas específicas en la tienda</td>
+    <td>Often</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Recibir alertas de promociones</td>
+    <td>Sometime</td>
+    <td>Medium</td>
+  </tr>
+  <tr>
+    <td>Obtener información de stock</td>
+    <td>Often</td>
+    <td>High</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="3">User Persona 2: Dueños de Tiendas de Ropa</th>
+  </tr>
+  <tr>
+    <td>Descripción</td>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+  </tr>
+  <tr>
+    <td>Gestionar el inventario de la tienda</td>
+    <td>Often</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Monitorear la ubicación de las prendas</td>
+    <td>Often</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Analizar las preferencias de los clientes</td>
+    <td>Sometime</td>
+    <td>Medium</td>
+  </tr>
+</table>
+
 ### 2.3.3. Empathy Mapping
+
+**Clientes de tiendas de ropa**
+
+![empathy_map_cliente](assets/capitulo2/emphaty-map_cliente.png)
+
+**Dueños de tiendas de ropa**
+
+![empathy_map_dueño](assets/capitulo2/emphaty-map_dueño.png)
+
 ### 2.3.4. As-is Scenario Mapping
+
+**Clientes de tiendas de ropa**
+
+<table>
+  <tr>
+    <th>Steps</th>
+    <th>Buscando una prenda específica en la tienda</th>
+    <th>Solicitando ayuda al personal</th>
+    <th>Completando la compra o desistiendo</th>
+  </tr>
+  <tr>
+    <td>Doing</td>
+    <td>Recorre diferentes áreas de la tienda, deteniéndose a buscar entre varias prendas</td>
+    <td>Le pide a un empleado de la tienda que le ayude a localizar el producto específico</td>
+    <td>Analiza si el producto encontrado es lo que busca y si su experiencia fue satisfactoria</td>
+  </tr>
+  <tr>
+    <td>Thinking</td>
+    <td>Espero que esté disponible</td>
+    <td>¿Por qué es tan difícil encontrar lo que necesito?</td>
+    <td>¿Debería seguir buscando?</td>
+  </tr>
+  <tr>
+    <td>Feeling</td>
+    <td>Frustración</td>
+    <td>Esperanza</td>
+    <td>Satisfacción o decepción</td>
+  </tr>
+</table>
+
+**Dueños de tiendas de ropa**
+
+<table>
+  <tr>
+    <th>Steps</th>
+    <th>Supervisando el inventario</th>
+    <th>Recibiendo quejas o solicitudes de los clientes</th>
+    <th>Evaluando mejoras operativas</th>
+  </tr>
+  <tr>
+    <td>Doing</td>
+    <td>Se asegura de que las prendas estén bien distribuidas y visibles en las diferentes secciones</td>
+    <td>Responde a los empleados que reportan quejas o problemas con la ubicación de productos</td>
+    <td>Observa cómo la falta de organización afecta las ventas y el rendimiento general de la tienda</td>
+  </tr>
+  <tr>
+    <td>Thinking</td>
+    <td>¿Cómo puedo mejorar la experiencia de compra?</td>
+    <td>Esta situación podría costarnos ventas</td>
+    <td>¿Debo invertir en una solución tecnológica?</td>
+  </tr>
+  <tr>
+    <td>Feeling</td>
+    <td>Frustración</td>
+    <td>Motivación</td>
+    <td>Alivio o ansiedad</td>
+  </tr>
+</table>
+
 ## 2.4. Ubiquitous Language
+En el contexto de la startup LockItem, se ha definido un lenguaje compartido que permite una mejor comunicación entre desarrolladores, diseñadores, clientes, y usuarios. Estos son algunos de los términos clave:
+
+* **Prenda:** Hace referencia a cualquier tipo de vestimenta disponible en la tienda. Las prendas pueden ser localizadas a través del sistema.
+* **Cliente:** Persona que ingresa a la tienda y busca una prenda específica. El cliente puede solicitar ayuda para encontrar el producto que desea.
+* **Inventario:** Conjunto de todas las prendas disponibles en la tienda. La gestión del inventario es esencial para asegurar que los productos estén localizados y disponibles para los clientes.
+* **Localizador de Prendas:** Sistema que permite a los usuarios, ya sea el personal de la tienda o los clientes, encontrar la ubicación exacta de una prenda en tiempo real dentro de la tienda.
+* **Sensor IoT:** Dispositivos instalados en las prendas que permiten el rastreo en tiempo real, ayudando a determinar la ubicación precisa de cada artículo en el inventario.
+
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 - Segmento de los clientes de tiendas de ropa:
