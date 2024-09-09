@@ -92,7 +92,7 @@ ___
 
 | Criterio Específico                                                                             | Acciones Realizadas | Conclusiones |
 |-------------------------------------------------------------------------------------------------|---------------------|--------------|
-| ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.                                |                     |              |
+| ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias. | *Eduardo André Chero Emé*<br>**TB1:**<br>El desarrollo del event Storming nos ayudó para tener una visualizacion más definida de nuestros bounded context para una mejor implementación en el código. Clasificar los escenarios mediante el modelado de Message flows y generar los Bounded Context Canvas nos brindan un mejor entendimiento de las variables, conexiones y propisitos de los bounded context que impementamos.<br><br>                    |  TB1 La presente entrega sirvió para validar que la solución propuesta es adecuada para los segmentos objetivo abordados, esto en base al trabajo colaborativo realizado durante las entrevistas y el análisis de estas. Asimismo, por el desarrollo de los apartados involucrados desde la Introducción hasta la estructuración de la arquitectura durante el empleo de C4            |
 
 ---
 <div align="justify">
