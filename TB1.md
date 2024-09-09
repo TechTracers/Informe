@@ -356,6 +356,7 @@ Propietarios de tiendas de ropa, hombres y mujeres de entre 21 y 55 años, que b
 * Optimizar la estrategia de precios para ofrecer opciones de suscripción flexible, permitiendo a las tiendas ajustar su inversión según el tamaño y el volumen de la tienda
 
 ## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
 
 **Clientes de tiendas de ropa:**
 
@@ -383,7 +384,6 @@ Propietarios de tiendas de ropa, hombres y mujeres de entre 21 y 55 años, que b
 * ¿Qué aspectos consideran cruciales para la implementación de nuevas tecnologías en su tienda?
 * ¿Qué tipo de soporte esperan durante y después de la implementación?
 
-### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
 
 **Clientes de tiendas de ropa:**
@@ -441,6 +441,15 @@ Propietarios de tiendas de ropa, hombres y mujeres de entre 21 y 55 años, que b
 
 
 ### 2.2.3. Análisis de entrevistas
+
+**Clientes de tiendas de ropa:**
+
+Las entrevistas con los clientes revelan que enfrentan dificultades al comprar ropa, principalmente relacionadas con la organización en las tiendas y la localización de prendas. María Cabrejos expresa frustración por no encontrar tallas y colores específicos, además de las largas filas en probadores y cajas, sugiriendo que una aplicación que brinde información precisa sobre inventario y descuentos mejoraría su experiencia de compra. Diego, por su parte, resalta la pérdida de tiempo al buscar productos en la tienda, y ve en una solución tecnológica una forma de agilizar este proceso. En conjunto, estos comentarios destacan la necesidad de una herramienta que optimice la localización de productos y ofrezca una experiencia de compra más eficiente.
+
+**Dueños de tiendas de ropa:**
+
+Los dueños de tiendas de ropa, como Nicole Gallardo, Aracely Gallardo y Piero Palomino, enfrentan desafíos comunes en la gestión de inventarios, destacando problemas como el robo, errores por procesos manuales y la lentitud en la localización de prendas. Mientras Nicole ya utiliza software especializado, valora soluciones IoT que mejoren la precisión y rapidez del inventario en tiempo real, con énfasis en la eficiencia, bajo costo y soporte post-implementación. Aracely, que usa métodos más tradicionales, también ve en la tecnología una oportunidad para optimizar la organización de su tienda, siempre que sea sencilla y rentable. Piero, por su parte, muestra gran interés en adoptar tecnologías IoT, resaltando la importancia de una rápida actualización del inventario y una implementación eficiente que no afecte la experiencia de los clientes. Los tres coinciden en la necesidad de soluciones tecnológicas que mejoren la eficiencia operativa sin generar grandes complicaciones.
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
