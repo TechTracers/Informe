@@ -29,6 +29,11 @@ ___
 | Versión | Fecha      | Autor            | Descripción de modificación                                                |
 |---------|------------|------------------|----------------------------------------------------------------------------|
 | 1.0     | 30/08/24   | Eduardo Chero    | Creación del archivo base en Markdown para el desarrollo del Final Project |
+| 1.1     | 05/09/2024 | Adrian Melgar    | Desarrollo del Capítulo 1                                                  |
+| 1.2     | 06/09/2024 | Josue Arrunátegui| Desarrollo del Capítulo 2                                                  |
+| 1.3     | 07/09/2024 | Giakomo Causso   | Desarrollo del Capítulo 3 - Capitulo 4 hasta 4.1.2.2. Quality attribute Scenarios |
+| 1.4     | 07/09/2024 | Eduardo Chero    | Desarrollo del 4.1.2.3. Constraints hasta 4.2.3. Domain Message Flows Modeling |
+| 1.5     | 08/09/2024 | Yoimer Dávila    | Desarrollo del 4.2.4. Bounded Context Canvases hasta 4.3.4. Software Architecture Deployment Diagrams |
 
 ---
 # Contenido 
