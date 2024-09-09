@@ -92,7 +92,7 @@ ___
 
 | Criterio Específico                                                                             | Acciones Realizadas | Conclusiones |
 |-------------------------------------------------------------------------------------------------|---------------------|--------------|
-| ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.                                |                     |              |
+| ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.                                |  Giakomo Rodolfo Causso Mariano<br>**TB1**<br>La aplicación de la metodología Domain-Driven Design (DDD) durante el desarrollo permitió enfocar el diseño del software en torno a los dominios del negocio de tiendas de ropa. Esto incluyó la creación de modelos de dominio que reflejan fielmente los procesos y necesidades de las tiendas, facilitando así un desarrollo más orientado y coherente con las necesidades reales del usuario final. La colaboración continua con stakeholders del proyecto garantizó que los modelos y el software desarrollado alinearan precisamente con los requisitos y expectativas del negocio.                   |              |
 
 ---
 
