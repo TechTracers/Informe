@@ -1346,21 +1346,59 @@ Escenario: Localizar Prenda  <br>
 
 ## 5.2. Bounded Context: IoT device
 
+El bounded context IoT Device Management se encarga de gestionar dispositivos IoT dentro de una tienda, permitiendo rastrear prendas y otros elementos en tiempo real. Además, garantiza la correcta operación de los sensores y su actualización para mantener un seguimiento preciso y continuo de los objetos en la tienda.
 ### 5.2.1. Domain Layer
+
+El domain layer en el contexto de IoT Device Management contiene la lógica central del negocio relacionada con la gestión de dispositivos IoT y sensores dentro de un entorno controlado. Aquí se definen las entidades clave y los servicios relacionados con las operaciones de monitoreo y mantenimiento de los dispositivos.
+
+* **Dispositivo IoT:** Representa un dispositivo IoT utilizado en la tienda para rastrear objetos en tiempo real. Cada dispositivo tiene un identificador único, tipo, ubicación dentro de la tienda, estado de conectividad, y la última fecha de actualización.
+* **Sensor:** Es una entidad dentro de un DispositivoIoT que captura información del entorno (por ejemplo, la ubicación de las prendas). Los sensores tienen un tipo específico, valor de lectura actual, estado y fecha de la última lectura.
+* **Estado del Sensor:** Describe el estado actual del sensor (activo, inactivo, en mantenimiento, con errores), lo cual permite identificar problemas y activar políticas de mantenimiento si es necesario.
+* **Mantenimiento y Actualización:** Servicio que gestiona las políticas de actualización de firmware y las tareas de mantenimiento programadas para los dispositivos IoT y sus sensores, asegurando que estos siempre estén funcionando correctamente.
+* **Evento de Actualización de Sensor:** Evento que se dispara cuando un sensor actualiza su estado o envía una nueva lectura. Este evento desencadena acciones en otros componentes del sistema para procesar o almacenar la nueva información.
 
 ### 5.2.2. Interface Layer
 
+La interface layer expone puntos de interacción para los usuarios y otros sistemas que necesitan gestionar o consultar información de los dispositivos IoT. Incluye las interfaces para obtener información sobre el estado de los dispositivos y sensores, así como las actualizaciones en tiempo real.
+
+* **Registrar Dispositivo IoT:** Una interfaz que permite añadir un nuevo dispositivo IoT al sistema, especificando detalles como su ubicación y tipo.
+* **Actualizar Estado de Sensor:** Permite enviar o recibir actualizaciones sobre el estado de un sensor específico en tiempo real, capturando valores como el estado de conectividad, la ubicación, o la información de lectura de los sensores.
+* **Consultar Estado de Dispositivo:** Una interfaz para consultar el estado actual de un dispositivo IoT o sus sensores asociados. Esta interfaz también permite recibir notificaciones en tiempo real sobre actualizaciones críticas.
+* **Dashboard de Monitoreo en Tiempo Real:** Una interfaz visual que permite a los usuarios monitorear en tiempo real el estado de los dispositivos IoT, mostrando información como el estado de la conectividad, lecturas actuales, y cualquier alerta relacionada con el mantenimiento o fallo del dispositivo/sensor.
+
 ### 5.2.3. Application Layer
+
+La application layer coordina el comportamiento del sistema entre el dominio y las interfaces. Encapsula la lógica de negocio relevante y asegura que se sigan las reglas definidas en la gestión y monitoreo de los dispositivos IoT y sensores.
+
+* **Gestión de Mantenimiento y Actualización de Dispositivos:** Un servicio que coordina el proceso de actualización de firmware de los dispositivos IoT y la planificación de las tareas de mantenimiento. Este servicio garantiza que los dispositivos estén siempre operativos y en la última versión de firmware.
+* **Monitoreo de Estado en Tiempo Real:** Orquesta la recolección y monitoreo continuo de datos en tiempo real sobre el estado de los dispositivos y sensores. Además, coordina las actualizaciones de los estados de los dispositivos con el sistema de monitoreo central, activando alertas si se detectan anomalías.
+* **Notificaciones de Eventos Críticos:** Gestiona las notificaciones y alertas sobre eventos críticos, como fallos en los sensores, desconexiones de los dispositivos o actualizaciones exitosas de firmware. Estas notificaciones se envían al dashboard de monitoreo en tiempo real o a otras partes interesadas.
 
 ### 5.2.4. Infrastructure Layer
 
+La infrastructure layer gestiona las interacciones con los servicios de infraestructura, como bases de datos, servicios en la nube y comunicación con otros sistemas. En el contexto de IoT Device Management, se manejan los siguientes aspectos:
+
+* **Base de Datos de Dispositivos y Sensores:** Una base de datos que almacena información sobre los dispositivos IoT, como su ubicación, estado de conectividad, tipo de dispositivo, y el estado y las lecturas actuales de sus sensores. Aquí también se almacenan los logs de eventos y actualizaciones de los dispositivos.
+* **Mensajería en Tiempo Real (Kafka):** Para manejar la comunicación en tiempo real entre dispositivos y el sistema central.
+* **Almacenamiento de Logs de Mantenimiento:** Un servicio que almacena los logs de mantenimiento y actualización de los dispositivos, manteniendo un historial de todos los cambios y actualizaciones que han ocurrido para fines de auditoría y diagnóstico.
+
 ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
+Diagrama de componentes para el bounded context de IoT device:
 
+![C4 DIAGRAMA DE COMPONENTES IOT DEVICE](./assets/capitulo5/IoTBoundedContext/IoT_Device_component_diagram.jpeg)
+
+### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
 #### 5.2.6.1. Bounded Context Domain Layer Class Diagrams
 
+Diagrama de clases para el bounded context de IoT device:
+![diagrama de clases iot device](./assets/capitulo5/IoTBoundedContext/IoT_Device_class_diagram.png)
+
 #### 5.2.6.2. Bounded Context Database Design Diagram
+
+Diagrama del modelado de la base de datos para el bounded context de IoT device:
+
+![diagrama de base de datos iot device](./assets/capitulo5/IoTBoundedContext/IoT_Device_database_diagram-2024-09-24_21-27.png)
 
 ## 5.3. Bounded Context: Inventory
 
