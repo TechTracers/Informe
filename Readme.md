@@ -98,61 +98,62 @@ ___
         - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
         - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
 
-  - [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
-    - [5.1. Bounded Context: User](#51-bounded-context-user)
-      - [5.1.1. Domain Layer ](#511-domain-layer)
-      - [5.1.2. Interface Layer](#512-interface-layer)
-      - [5.1.3. Application Layer](#513-application-layer)
-      - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
-      - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
-      - [5.1.6. Bounded Context Software Architecture Code Level Diagrams ](#516-bounded-context-software-architecture-code-level-diagrams)
-        - [5.1.6.1. Bounded Context Domain Layer Class Diagrams ](#5161-bounded-context-domain-layer-class-diagrams)
-        - [5.1.6.2. Bounded Context Database Design Diagram ](#5162-bounded-context-database-design-diagram)
-    - [5.2. Bounded Context: IoT device](#52-bounded-context-iot-device)
-      - [5.2.1. Domain Layer ](#521-domain-layer)
-      - [5.2.2. Interface Layer](#522-interface-layer)
-      - [5.2.3. Application Layer](#523-application-layer)
-      - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
-      - [5.2.5. Bounded Context Software Architecture Component Level Diagrams](#525-bounded-context-software-architecture-component-level-diagrams)
-      - [5.2.6. Bounded Context Software Architecture Code Level Diagrams ](#526-bounded-context-software-architecture-code-level-diagrams)
-        - [5.2.6.1. Bounded Context Domain Layer Class Diagrams ](#5261-bounded-context-domain-layer-class-diagrams)
-        - [5.2.6.2. Bounded Context Database Design Diagram ](#5262-bounded-context-database-design-diagram)
-    - [5.3. Bounded Context: Inventory](#53-bounded-context-inventory)
-      - [5.3.1. Domain Layer ](#531-domain-layer)
-      - [5.3.2. Interface Layer](#532-interface-layer)
-      - [5.3.3. Application Layer](#533-application-layer)
-      - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
-      - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
-      - [5.3.6. Bounded Context Software Architecture Code Level Diagrams ](#536-bounded-context-software-architecture-code-level-diagrams)
-        - [5.3.6.1. Bounded Context Domain Layer Class Diagrams ](#5361-bounded-context-domain-layer-class-diagrams)
-        - [5.3.6.2. Bounded Context Database Design Diagram ](#5362-bounded-context-database-design-diagram)
-    - [5.4. Bounded Context: ERP](#54-bounded-context-erp)
-      - [5.4.1. Domain Layer ](#541-domain-layer)
-      - [5.4.2. Interface Layer](#542-interface-layer)
-      - [5.4.3. Application Layer](#543-application-layer)
-      - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
-      - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
-      - [5.4.6. Bounded Context Software Architecture Code Level Diagrams ](#546-bounded-context-software-architecture-code-level-diagrams)
-        - [5.4.6.1. Bounded Context Domain Layer Class Diagrams ](#5461-bounded-context-domain-layer-class-diagrams)
-        - [5.4.6.2. Bounded Context Database Design Diagram ](#5462-bounded-context-database-design-diagram)
+    - [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
+        - [5.1. Bounded Context: User](#51-bounded-context-user)
+            - [5.1.1. Domain Layer ](#511-domain-layer)
+            - [5.1.2. Interface Layer](#512-interface-layer)
+            - [5.1.3. Application Layer](#513-application-layer)
+            - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
+            - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
+            - [5.1.6. Bounded Context Software Architecture Code Level Diagrams ](#516-bounded-context-software-architecture-code-level-diagrams)
+                - [5.1.6.1. Bounded Context Domain Layer Class Diagrams ](#5161-bounded-context-domain-layer-class-diagrams)
+                - [5.1.6.2. Bounded Context Database Design Diagram ](#5162-bounded-context-database-design-diagram)
+        - [5.2. Bounded Context: IoT device](#52-bounded-context-iot-device)
+            - [5.2.1. Domain Layer ](#521-domain-layer)
+            - [5.2.2. Interface Layer](#522-interface-layer)
+            - [5.2.3. Application Layer](#523-application-layer)
+            - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
+            - [5.2.5. Bounded Context Software Architecture Component Level Diagrams](#525-bounded-context-software-architecture-component-level-diagrams)
+            - [5.2.6. Bounded Context Software Architecture Code Level Diagrams ](#526-bounded-context-software-architecture-code-level-diagrams)
+                - [5.2.6.1. Bounded Context Domain Layer Class Diagrams ](#5261-bounded-context-domain-layer-class-diagrams)
+                - [5.2.6.2. Bounded Context Database Design Diagram ](#5262-bounded-context-database-design-diagram)
+        - [5.3. Bounded Context: Inventory](#53-bounded-context-inventory)
+            - [5.3.1. Domain Layer ](#531-domain-layer)
+            - [5.3.2. Interface Layer](#532-interface-layer)
+            - [5.3.3. Application Layer](#533-application-layer)
+            - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
+            - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
+            - [5.3.6. Bounded Context Software Architecture Code Level Diagrams ](#536-bounded-context-software-architecture-code-level-diagrams)
+                - [5.3.6.1. Bounded Context Domain Layer Class Diagrams ](#5361-bounded-context-domain-layer-class-diagrams)
+                - [5.3.6.2. Bounded Context Database Design Diagram ](#5362-bounded-context-database-design-diagram)
+        - [5.4. Bounded Context: ERP](#54-bounded-context-erp)
+            - [5.4.1. Domain Layer ](#541-domain-layer)
+            - [5.4.2. Interface Layer](#542-interface-layer)
+            - [5.4.3. Application Layer](#543-application-layer)
+            - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
+            - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
+            - [5.4.6. Bounded Context Software Architecture Code Level Diagrams ](#546-bounded-context-software-architecture-code-level-diagrams)
+                - [5.4.6.1. Bounded Context Domain Layer Class Diagrams ](#5461-bounded-context-domain-layer-class-diagrams)
+                - [5.4.6.2. Bounded Context Database Design Diagram ](#5462-bounded-context-database-design-diagram)
 
-- [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)  
+- [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
     - [6.1. Style Guidelines](#61-style-guidelines)
-      - [6.1.1. General Style Guidelines](#611-general-style-guidelines)
-      - [6.1.2. Web, Mobile & Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
+        - [6.1.1. General Style Guidelines](#611-general-style-guidelines)
+        - [6.1.2. Web, Mobile & Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
     - [6.2. Information Architecture](#62-information-architecture)
-      - [6.2.1. Labeling Systems](#621-labeling-systems)
-      - [6.2.2. Searching Systems](#622-searching-systems)
-      - [6.2.3. SEO Tags and Meta Tags ](#623-seo-tags-and-meta-tags)
-      - [6.2.4. Navigation Systems](#624-navigation-systems)
+        - [6.2.1. Labeling Systems](#621-labeling-systems)
+        - [6.2.2. Searching Systems](#622-searching-systems)
+        - [6.2.3. SEO Tags and Meta Tags ](#623-seo-tags-and-meta-tags)
+        - [6.2.4. Navigation Systems](#624-navigation-systems)
     - [6.3. Landing Page UI Design](#63-landing-page-ui-design)
-      - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
-      - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
+        - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
+        - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
     - [6.4. Applications UX/UI Design](#64-applications-ux-ui-design)
-      - [6.4.1. Applications Wireframes](#641-applications-wireframes)
-      - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
-      - [6.4.3. Applications Mock-ups](#643-applications-mock-ups)
-      - [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
+        - [6.4.1. Applications Wireframes](#641-applications-wireframes)
+        - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
+        - [6.4.3. Applications Mock-ups](#643-applications-mock-ups)
+        - [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
+
 ---
 
 # Student Outcome
@@ -1222,57 +1223,211 @@ Escenario: Localizar Prenda  <br>
 ![user context](./assets/capitulo4/SoftwareArchitecture/deployment.png)
 
 # Capítulo V: Tactical-Level Software Design
+
 ## 5.1. Bounded Context: User
+
 ### 5.1.1. Domain Layer
+
+| Nombre    | User                                                                                                          |             |
+|-----------|---------------------------------------------------------------------------------------------------------------|-------------|
+| Categoria | Entity                                                                                                        |             |
+| Proposito | Representar a los usuarios que interactúan con el sistema, como los clientes que buscan prendas en la tienda. |             |
+|           | Atributos                                                                                                     |             |
+| Nombre    | Tipo de dato                                                                                                  | Visibilidad |
+| Id        | Integer                                                                                                       | Public      |
+| Name      | String                                                                                                        | Public      |
+| Email     | String                                                                                                        | Public      |
+| Password  | String                                                                                                        | Private     |
+| Role      | Enum                                                                                                          | Public      |
+| CreatedAt | DateTime                                                                                                      | Public      |
+
+| Nombre         | LoginSession                                                                                                                                                                 |             |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| Categoria      | Value Object                                                                                                                                                                 |             |
+| Proposito      | Almacenar la información de la sesión activa del usuario una vez que ha iniciado sesión, incluyendo los datos de validación de credenciales y tiempo de inicio de la sesión. |             |
+| Atributos      |                                                                                                                                                                              |             |
+| Nombre         | Tipo de dato                                                                                                                                                                 | Visibilidad |
+| UserId         | Integer                                                                                                                                                                      | Public      |
+| LoginTime      | DateTime                                                                                                                                                                     | Private     |
+| ExpirationTime | DateTime                                                                                                                                                                     | Private     |
+| IsActive       | Boolean                                                                                                                                                                      | Public      |
+
+| Nombre    | SearchQuery                                                                                                                                |             |
+|-----------|--------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| Categoria | Value Object                                                                                                                               |             |
+| Proposito | Almacenar la información de las consultas de búsqueda realizadas por los usuarios en la tienda para localizar prendas movidas de su lugar. |             |
+| Atributos |                                                                                                                                            |             |
+| Nombre    | Tipo de dato                                                                                                                               | Visibilidad |
+| Text      | String                                                                                                                                     | Public      |
+| Timestamp | DateTime                                                                                                                                   | Public      |
+| Filters   | JSON                                                                                                                                       | Public      |
+
 ### 5.1.2. Interface Layer
+
+| Nombre          | UserController                                                                                                                           |             |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| Categoria       | Controller                                                                                                                               |             |
+| Proposito       | Gestionar las operaciones relacionadas con la creación, modificación y eliminación de usuarios, así como el inicio y cierre de sesiones. |             |
+| Metodos         |                                                                                                                                          |             |
+| Nombre          | Tipo de retorno                                                                                                                          | Visibilidad |
+| Register(data)  | Response                                                                                                                                 | Public      |
+| Login(data)     | Response                                                                                                                                 | Public      |
+| Logout(session) | Response                                                                                                                                 | Public      |
+| Update(data)    | Response                                                                                                                                 | Public      |
+| Delete(data)    | Response                                                                                                                                 | Public      |
+
+| Nombre                 | SearchController                                                                                                                                 |             |
+|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| Categoria              | Controller                                                                                                                                       |             |
+| Proposito              | Gestionar las consultas de búsqueda de los usuarios, facilitando la localización de prendas en la tienda y la aplicación de filtros de búsqueda. |             |
+| Metodos                |                                                                                                                                                  |             |
+| Nombre                 | Tipo de retorno                                                                                                                                  | Visibilidad |
+| Search(query, filters) | Response                                                                                                                                         | Public      |
+
 ### 5.1.3. Application Layer
+
+| Event Handlers             |                                                                                                                                                                                        |
+|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre                     | Proposito                                                                                                                                                                              |
+| UserRegisteredEventHandler | Manejar el evento que se genera cuando un usuario se registra en el sistema, desencadenando acciones como el envío de correos de bienvenida o la creación de perfiles predeterminados. |
+| UserLoggedInEventHandler   | Manejar el evento que ocurre cuando un usuario inicia sesión, activando procesos como el registro del inicio de sesión o la actualización del estado del usuario.                      |
+
+| Commands            |                                                                                                                                     |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre              | Proposito                                                                                                                           |
+| RegisterUserCommand | Ejecutar el proceso de registro de un nuevo usuario, incluyendo la validación de los datos y la creación del usuario en el sistema. |                                                                                                                      |
+| LoginUserCommand    | Ejecutar el proceso de inicio de sesión de un usuario, validando las credenciales y creando una nueva sesión activa.                |                                                                                                 |
+| SearchCommand       | Ejecutar el proceso de búsqueda de la prenda.                                                                                       |
+
+| Dto                                                 |                                                                                                                            |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Nombre                                              | Proposito                                                                                                                  |
+| UserDto                                             | Transferir los datos de los usuarios entre las diferentes capas de la aplicación, asegurando una                           |
+| representación consistente de los datos de usuario. |                                                                                                                            |
+| SearchQueryDto                                      | Transferir los datos de las consultas de búsqueda realizadas por los usuarios entre las diferentes capas de la aplicación. |                                                                                                    |
+| SearchCommand                                       | Ejecutar el proceso de búsqueda de la prenda.                                                                              |
+
+| Validator                 |                                                                                                                                 |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Nombre                    | Proposito                                                                                                                       |
+| UserRegistrationValidator | Validar los datos introducidos por el usuario durante el proceso de registro, asegurando que cumplan con las reglas de negocio. |                                                                                           |
+| LoginValidator            | Validar las credenciales de inicio de sesión de un usuario, asegurando que la información proporcionada sea correcta y válida.  |                                                                                                                                 |
+
 ### 5.1.4. Infrastructure Layer
+
+| Nombre            | UserRepository                                                                                                                                                  |             |
+|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| Categoria         | Repository                                                                                                                                                      |             |
+| Proposito         | Gestionar el acceso y la persistencia de los datos de los usuarios en el sistema. Permite almacenar actualizar, eliminar y buscar usuarios en la base de datos. |             |      
+| Metodos           |                                                                                                                                                                 |             |
+| Nombre            | Tipo de retorno                                                                                                                                                 | Visibilidad |
+| FindById(data)    | User                                                                                                                                                            | Public      |
+| FindByEmail(data) | User                                                                                                                                                            | Public      |
+| Save(user)        | void                                                                                                                                                            | Public      |
+| Update(data)      | void                                                                                                                                                            | Public      |
+| Delete(data)      | void                                                                                                                                                            | Public      |
+
+| Nombre        | SearchQueryRepository                                                                                                                                                                       |             |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| Categoria     | Repository                                                                                                                                                                                  |             |
+| Proposito     | Manejar el almacenamiento y recuperación de las consultas de búsqueda realizadas por los usuarios. Facilita el seguimiento de las búsquedas realizadas para futuras referencias o análisis. |             |
+| Metodos       |                                                                                                                                                                                             |             |
+| Nombre        | Tipo de retorno                                                                                                                                                                             | Visibilidad |
+| Search(query) | Location                                                                                                                                                                                    | Public      |
+
 ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
+
 ### 5.1.6. Bounded Context Software Architecture Code Level Diagrams
+
 #### 5.1.6.1. Bounded Context Domain Layer Class Diagrams
+![User Context - Class Diagram](assets/capitulo5/UserBoundedContext/code%20diagram.png)
 #### 5.1.6.2. Bounded Context Database Design Diagram
+![User Context - Database Diagram](assets/capitulo5/UserBoundedContext/db%20diagram.png)
+
 ## 5.2. Bounded Context: IoT device
+
 ### 5.2.1. Domain Layer
+
 ### 5.2.2. Interface Layer
+
 ### 5.2.3. Application Layer
+
 ### 5.2.4. Infrastructure Layer
+
 ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
+
 ### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
+
 #### 5.2.6.1. Bounded Context Domain Layer Class Diagrams
+
 #### 5.2.6.2. Bounded Context Database Design Diagram
+
 ## 5.3. Bounded Context: Inventory
+
 ### 5.3.1. Domain Layer
+
 ### 5.3.2. Interface Layer
+
 ### 5.3.3. Application Layer
+
 ### 5.3.4. Infrastructure Layer
+
 ### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
+
 ### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
+
 #### 5.3.6.1. Bounded Context Domain Layer Class Diagrams
+
 #### 5.3.6.2. Bounded Context Database Design Diagram
+
 ## 5.4. Bounded Context: ERP
+
 ### 5.4.1. Domain Layer
+
 ### 5.4.2. Interface Layer
+
 ### 5.4.3. Application Layer
+
 ### 5.4.4. Infrastructure Layer
+
 ### 5.4.5. Bounded Context Software Architecture Component Level Diagrams
+
 ### 5.4.6. Bounded Context Software Architecture Code Level Diagrams
+
 #### 5.4.6.1. Bounded Context Domain Layer Class Diagrams
+
 #### 5.4.6.2. Bounded Context Database Design Diagram
 
 # Capítulo VI: Solution UX Design
+
 ## 6.1. Style Guidelines
+
 ### 6.1.1. General Style Guidelines
+
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
+
 ## 6.2. Information Architecture
+
 ### 6.2.1. Labeling Systems
+
 ### 6.2.2. Searching Systems
+
 ### 6.2.3. SEO Tags and Meta Tags
+
 ### 6.2.4. Navigation Systems
+
 ## 6.3. Landing Page UI Design
+
 ### 6.3.1. Landing Page Wireframe
+
 ### 6.3.2. Landing Page Mock-up
+
 ## 6.4. Applications UX/UI Design
+
 ### 6.4.1. Applications Wireframes
+
 ### 6.4.2. Applications Wireflow Diagrams
+
 ### 6.4.3. Applications Mock-ups
+
 ### 6.4.4. Applications User Flow Diagrams
