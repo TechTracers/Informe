@@ -1417,24 +1417,343 @@ Diagrama del modelado de la base de datos para el bounded context de IoT device:
 #### 5.3.6.1. Bounded Context Domain Layer Class Diagrams
 
 #### 5.3.6.2. Bounded Context Database Design Diagram
+----
 
 ## 5.4. Bounded Context: ERP
 
+| Nombre  | ERPUser                               |
+|---------|----------------------------------------|
+| Descripción | Representa un usuario en el sistema ERP. |
+| **Atributos** | **Tipo de Dato**                     |
+| userId  | int                                   |
+| username| String                                |
+| email   | String                                |
+| **Relaciones** | **Tipo**                           |
+| getUserDetails() | String                          |
+| updateUserDetails(details: String) | void         |
+
+| Nombre  | ERPOrder                            |
+|---------|-------------------------------------|
+| Descripción | Representa una orden en el sistema ERP. |
+| **Atributos** | **Tipo de Dato**                  |
+| orderId | int                                 |
+| userId  | int                                 |
+| orderDate| Date                               |
+| status  | String                              |
+| **Relaciones** | **Tipo**                        |
+| getOrderDetails() | String                     |
+| updateOrderStatus(status: String) | void       |
+
+| Nombre  | ERPInventory                             |
+|---------|------------------------------------------|
+| Descripción | Representa un inventario en el sistema ERP. |
+| **Atributos** | **Tipo de Dato**                        |
+| userId  | int                                      |
+| productId | int                                    |
+| stockLevel | int                                   |
+| **Relaciones** | **Tipo**                              |
+| getStockLevel() | int                              |
+| updateStockLevel(change: int) | void               |
+
+
 ### 5.4.1. Domain Layer
+
+En un Domain Layer, es fundamental determinar cuáles son las entidades y los agregados. En este caso, tanto `ERPUser` como `ERPOrder` pueden tratarse como entidades separadas, ya que ambas tienen identificadores únicos y sus ciclos de vida pueden ser independientes. Además, se podría considerar que `ERPOrder` forma parte de un agregado más grande que incluya elementos relacionados con transacciones o detalles de productos.
+
+### 1. ERPUser
+
+**Atributos:**
+
+- `userId` (int): Identificador único del usuario.
+- `username` (String): Nombre de usuario.
+- `email` (String): Correo electrónico del usuario.
+
+**Métodos:**
+
+- `getUserDetails()`: String - Devuelve una representación en cadena de los detalles del usuario.
+- `updateUserDetails(String details)`: void - Actualiza los detalles del usuario según los parámetros proporcionados.
+
+### 2. ERPOrder
+
+**Atributos:**
+
+- `orderId` (int): Identificador único de la orden.
+- `userId` (int): Identificador del usuario asociado a la orden.
+- `orderDate` (Date): Fecha en que se realizó la orden.
+- `status` (String): Estado actual de la orden (por ejemplo, 'Pendiente', 'Completada', 'Cancelada').
+
+**Métodos:**
+
+- `getOrderDetails()`: String - Devuelve una descripción detallada de la orden.
+- `updateOrderStatus(String status)`: void - Cambia el estado de la orden.
 
 ### 5.4.2. Interface Layer
 
+## Interfaces para ERPUser
+
+### Interfaces
+
+**IUserService**
+
+**Descripción:** Interfaz que define las operaciones permitidas para los objetos ERPUser.
+
+**Métodos:**
+
+- `createUser(UserDTO user)`: UserResponse - Crea un nuevo usuario en el sistema.
+- `updateUser(int userId, UserDTO userDetails)`: UserResponse - Actualiza los detalles de un usuario existente.
+- `deleteUser(int userId)`: void - Elimina un usuario del sistema.
+- `getUserById(int userId)`: UserDTO - Obtiene los detalles de un usuario por su identificador.
+- `listUsers()`: List<UserDTO> - Lista todos los usuarios registrados en el sistema.
+
+### DTOs (Data Transfer Objects)
+
+**UserDTO**
+
+**Atributos:**
+
+- `userId` (int)
+- `username` (String)
+- `email` (String)
+
+### Response Objects
+
+**UserResponse**
+
+**Atributos:**
+
+- `success` (boolean)
+- `message` (String)
+- `userId` (int)
+
+## Interfaces para ERPOrder
+
+### Interfaces
+
+**IOrderService**
+
+**Descripción:** Interfaz para gestionar las órdenes dentro del sistema ERP.
+
+**Métodos:**
+
+- `createOrder(OrderDTO order)`: OrderResponse - Registra una nueva orden en el sistema.
+- `updateOrderStatus(int orderId, String status)`: OrderResponse - Actualiza el estado de una orden existente.
+- `getOrderById(int orderId)`: OrderDTO - Obtiene los detalles de una orden por su identificador.
+- `listOrdersByUser(int userId)`: List<OrderDTO> - Lista todas las órdenes asociadas a un usuario específico.
+
+### DTOs (Data Transfer Objects)
+
+**OrderDTO**
+
+**Atributos:**
+
+- `orderId` (int)
+- `userId` (int)
+- `orderDate` (Date)
+- `status` (String)
+
+### Response Objects
+
+**OrderResponse**
+
+**Atributos:**
+
+- `success` (boolean)
+- `message` (String)
+- `orderId` (int)
+
+
 ### 5.4.3. Application Layer
+
+## Application Services para ERPUser
+
+### Servicios de Aplicación
+
+**UserService**
+
+**Descripción:** Servicio que implementa la lógica de aplicación necesaria para gestionar los usuarios en el sistema ERP.
+
+**Responsabilidades:**
+
+- Administrar la creación, actualización, recuperación y eliminación de usuarios.
+- Validar la entrada de datos antes de pasarla a la capa de dominio.
+- Manejar transacciones y asegurar la consistencia de los datos.
+- Aplicar políticas de seguridad, como autenticación y autorización para las operaciones de usuario.
+
+**Métodos:**
+
+- `createUser(UserDTO user)`: UserResponse
+- `updateUser(int userId, UserDTO userDetails)`: UserResponse
+- `deleteUser(int userId)`: void
+- `getUserById(int userId)`: UserDTO
+- `listUsers()`: List<UserDTO>
+
+## Application Services para ERPOrder
+
+### Servicios de Aplicación
+
+**OrderService**
+
+**Descripción:** Servicio que implementa la lógica de aplicación para la gestión de órdenes en el sistema ERP.
+
+**Responsabilidades:**
+
+- Procesar nuevas órdenes y actualizaciones de estado.
+- Validar datos y reglas de negocio específicas antes de interactuar con la capa de dominio.
+- Asegurar la integridad de las transacciones y manejar la consistencia de la base de datos.
+- Implementar lógicas de notificación y alertas relacionadas con el estado de las órdenes.
+
+**Métodos:**
+
+- `createOrder(OrderDTO order)`: OrderResponse
+- `updateOrderStatus(int orderId, String status)`: OrderResponse
+- `getOrderById(int orderId)`: OrderDTO
+- `listOrdersByUser(int userId)`: List<OrderDTO>
+
+## Controladores
+
+**Controladores Sugeridos:**
+
+### UserController
+
+**Métodos:**
+
+- Rutas para crear, obtener, actualizar y eliminar usuarios.
+
+### OrderController
+
+**Métodos:**
+
+- Rutas para manejar la creación de órdenes, actualización de estado, y recuperación de detalles de órdenes.
+
+## Patrones de Diseño
+
+- **Command Pattern** para encapsular toda la información necesaria para realizar una operación o desencadenar un evento en la aplicación.
+- **Repository Pattern** para abstraer la lógica de acceso a datos de la capa de dominio, utilizado por los servicios de aplicación para interactuar con la base de datos.
+
+## Manejo de Excepciones
+
+El Application Layer también debe manejar las excepciones de manera centralizada para asegurar respuestas coherentes y proporcionar un manejo de errores adecuado.
+
 
 ### 5.4.4. Infrastructure Layer
 
+## Repositorios
+
+### UserRepository
+
+**Descripción:** Encargado de las operaciones CRUD para ERPUser.
+
+**Métodos:**
+
+- `add(User user)`: void
+- `update(User user)`: void
+- `findById(int userId)`: User
+- `deleteById(int userId)`: void
+- `listAll()`: List<User>
+
+### OrderRepository
+
+**Descripción:** Maneja las operaciones CRUD para ERPOrder.
+
+**Métodos:**
+
+- `add(Order order)`: void
+- `update(Order order)`: void
+- `findById(int orderId)`: Order
+- `deleteById(int orderId)`: void
+- `listByUserId(int userId)`: List<Order>
+
+## Servicios de Infraestructura
+
+### Servicios de Mensajería
+
+**MessagingService**
+
+**Descripción:** Provee funcionalidades para enviar y recibir mensajes entre distintas partes del sistema, facilitando la integración asincrónica y el desacoplamiento de componentes.
+
+**Uso:**
+
+- Notificaciones de cambio de estado de órdenes.
+- Eventos de creación o eliminación de usuarios.
+
+### Servicios de Conexión
+
+**ERPIntegrationService**
+
+**Descripción:** Facilita la integración con sistemas ERP externos para sincronizar datos como inventarios y registros de transacciones.
+
+**Métodos:**
+
+- `syncInventory()`
+- `syncOrders()`
+
+## Seguridad y Autenticación
+
+### SecurityService
+
+**Descripción:** Gestiona la seguridad del sistema, incluyendo autenticación y autorización.
+
+**Funcionalidades:**
+
+- `authenticateUser(credentials)`: User
+- `authorizeAction(user, action)`: boolean
+
+## Gestión de Configuraciones
+
+### ConfigurationManager
+
+**Descripción:** Administra la configuración del sistema, asegurando que los parámetros de operación sean fácilmente configurables y centralizados.
+
+**Uso:**
+
+- Configuración de conexiones a la base de datos.
+- Configuraciones de seguridad y parámetros de integración ERP.
+
+## Caching
+
+### CacheManager
+
+**Descripción:** Mejora el rendimiento del sistema mediante el almacenamiento en caché de datos frecuentemente accedidos, como los detalles de usuario o estados de órdenes.
+
+**Funcionalidades:**
+
+- `put(key, value)`
+- `get(key)`: value
+- `invalidate(key)`
+
+## Logging
+
+### Logger
+
+**Descripción:** Proporciona mecanismos para registrar actividades y errores en el sistema, facilitando la auditoría y el diagnóstico de problemas.
+
+**Funcionalidades:**
+
+- `logInfo(message)`
+- `logError(message, exception)`
+
+
 ### 5.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+A continuación, presentamos el component level diagram: 
+
+![](./assets/capitulo5/ERPBoundedContext/1.png)
 
 ### 5.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.4.6.1. Bounded Context Domain Layer Class Diagrams
 
+A continuación, presentamos el diagrama de clases del dominio: 
+
+![](./assets/capitulo5/ERPBoundedContext/2.png)
+
 #### 5.4.6.2. Bounded Context Database Design Diagram
+
+A continuación, presentamos el diagrama de base de datos: 
+
+![](./assets/capitulo5/ERPBoundedContext/3.png)
+
+------
 
 # Capítulo VI: Solution UX Design
 
