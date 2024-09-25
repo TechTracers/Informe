@@ -1759,32 +1759,293 @@ A continuación, presentamos el diagrama de base de datos:
 
 ## 6.1. Style Guidelines
 
+El diseño de las aplicaciones web y móviles debe basarse en un enfoque elegante y simple que promueva la claridad y la facilidad de uso en pantallas más pequeñas. El desorden visual debe evitarse para que los usuarios puedan concentrarse en sus tareas principales. Para garantizar una experiencia de usuario coherente en toda la aplicación, la consistencia es esencial en todos los aspectos del diseño, incluidos colores, tipografía y espaciado. 
+
 ### 6.1.1. General Style Guidelines
 
+Para que los usuarios puedan concentrarse en ver las prendas para buscar, LockItem busca un diseño limpio y minimalista. A su vez, debe mantener un diseño coherente en elementos como colores, tipografía y espaciado para que la aplicación tenga una experiencia coherente.
+
+![colors](./assets/capitulo6/general_styles/colors.png)
+
+![font](./assets/capitulo6/general_styles/font.png)
+
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
+
+El diseño de la aplicación web para el trabajador de la tienda no difiere mucho a la aplicación móvil para el usuario, ambos tienen un mismo estandar visual que facilita su entendimiento para ambos.
+
+Diseño del home para la versión web:
+![webhome](./assets/capitulo6/web-mobile_styles/WebHomepage.jpg)
+
+Diseño de la sección de catalogo para la versión móvil:
+![store](./assets/capitulo6/web-mobile_styles/Store.jpg)
 
 ## 6.2. Information Architecture
 
 ### 6.2.1. Labeling Systems
 
+Para las etiquetas se trata de minizar el numero de palabras y manteniendo un entendimiento claro, ademas implementamos iconos que dan a entender ciertas 
+funciones, como los íconos del bottom navbar o la de busqueda o fecha.
+
+<div align="center">
+    <img src="./assets/capitulo6/navigationsystems/movil.png" alt="movil" />
+</div>
+
+<div align="center">
+    <img src="./assets/capitulo6/labeling_system/search.png" alt="search" />
+</div>
+
+<div>
+    <img src="./assets/capitulo6/labeling_system/calendar.png" alt="calendar" />
+</div>
+
 ### 6.2.2. Searching Systems
+
+Para la version web debera dirigirse a la ventana de busqueda 'Search' pa la cual aparecera un buscador donde podra ingresar el nombre de alguna prenda.
+
+![web](./assets/capitulo6/searching_systems/web.png)
+
+Para la versión móvil debera presionar en el botón de mismo nombre en donde ingresará los datos de la prenda.
+
+![movil](./assets/capitulo6/searching_systems/movil.png)
 
 ### 6.2.3. SEO Tags and Meta Tags
 
+Para mejorar la visibilidad y accesibilidad de la experiencia web en motores de búsqueda, se implementarán SEO Tags y Meta Tags adecuados. Las principales páginas, como el Landing Page y la aplicación web, contarán con etiquetas de Title, Description, Keywords y Author que reflejen el contenido y los objetivos del sitio. Ejemplo de etiquetas:
+
+- Title: "LockItem - Localiza tus prendas fácilmente"
+- Meta Description: "LockItem te permite encontrar prendas de tu catálogo favorito en tiendas cercanas. Descarga la aplicación para una experiencia de compra sin esfuerzo."
+- Keywords: "localización de prendas, tienda de ropa, app para tiendas, inventario de prendas"
+- 
+En cuanto a las aplicaciones móviles, se aplicarán elementos de ASO (App Store Optimization), como el App Title, Keywords, Subtitle, y Description, para garantizar que la aplicación sea fácilmente localizable en las tiendas de aplicaciones.
+
 ### 6.2.4. Navigation Systems
+
+Para la navegación en la Lading Page será por un navbar el cual dirigrá a las secciones principales.
+
+![landing](./assets/capitulo6/navigationsystems/landing.png)
+
+De igual manera para la app web tendrá un navbar el cual tendrá 3 secciones especiales para el trabajador.
+
+![web](./assets/capitulo6/navigationsystems/web.png)
+
+Por último la versión móvil tendra un bottom navbar dividido en cuatro secciones
+
+![movil](./assets/capitulo6/navigationsystems/movil.png)
 
 ## 6.3. Landing Page UI Design
 
 ### 6.3.1. Landing Page Wireframe
 
+A continuación, diseñamos el cómo sería el wireframe de nuestra landing page usando Figma 
+
+![lpwireframe](./assets/capitulo6/landing_design/Wireframe.png)
+
 ### 6.3.2. Landing Page Mock-up
+
+Para la presentación del mock-up tomamos en cuenta la tonalidad de colores que habíamos elegido previamente.
+
+![lpmockup](./assets/capitulo6/landing_design/Mock%20-%20up.png)
 
 ## 6.4. Applications UX/UI Design
 
 ### 6.4.1. Applications Wireframes
 
+La representación mediante wireframes de nuestra app web se basa en 3 secciones principales: 
+
+- Home: Donde el trabajador podra revisar el inventario de las prendas.
+
+  ![home](./assets/capitulo6/application_design/web/Homepage-1.jpg)
+
+- Search: Sirve para buscar alguna prenda en concreto
+
+  ![search](./assets/capitulo6/application_design/web/Search-2.jpg)
+
+- Account: Seccion en la cual el trabajador verá sus datos y podra editarlos.
+  
+  ![account](./assets/capitulo6/application_design/web/Account-2.jpg)
+
+Para la versión móvil contamos con 4 vistas principales
+
+- Home: En esta vista el usuario primero elige la tienda afiliada y luego se le muestra su catálogo disponible.
+  
+  ![home1](./assets/capitulo6/application_design/movil/Homepage-1.jpg)
+
+  ![home2](./assets/capitulo6/application_design/movil/Store-1.jpg)
+
+- Search: Sección en la cual el usuario podrá buscar una prenda en específico.
+
+  ![search](./assets/capitulo6/application_design/movil/Search%20-%20Active-1.jpg)
+
+- Saved: En esta sección se guardan las prendas que llamaron la atención del usuario.
+
+  ![Saved](./assets/capitulo6/application_design/movil/Saved%20Items-1.jpg)
+
+- Account: Pestaña donde se encuenta los datos del usuario. 
+  
+  ![Account](./assets/capitulo6/application_design/movil/My%20Details-1.jpg)
+
 ### 6.4.2. Applications Wireflow Diagrams
+
+| USER FLOW Nro. 1 | |
+|-----|--------|
+| User | Cliente |
+| Goal | Localizar prenda |
+
+Cuando el cliente elija la prenda que desee le dara al botón 'Locate' y le mostrar un mapeo de dónde se encuentra la prenda.
+
+![uf1](./assets/capitulo6/application_design/wireflows_diagrams/wf1.jpg)
+
+| USER FLOW Nro. 2 | |
+|-----|--------|
+| User | Cliente |
+| Goal | Buscar prenda |
+
+Cuando el cliente quiera buscar una prenda en especifico, le dará al botón 'Search' y escribirá el nombre de la prenda.
+
+![uf2](./assets/capitulo6/application_design/wireflows_diagrams/wf2.jpg)
+
+| USER FLOW Nro. 3 | |
+|-----|--------|
+| User | Cliente |
+| Goal | Mapa |
+
+Al momento que el cliente busque la prenda el mapa le mostrará con un ícono rojo en que parte de la tienda se encuentra.
+
+![uf3](./assets/capitulo6/application_design/wireflows_diagrams/wf3.jpg)
+
+| USER FLOW Nro. 4 | |
+|-----|--------|
+| User | Trabajador |
+| Goal | Inventario |
+
+Cuando el trabajador quiera ver cuantas prenda tiene en stock, simplemente deberá elegir alguna y se mostrará un apartado lateral con los detalles de esta prenda, incluido su stock disponible.
+
+![uf4](./assets/capitulo6/application_design/wireflows_diagrams/wf4.jpg)
+
+| USER FLOW Nro. 5 | |
+|-----|--------|
+| User | Cliente |
+| Goal | Inicio de sesión |
+
+Cuando el usaurio quiera acceder a la aplicación móvil, debera iniciar sesión ingrersando su correo y contraseña.
+
+![uf5](./assets/capitulo6/application_design/wireflows_diagrams/wf5.jpg)
+
+| USER FLOW Nro. 6 | |
+|-----|--------|
+| User | Cliente |
+| Goal | Cierre de sesión |
+
+Cuando el usaurio termine de usar la aplicación puede cerrar sus sesion dirigiendose a la sección 'Account', en la cual encontrará un botón para finalizar la seción.
+
+![uf6](./assets/capitulo6/application_design/wireflows_diagrams/wf6.jpg)
+
+| USER FLOW Nro. 7 | |
+|-----|--------|
+| User | Cliente |
+| Goal | Favoritos |
+
+Cuando el usaurio le guste una prenda del catálogo, puede darle al boton del corazón y se guardará en un apartado llamado 'Saved'.
+
+![uf7](./assets/capitulo6/application_design/wireflows_diagrams/wf7.jpg)
 
 ### 6.4.3. Applications Mock-ups
 
+Una vez implementados los diseños, los mock-ups de la app web se verian de la siguiente manera 
+
+- Home: Donde el trabajador podra revisar el inventario de las prendas.
+
+  ![home](./assets/capitulo6/application_design/web/Homepage.jpg)
+
+- Search: Sirve para buscar alguna prenda en concreto
+
+  ![search](./assets/capitulo6/application_design/web/Search.jpg)
+
+- Account: Seccion en la cual el trabajador verá sus datos y podra editarlos.
+  
+  ![account](./assets/capitulo6/application_design/web/Account.jpg)
+
+Para la versión móvil este sería su resultado
+
+- Home: En esta vista el usuario primero elige la tienda afiliada y luego se le muestra su catálogo disponible.
+  
+  ![home1](./assets/capitulo6/application_design/movil/Homepage.jpg)
+
+  ![home2](./assets/capitulo6/application_design/movil/Store.jpg)
+
+- Search: Sección en la cual el usuario podrá buscar una prenda en específico.
+
+  ![search](./assets/capitulo6/application_design/movil/Search%20-%20Active.jpg)
+
+- Saved: En esta sección se guardan las prendas que llamaron la atención del usuario.
+
+  ![Saved](./assets/capitulo6/application_design/movil/Saved%20Items.jpg)
+
+- Account: Pestaña donde se encuenta los datos del usuario. 
+  
+  ![Account](./assets/capitulo6/application_design/movil/My%20Details.jpg)
+
 ### 6.4.4. Applications User Flow Diagrams
+
+| USER FLOW Nro. 1 | |
+|-----|--------|
+| User | Cliente |
+| Goal | Localizar prenda |
+
+Cuando el cliente elija la prenda que desee le dara al botón 'Locate' y le mostrar un mapeo de dónde se encuentra la prenda.
+
+![uf1](./assets/capitulo6/application_design/userflows_diagrams/uf1.jpg)
+
+| USER FLOW Nro. 2 | |
+|-----|--------|
+| User | Cliente |
+| Goal | Buscar prenda |
+
+Cuando el cliente quiera buscar una prenda en especifico, le dará al botón 'Search' y escribirá el nombre de la prenda.
+
+![uf2](./assets/capitulo6/application_design/userflows_diagrams/uf2.jpg)
+
+| USER FLOW Nro. 3 | |
+|-----|--------|
+| User | Cliente |
+| Goal | Mapa |
+
+Al momento que el cliente busque la prenda el mapa le mostrará con un ícono rojo en que parte de la tienda se encuentra.
+
+![uf3](./assets/capitulo6/application_design/userflows_diagrams/uf3.jpg)
+
+| USER FLOW Nro. 4 | |
+|-----|--------|
+| User | Trabajador |
+| Goal | Inventario |
+
+Cuando el trabajador quiera ver cuantas prenda tiene en stock, simplemente deberá elegir alguna y se mostrará un apartado lateral con los detalles de esta prenda, incluido su stock disponible.
+
+![uf4](./assets/capitulo6/application_design/userflows_diagrams/uf4.jpg)
+
+| USER FLOW Nro. 5 | |
+|-----|--------|
+| User | Cliente |
+| Goal | Inicio de sesión |
+
+Cuando el usaurio quiera acceder a la aplicación móvil, debera iniciar sesión ingrersando su correo y contraseña.
+
+![uf5](./assets/capitulo6/application_design/userflows_diagrams/uf5.jpg)
+
+| USER FLOW Nro. 6 | |
+|-----|--------|
+| User | Cliente |
+| Goal | Cierre de sesión |
+
+Cuando el usaurio termine de usar la aplicación puede cerrar sus sesion dirigiendose a la sección 'Account', en la cual encontrará un botón para finalizar la seción.
+
+![uf6](./assets/capitulo6/application_design/userflows_diagrams/uf6.jpg)
+
+| USER FLOW Nro. 7 | |
+|-----|--------|
+| User | Cliente |
+| Goal | Favoritos |
+
+Cuando el usaurio le guste una prenda del catálogo, puede darle al boton del corazón y se guardará en un apartado llamado 'Saved'.
+
+![uf7](./assets/capitulo6/application_design/userflows_diagrams/uf7.jpg)
