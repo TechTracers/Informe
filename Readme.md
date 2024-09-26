@@ -159,9 +159,9 @@ ___
 
 # Student Outcome
 
-| Criterio Específico                                                                                | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias. | *Giakomo Rodolfo Causso Mariano*<br>**TB1**<br>La aplicación de la metodología Domain-Driven Design (DDD) durante el desarrollo permitió enfocar el diseño del software en torno a los dominios del negocio de tiendas de ropa. Esto incluyó la creación de modelos de dominio que reflejan fielmente los procesos y necesidades de las tiendas, facilitando así un desarrollo más orientado y coherente con las necesidades reales del usuario final. La colaboración continua con stakeholders del proyecto garantizó que los modelos y el software desarrollado alinearan precisamente con los requisitos y expectativas del negocio.<br><br>*Giakomo Rodolfo Causso Mariano*<br>**TP1**<br> Desarrollé interfaces y servicios de aplicación para la integración de ERP en el proyecto LockItem, gestionando la lógica de negocio y asegurando operaciones de datos eficientes y seguras para usuarios y órdenes. Implementé patrones de diseño y estrategias de seguridad para proteger los datos y facilitar su uso por diferentes audiencias, desde técnicos hasta usuarios finales. <br><br> *Eduardo André Chero Emé*<br>**TB1:**<br>El desarrollo del event Storming nos ayudó para tener una visualizacion más definida de nuestros bounded context para una mejor implementación en el código. Clasificar los escenarios mediante el modelado de Message flows y generar los Bounded Context Canvas nos brindan un mejor entendimiento de las variables, conexiones y propisitos de los bounded context que impementamos.<br><br>*Adrian Gonzalo Melgar Takahashi*<br>**TB1:**<br>Durante el desarrollo de mi proyecto, estructuré la comunicación para distintas audiencias. En la Descripción de la Startup y los perfiles del equipo, destaqué información clave para inversionistas y colaboradores. En el Solution Profile, presenté los antecedentes y problemática de forma clara, y en el Lean UX Process, expuse los Problem Statements y Hypothesis Statements de manera visual para facilitar su comprensión por parte de usuarios técnicos y no técnicos. Estas acciones garantizaron una comunicación efectiva y adaptada a cada grupo.<br>**TP:**<br>En esta entrega, desarrollé el Bounded Context de **Inventory**, abordando las capas de **Domain**, **Interface**, **Application** e **Infrastructure**. Elaboré diagramas de arquitectura a nivel de componentes y de código, incluyendo los **Diagramas de Clase de la Capa de Dominio** y el **Diagrama de Diseño de Base de Datos**. Estos materiales fueron diseñados para comunicar de manera efectiva la estructura y funcionalidad del módulo de inventario a diferentes miembros del equipo y stakeholders.<br><br> *Josué David Arrunátegui Aguilar*<br>**TB1**<br> Durante el desarrollo del proyecto LockItem, tuve la oportunidad de comunicarme con diversas audiencias, incluyendo clientes y usuarios finales. Llevé a cabo entrevistas para entender sus necesidades, desarrollé user personas y user task matrices, lo que me permitió adaptar nuestras soluciones a sus expectativas. Esta experiencia me ayudó a transmitir ideas complejas de forma clara, tanto a miembros técnicos del equipo como a personas sin formación técnica, mejorando así la comunicación efectiva en el proyect <br><br>*Yoimer Yanir Davila Ramirez*<br>**TB1**<br>Para esta primera entrega, siguiendo DDD y una comunicación efectiva se desarrollaron los Bounded Context Canvases , donde se identificaron y definieron los límites claros de cada contexto dentro del sistema, estableciendo sus responsabilidades y flujos de información. Además, se crearon los diagramas de la arquitectura de software, los cuales ilustran cómo los componentes del sistema interactuan, seleccionando las tecnologías adecuadas para asegurar la escalabilidad y eficiencia del sistema. Estas actividades incluyeron reuniones con las partes interesadas para validar los contextos y diagramas, garantizando la alineación con los objetivos del proyecto. | *Giakomo Rodolfo Causso Mariano* <br>**TB1**<br> La adopción de DDD mejoró significativamente nuestra precisión en la implementación del software y en la alineación con los objetivos del negocio, asegurando que cada funcionalidad desarrollada proporcionara valor real y tangible a los usuarios finales.Este enfoque destaca cómo una metodología de desarrollo específica puede influir positivamente en la claridad del diseño y la efectividad de la implementación, lo que es relevante para tus criterios de ABET en cuanto a comunicación efectiva y adaptación a un rango de audiencias.<br><br>*Giakomo Rodolfo Causso Mariano*<br>**TP1**<br>Mi contribución demuestra una capacidad efectiva de comunicarme con un rango diverso de audiencias, esencial para el éxito de la implementación tecnológica en entornos empresariales y la mejora continua de la experiencia del usuario final. <br><br> *Eduardo André Chero Emé*<br>**TB1:**<br> La presente entrega sirvió para validar que la solución propuesta es adecuada para los segmentos objetivo abordados, esto en base al trabajo colaborativo realizado durante las entrevistas y el análisis de estas.<br><br>*Adrian Gonzalo Melgar Takahashi*<br>**TB1:**<br> Las acciones realizadas durante el desarrollo del proyecto permitieron una comunicación efectiva y adaptada a las necesidades de cada audiencia. Desde la presentación clara de la startup y su equipo hasta la exposición visual de los aspectos técnicos en el Lean UX Process, logré transmitir la información de manera precisa y comprensible, lo que contribuyó al entendimiento general del proyecto y facilitó su avance exitoso con el apoyo de todos los involucrados.<br>**TP:**<br>Mediante este trabajo, mejoré mi capacidad para comunicar conceptos técnicos complejos de forma clara y adaptada a diversas audiencias, facilitando la comprensión compartida y promoviendo la colaboración efectiva en el proyecto.<br><br> Josué David Arrunátegui Aguilar<br>**TB1**<br> Durante el desarrollo del proyecto LockItem, tuve la oportunidad de comunicarme con diversas audiencias, incluyendo clientes y usuarios finales. Llevé a cabo entrevistas para entender sus necesidades, desarrollé user personas y user task matrices, lo que me permitió adaptar nuestras soluciones a sus expectativas. Esta experiencia me ayudó a transmitir ideas complejas de forma clara, tanto a miembros técnicos del equipo como a personas sin formación técnica, mejorando así la comunicación efectiva en el proyect <br><br> *Yoimer Yanir Davila Ramirez*<br>**TB1**<br> El desarrollo de los canvases facilitó una mejor comprensión de los límites y responsabilidades dentro del sistema, mejorando la comunicación entre los equipos técnicos y no técnicos. Los diagramas permitieron optimizar los componentes del sistema, asegurando una base sólida para su futura escalabilidad y adaptabilidad, cumpliendo con los requisitos de sostenibilidad y rendimiento del proyecto. |
+| Criterio Específico                                                                                | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias. | *Giakomo Rodolfo Causso Mariano*<br>**TB1**<br>La aplicación de la metodología Domain-Driven Design (DDD) durante el desarrollo permitió enfocar el diseño del software en torno a los dominios del negocio de tiendas de ropa. Esto incluyó la creación de modelos de dominio que reflejan fielmente los procesos y necesidades de las tiendas, facilitando así un desarrollo más orientado y coherente con las necesidades reales del usuario final. La colaboración continua con stakeholders del proyecto garantizó que los modelos y el software desarrollado alinearan precisamente con los requisitos y expectativas del negocio.<br><br>*Giakomo Rodolfo Causso Mariano*<br>**TP1**<br> Desarrollé interfaces y servicios de aplicación para la integración de ERP en el proyecto LockItem, gestionando la lógica de negocio y asegurando operaciones de datos eficientes y seguras para usuarios y órdenes. Implementé patrones de diseño y estrategias de seguridad para proteger los datos y facilitar su uso por diferentes audiencias, desde técnicos hasta usuarios finales. <br><br> *Eduardo André Chero Emé*<br>**TB1:**<br>El desarrollo del event Storming nos ayudó para tener una visualizacion más definida de nuestros bounded context para una mejor implementación en el código. Clasificar los escenarios mediante el modelado de Message flows y generar los Bounded Context Canvas nos brindan un mejor entendimiento de las variables, conexiones y propisitos de los bounded context que impementamos.<br><br>*Adrian Gonzalo Melgar Takahashi*<br>**TB1:**<br>Durante el desarrollo de mi proyecto, estructuré la comunicación para distintas audiencias. En la Descripción de la Startup y los perfiles del equipo, destaqué información clave para inversionistas y colaboradores. En el Solution Profile, presenté los antecedentes y problemática de forma clara, y en el Lean UX Process, expuse los Problem Statements y Hypothesis Statements de manera visual para facilitar su comprensión por parte de usuarios técnicos y no técnicos. Estas acciones garantizaron una comunicación efectiva y adaptada a cada grupo.<br>**TP:**<br>En esta entrega, desarrollé el Bounded Context de **Inventory**, abordando las capas de **Domain**, **Interface**, **Application** e **Infrastructure**. Elaboré diagramas de arquitectura a nivel de componentes y de código, incluyendo los **Diagramas de Clase de la Capa de Dominio** y el **Diagrama de Diseño de Base de Datos**. Estos materiales fueron diseñados para comunicar de manera efectiva la estructura y funcionalidad del módulo de inventario a diferentes miembros del equipo y stakeholders.<br><br> *Josué David Arrunátegui Aguilar*<br>**TB1**<br> Durante el desarrollo del proyecto LockItem, tuve la oportunidad de comunicarme con diversas audiencias, incluyendo clientes y usuarios finales. Llevé a cabo entrevistas para entender sus necesidades, desarrollé user personas y user task matrices, lo que me permitió adaptar nuestras soluciones a sus expectativas. Esta experiencia me ayudó a transmitir ideas complejas de forma clara, tanto a miembros técnicos del equipo como a personas sin formación técnica, mejorando así la comunicación efectiva en el proyect <br><br>*Yoimer Yanir Davila Ramirez*<br>**TB1**<br>Para esta primera entrega, siguiendo DDD y una comunicación efectiva se desarrollaron los Bounded Context Canvases , donde se identificaron y definieron los límites claros de cada contexto dentro del sistema, estableciendo sus responsabilidades y flujos de información. Además, se crearon los diagramas de la arquitectura de software, los cuales ilustran cómo los componentes del sistema interactuan, seleccionando las tecnologías adecuadas para asegurar la escalabilidad y eficiencia del sistema. Estas actividades incluyeron reuniones con las partes interesadas para validar los contextos y diagramas, garantizando la alineación con los objetivos del proyecto. <br>**TP1**<br> En esta entrega, se llevó a cabo un diseño de software a nivel táctico, donde se definieron y documentaron los Bounded Contexts para la aplicación LockItem, yo me encarge del contexto User. Se elaboraron descripciones de las diferentes capas, como la capa de dominio, interfaz, aplicación e infraestructura, lo que permitió una representación clara de la estructura del sistema. Además, se crearon diagramas de arquitectura de software a nivel de componentes y código, que visualizan la interacción entre los elementos de este contexto. Para asegurar que estas decisiones técnicas se alinearan con las expectativas y requisitos del proyecto se realizaron sesiones de retroalimentación, fomentando un diálogo constante que contribuyó a afinar el desarrollo del proyecto. | *Giakomo Rodolfo Causso Mariano* <br>**TB1**<br> La adopción de DDD mejoró significativamente nuestra precisión en la implementación del software y en la alineación con los objetivos del negocio, asegurando que cada funcionalidad desarrollada proporcionara valor real y tangible a los usuarios finales.Este enfoque destaca cómo una metodología de desarrollo específica puede influir positivamente en la claridad del diseño y la efectividad de la implementación, lo que es relevante para tus criterios de ABET en cuanto a comunicación efectiva y adaptación a un rango de audiencias.<br><br>*Giakomo Rodolfo Causso Mariano*<br>**TP1**<br>Mi contribución demuestra una capacidad efectiva de comunicarme con un rango diverso de audiencias, esencial para el éxito de la implementación tecnológica en entornos empresariales y la mejora continua de la experiencia del usuario final. <br><br> *Eduardo André Chero Emé*<br>**TB1:**<br> La presente entrega sirvió para validar que la solución propuesta es adecuada para los segmentos objetivo abordados, esto en base al trabajo colaborativo realizado durante las entrevistas y el análisis de estas.<br><br>*Adrian Gonzalo Melgar Takahashi*<br>**TB1:**<br> Las acciones realizadas durante el desarrollo del proyecto permitieron una comunicación efectiva y adaptada a las necesidades de cada audiencia. Desde la presentación clara de la startup y su equipo hasta la exposición visual de los aspectos técnicos en el Lean UX Process, logré transmitir la información de manera precisa y comprensible, lo que contribuyó al entendimiento general del proyecto y facilitó su avance exitoso con el apoyo de todos los involucrados.<br>**TP:**<br>Mediante este trabajo, mejoré mi capacidad para comunicar conceptos técnicos complejos de forma clara y adaptada a diversas audiencias, facilitando la comprensión compartida y promoviendo la colaboración efectiva en el proyecto.<br><br> Josué David Arrunátegui Aguilar<br>**TB1**<br> Durante el desarrollo del proyecto LockItem, tuve la oportunidad de comunicarme con diversas audiencias, incluyendo clientes y usuarios finales. Llevé a cabo entrevistas para entender sus necesidades, desarrollé user personas y user task matrices, lo que me permitió adaptar nuestras soluciones a sus expectativas. Esta experiencia me ayudó a transmitir ideas complejas de forma clara, tanto a miembros técnicos del equipo como a personas sin formación técnica, mejorando así la comunicación efectiva en el proyect <br><br> *Yoimer Yanir Davila Ramirez*<br>**TB1**<br> El desarrollo de los canvases facilitó una mejor comprensión de los límites y responsabilidades dentro del sistema, mejorando la comunicación entre los equipos técnicos y no técnicos. Los diagramas permitieron optimizar los componentes del sistema, asegurando una base sólida para su futura escalabilidad y adaptabilidad, cumpliendo con los requisitos de sostenibilidad y rendimiento del proyecto. <br>**TP1**<br>La implementación de los Bounded Contexts ha sido crucial para establecer un marco claro que delimita las responsabilidades y la interacción entre las diferentes partes del sistema LockItem. Esto no solo ha mejorado la comunicación entre los equipos técnicos y no técnicos, sino que también ha permitido una visualización efectiva de la arquitectura del software, facilitando la identificación de posibles áreas de mejora. |
 
 ---
 
@@ -1193,15 +1193,15 @@ Escenario: Localizar Prenda  <br>
 
 #### Iot device management bounded context canvas
 
-![user context](./assets/capitulo4/ContextCanvases/iot.png)
+![iot context](./assets/capitulo4/ContextCanvases/iot.png)
 
 #### Inventory management bounded context canvas
 
-![user context](./assets/capitulo4/ContextCanvases/inventory.png)
+![inventory context](./assets/capitulo4/ContextCanvases/inventory.png)
 
 #### ERP integration bounded context canvas
 
-![user context](./assets/capitulo4/ContextCanvases/erp.png)
+![erp context](./assets/capitulo4/ContextCanvases/erp.png)
 
 ### 4.2.5. Context Mapping
 
@@ -1209,19 +1209,19 @@ Escenario: Localizar Prenda  <br>
 
 ### 4.3.1. Software Architecture System Landscape Diagram
 
-![user context](./assets/capitulo4/SoftwareArchitecture/landscape.png)
+![landscape diagram](./assets/capitulo4/SoftwareArchitecture/landscape.png)
 
 ### 4.3.2. Software Architecture Context Level Diagrams
 
-![user context](./assets/capitulo4/SoftwareArchitecture/context.png)
+![context diagram](./assets/capitulo4/SoftwareArchitecture/context.png)
 
 ### 4.3.3. Software Architecture Container Level Diagrams
 
-![user context](./assets/capitulo4/SoftwareArchitecture/containers.png)
+![container diagram](./assets/capitulo4/SoftwareArchitecture/containers.png)
 
 ### 4.3.4. Software Architecture Deployment Diagrams
 
-![user context](./assets/capitulo4/SoftwareArchitecture/deployment.png)
+![deployment diagram](./assets/capitulo4/SoftwareArchitecture/deployment.png)
 
 # Capítulo V: Tactical-Level Software Design
 
@@ -1328,61 +1328,101 @@ Escenario: Localizar Prenda  <br>
 | Update(data)      | void                                                                                                                                                            | Public      |
 | Delete(data)      | void                                                                                                                                                            | Public      |
 
-| Nombre        | SearchQueryRepository                                                                                                                                                                       |             |
-|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| Categoria     | Repository                                                                                                                                                                                  |             |
-| Proposito     | Manejar el almacenamiento y recuperación de las consultas de búsqueda realizadas por los usuarios. Facilita el seguimiento de las búsquedas realizadas para futuras referencias o análisis. |             |
-| Metodos       |                                                                                                                                                                                             |             |
-| Nombre        | Tipo de retorno                                                                                                                                                                             | Visibilidad |
-| Search(query) | Location                                                                                                                                                                                    | Public      |
+| Nombre        | SearchQueryRepository                                        |             |
+|---------------|--------------------------------------------------------------|-------------|
+| Categoria     | Repository                                                   |             |
+| Proposito     | Manejar las búsqueda de prendas realizadas por los usuarios. |             |
+| Metodos       |                                                              |             |
+| Nombre        | Tipo de retorno                                              | Visibilidad |
+| Search(query) | Location                                                     | Public      |
 
 ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
+
 ![User Context - Components Diagram](assets/capitulo5/UserBoundedContext/components%20diagram.png)
 
 ### 5.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.1.6.1. Bounded Context Domain Layer Class Diagrams
+
 ![User Context - Class Diagram](assets/capitulo5/UserBoundedContext/code%20diagram.png)
+
 #### 5.1.6.2. Bounded Context Database Design Diagram
+
 ![User Context - Database Diagram](assets/capitulo5/UserBoundedContext/db%20diagram.png)
 
 ## 5.2. Bounded Context: IoT device
 
-El bounded context IoT Device Management se encarga de gestionar dispositivos IoT dentro de una tienda, permitiendo rastrear prendas y otros elementos en tiempo real. Además, garantiza la correcta operación de los sensores y su actualización para mantener un seguimiento preciso y continuo de los objetos en la tienda.
+El bounded context IoT Device Management se encarga de gestionar dispositivos IoT dentro de una tienda, permitiendo
+rastrear prendas y otros elementos en tiempo real. Además, garantiza la correcta operación de los sensores y su
+actualización para mantener un seguimiento preciso y continuo de los objetos en la tienda.
+
 ### 5.2.1. Domain Layer
 
-El domain layer en el contexto de IoT Device Management contiene la lógica central del negocio relacionada con la gestión de dispositivos IoT y sensores dentro de un entorno controlado. Aquí se definen las entidades clave y los servicios relacionados con las operaciones de monitoreo y mantenimiento de los dispositivos.
+El domain layer en el contexto de IoT Device Management contiene la lógica central del negocio relacionada con la
+gestión de dispositivos IoT y sensores dentro de un entorno controlado. Aquí se definen las entidades clave y los
+servicios relacionados con las operaciones de monitoreo y mantenimiento de los dispositivos.
 
-* **Dispositivo IoT:** Representa un dispositivo IoT utilizado en la tienda para rastrear objetos en tiempo real. Cada dispositivo tiene un identificador único, tipo, ubicación dentro de la tienda, estado de conectividad, y la última fecha de actualización.
-* **Sensor:** Es una entidad dentro de un DispositivoIoT que captura información del entorno (por ejemplo, la ubicación de las prendas). Los sensores tienen un tipo específico, valor de lectura actual, estado y fecha de la última lectura.
-* **Estado del Sensor:** Describe el estado actual del sensor (activo, inactivo, en mantenimiento, con errores), lo cual permite identificar problemas y activar políticas de mantenimiento si es necesario.
-* **Mantenimiento y Actualización:** Servicio que gestiona las políticas de actualización de firmware y las tareas de mantenimiento programadas para los dispositivos IoT y sus sensores, asegurando que estos siempre estén funcionando correctamente.
-* **Evento de Actualización de Sensor:** Evento que se dispara cuando un sensor actualiza su estado o envía una nueva lectura. Este evento desencadena acciones en otros componentes del sistema para procesar o almacenar la nueva información.
+* **Dispositivo IoT:** Representa un dispositivo IoT utilizado en la tienda para rastrear objetos en tiempo real. Cada
+  dispositivo tiene un identificador único, tipo, ubicación dentro de la tienda, estado de conectividad, y la última
+  fecha de actualización.
+* **Sensor:** Es una entidad dentro de un DispositivoIoT que captura información del entorno (por ejemplo, la ubicación
+  de las prendas). Los sensores tienen un tipo específico, valor de lectura actual, estado y fecha de la última lectura.
+* **Estado del Sensor:** Describe el estado actual del sensor (activo, inactivo, en mantenimiento, con errores), lo cual
+  permite identificar problemas y activar políticas de mantenimiento si es necesario.
+* **Mantenimiento y Actualización:** Servicio que gestiona las políticas de actualización de firmware y las tareas de
+  mantenimiento programadas para los dispositivos IoT y sus sensores, asegurando que estos siempre estén funcionando
+  correctamente.
+* **Evento de Actualización de Sensor:** Evento que se dispara cuando un sensor actualiza su estado o envía una nueva
+  lectura. Este evento desencadena acciones en otros componentes del sistema para procesar o almacenar la nueva
+  información.
 
 ### 5.2.2. Interface Layer
 
-La interface layer expone puntos de interacción para los usuarios y otros sistemas que necesitan gestionar o consultar información de los dispositivos IoT. Incluye las interfaces para obtener información sobre el estado de los dispositivos y sensores, así como las actualizaciones en tiempo real.
+La interface layer expone puntos de interacción para los usuarios y otros sistemas que necesitan gestionar o consultar
+información de los dispositivos IoT. Incluye las interfaces para obtener información sobre el estado de los dispositivos
+y sensores, así como las actualizaciones en tiempo real.
 
-* **Registrar Dispositivo IoT:** Una interfaz que permite añadir un nuevo dispositivo IoT al sistema, especificando detalles como su ubicación y tipo.
-* **Actualizar Estado de Sensor:** Permite enviar o recibir actualizaciones sobre el estado de un sensor específico en tiempo real, capturando valores como el estado de conectividad, la ubicación, o la información de lectura de los sensores.
-* **Consultar Estado de Dispositivo:** Una interfaz para consultar el estado actual de un dispositivo IoT o sus sensores asociados. Esta interfaz también permite recibir notificaciones en tiempo real sobre actualizaciones críticas.
-* **Dashboard de Monitoreo en Tiempo Real:** Una interfaz visual que permite a los usuarios monitorear en tiempo real el estado de los dispositivos IoT, mostrando información como el estado de la conectividad, lecturas actuales, y cualquier alerta relacionada con el mantenimiento o fallo del dispositivo/sensor.
+* **Registrar Dispositivo IoT:** Una interfaz que permite añadir un nuevo dispositivo IoT al sistema, especificando
+  detalles como su ubicación y tipo.
+* **Actualizar Estado de Sensor:** Permite enviar o recibir actualizaciones sobre el estado de un sensor específico en
+  tiempo real, capturando valores como el estado de conectividad, la ubicación, o la información de lectura de los
+  sensores.
+* **Consultar Estado de Dispositivo:** Una interfaz para consultar el estado actual de un dispositivo IoT o sus sensores
+  asociados. Esta interfaz también permite recibir notificaciones en tiempo real sobre actualizaciones críticas.
+* **Dashboard de Monitoreo en Tiempo Real:** Una interfaz visual que permite a los usuarios monitorear en tiempo real el
+  estado de los dispositivos IoT, mostrando información como el estado de la conectividad, lecturas actuales, y
+  cualquier alerta relacionada con el mantenimiento o fallo del dispositivo/sensor.
 
 ### 5.2.3. Application Layer
 
-La application layer coordina el comportamiento del sistema entre el dominio y las interfaces. Encapsula la lógica de negocio relevante y asegura que se sigan las reglas definidas en la gestión y monitoreo de los dispositivos IoT y sensores.
+La application layer coordina el comportamiento del sistema entre el dominio y las interfaces. Encapsula la lógica de
+negocio relevante y asegura que se sigan las reglas definidas en la gestión y monitoreo de los dispositivos IoT y
+sensores.
 
-* **Gestión de Mantenimiento y Actualización de Dispositivos:** Un servicio que coordina el proceso de actualización de firmware de los dispositivos IoT y la planificación de las tareas de mantenimiento. Este servicio garantiza que los dispositivos estén siempre operativos y en la última versión de firmware.
-* **Monitoreo de Estado en Tiempo Real:** Orquesta la recolección y monitoreo continuo de datos en tiempo real sobre el estado de los dispositivos y sensores. Además, coordina las actualizaciones de los estados de los dispositivos con el sistema de monitoreo central, activando alertas si se detectan anomalías.
-* **Notificaciones de Eventos Críticos:** Gestiona las notificaciones y alertas sobre eventos críticos, como fallos en los sensores, desconexiones de los dispositivos o actualizaciones exitosas de firmware. Estas notificaciones se envían al dashboard de monitoreo en tiempo real o a otras partes interesadas.
+* **Gestión de Mantenimiento y Actualización de Dispositivos:** Un servicio que coordina el proceso de actualización de
+  firmware de los dispositivos IoT y la planificación de las tareas de mantenimiento. Este servicio garantiza que los
+  dispositivos estén siempre operativos y en la última versión de firmware.
+* **Monitoreo de Estado en Tiempo Real:** Orquesta la recolección y monitoreo continuo de datos en tiempo real sobre el
+  estado de los dispositivos y sensores. Además, coordina las actualizaciones de los estados de los dispositivos con el
+  sistema de monitoreo central, activando alertas si se detectan anomalías.
+* **Notificaciones de Eventos Críticos:** Gestiona las notificaciones y alertas sobre eventos críticos, como fallos en
+  los sensores, desconexiones de los dispositivos o actualizaciones exitosas de firmware. Estas notificaciones se envían
+  al dashboard de monitoreo en tiempo real o a otras partes interesadas.
 
 ### 5.2.4. Infrastructure Layer
 
-La infrastructure layer gestiona las interacciones con los servicios de infraestructura, como bases de datos, servicios en la nube y comunicación con otros sistemas. En el contexto de IoT Device Management, se manejan los siguientes aspectos:
+La infrastructure layer gestiona las interacciones con los servicios de infraestructura, como bases de datos, servicios
+en la nube y comunicación con otros sistemas. En el contexto de IoT Device Management, se manejan los siguientes
+aspectos:
 
-* **Base de Datos de Dispositivos y Sensores:** Una base de datos que almacena información sobre los dispositivos IoT, como su ubicación, estado de conectividad, tipo de dispositivo, y el estado y las lecturas actuales de sus sensores. Aquí también se almacenan los logs de eventos y actualizaciones de los dispositivos.
-* **Mensajería en Tiempo Real (Kafka):** Para manejar la comunicación en tiempo real entre dispositivos y el sistema central.
-* **Almacenamiento de Logs de Mantenimiento:** Un servicio que almacena los logs de mantenimiento y actualización de los dispositivos, manteniendo un historial de todos los cambios y actualizaciones que han ocurrido para fines de auditoría y diagnóstico.
+* **Base de Datos de Dispositivos y Sensores:** Una base de datos que almacena información sobre los dispositivos IoT,
+  como su ubicación, estado de conectividad, tipo de dispositivo, y el estado y las lecturas actuales de sus sensores.
+  Aquí también se almacenan los logs de eventos y actualizaciones de los dispositivos.
+* **Mensajería en Tiempo Real (Kafka):** Para manejar la comunicación en tiempo real entre dispositivos y el sistema
+  central.
+* **Almacenamiento de Logs de Mantenimiento:** Un servicio que almacena los logs de mantenimiento y actualización de los
+  dispositivos, manteniendo un historial de todos los cambios y actualizaciones que han ocurrido para fines de auditoría
+  y diagnóstico.
 
 ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -1391,6 +1431,7 @@ Diagrama de componentes para el bounded context de IoT device:
 ![C4 DIAGRAMA DE COMPONENTES IOT DEVICE](./assets/capitulo5/IoTBoundedContext/IoT_Device_component_diagram.jpeg)
 
 ### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
+
 #### 5.2.6.1. Bounded Context Domain Layer Class Diagrams
 
 Diagrama de clases para el bounded context de IoT device:
@@ -1405,6 +1446,7 @@ Diagrama del modelado de la base de datos para el bounded context de IoT device:
 ## 5.3. Bounded Context: Inventory
 
 ### 5.3.1. Domain Layer
+
 <table>
   <tr style="text-align: center;">
     <th>Nombre</th>
@@ -1559,44 +1601,56 @@ El Domain Layer de Inventory Management define las entidades clave, así como lo
 
 **Entidades:**
 **Item (Entity):**
-- **Propósito:** Esta entidad representa las prendas que cuentan con sensores IoT instalados para su seguimiento dentro del inventario. Es el componente central del sistema, permitiendo rastrear la ubicación y el estado de las prendas en tiempo real.
+
+- **Propósito:** Esta entidad representa las prendas que cuentan con sensores IoT instalados para su seguimiento dentro
+  del inventario. Es el componente central del sistema, permitiendo rastrear la ubicación y el estado de las prendas en
+  tiempo real.
 - Atributos:
-  - Id: Identificador único de la prenda.
-  - Name: Nombre o descripción de la prenda. 
-  - SensorId: Identificador del sensor IoT instalado en la prenda.
-  - Status: Estado actual de la prenda (usualmente basado en un Enum que podría incluir estados como "Disponible", "Movida", etc.).
-  - Location: Ubicación física de la prenda en la tienda o almacén.
-  - LastUpdate: Fecha y hora de la última actualización de la ubicación de la prenda.
+    - Id: Identificador único de la prenda.
+    - Name: Nombre o descripción de la prenda.
+    - SensorId: Identificador del sensor IoT instalado en la prenda.
+    - Status: Estado actual de la prenda (usualmente basado en un Enum que podría incluir estados como "Disponible", "
+      Movida", etc.).
+    - Location: Ubicación física de la prenda en la tienda o almacén.
+    - LastUpdate: Fecha y hora de la última actualización de la ubicación de la prenda.
 
 </br>
 
 **Stock (Value Object):**
-- **Propósito:** Este objeto de valor monitorea la conectividad y el estado del sensor IoT asociado a cada prenda. Asegura que el sistema tenga datos actualizados sobre la operatividad del sensor. 
+
+- **Propósito:** Este objeto de valor monitorea la conectividad y el estado del sensor IoT asociado a cada prenda.
+  Asegura que el sistema tenga datos actualizados sobre la operatividad del sensor.
 - Atributos:
-  - ItemId: Identificador del ítem al que está asociado el stock.
-  - SensorStatus: Estado del sensor (booleano que indica si el sensor está activo).
-  - LastConnection: Fecha y hora de la última vez que el sensor se conectó al sistema.
-  - IsOperational: Indica si el sensor está operando correctamente.
+    - ItemId: Identificador del ítem al que está asociado el stock.
+    - SensorStatus: Estado del sensor (booleano que indica si el sensor está activo).
+    - LastConnection: Fecha y hora de la última vez que el sensor se conectó al sistema.
+    - IsOperational: Indica si el sensor está operando correctamente.
 
 </br>
 
 **Objetos de Valor:**
 **Alert (Value Object):**
-- **Propósito:** Almacena la información relacionada con movimientos no autorizados o cambios de ubicación detectados por los sensores IoT instalados en las prendas. Se activa cuando hay una anomalía en la ubicación de una prenda.
+
+- **Propósito:** Almacena la información relacionada con movimientos no autorizados o cambios de ubicación detectados
+  por los sensores IoT instalados en las prendas. Se activa cuando hay una anomalía en la ubicación de una prenda.
 - Atributos:
-  - ItemId: Identificador de la prenda que generó la alerta.
-  - DetectedTime: Fecha y hora en la que se detectó la alerta.
-  - AlertType: Tipo de alerta generada (usualmente basado en un Enum, como "Movimiento Detectado" o "Conexión Perdida").
-  - Location: Ubicación de la prenda cuando se detectó la alerta.
-  - Resolved: Estado de la alerta (booleano que indica si la alerta ha sido resuelta o no). 
+    - ItemId: Identificador de la prenda que generó la alerta.
+    - DetectedTime: Fecha y hora en la que se detectó la alerta.
+    - AlertType: Tipo de alerta generada (usualmente basado en un Enum, como "Movimiento Detectado" o "Conexión
+      Perdida").
+    - Location: Ubicación de la prenda cuando se detectó la alerta.
+    - Resolved: Estado de la alerta (booleano que indica si la alerta ha sido resuelta o no).
 
 ### 5.3.2. Interface Layer
 
-En este apartado, se definen las interfaces que permiten la interacción entre el sistema y los usuarios o sistemas externos. Estas interfaces permiten realizar operaciones sobre las prendas, el stock y las alertas, asegurando que el sistema de inventario se mantenga actualizado y operativo. 
+En este apartado, se definen las interfaces que permiten la interacción entre el sistema y los usuarios o sistemas
+externos. Estas interfaces permiten realizar operaciones sobre las prendas, el stock y las alertas, asegurando que el
+sistema de inventario se mantenga actualizado y operativo.
 
 **ItemController**
 
-Interfaz que permite gestionar las operaciones relacionadas con las prendas en el inventario, como la creación, actualización y eliminación de ítems.
+Interfaz que permite gestionar las operaciones relacionadas con las prendas en el inventario, como la creación,
+actualización y eliminación de ítems.
 
 <table><thead>
   <tr>
@@ -1623,6 +1677,7 @@ Interfaz que permite gestionar las operaciones relacionadas con las prendas en e
 </table>
 
 **Métodos:**
+
 - `createItem()`: Crea una nueva prenda en el sistema con los datos proporcionados.
 - `getItemById()`: Obtiene la información de una prenda específica basada en su identificador.
 - `updateItem()`: Actualiza los detalles de una prenda existente en el inventario.
@@ -1630,7 +1685,8 @@ Interfaz que permite gestionar las operaciones relacionadas con las prendas en e
 
 **StockController**
 
-Interfaz que permite monitorear y gestionar el estado de conectividad y operatividad de los sensores IoT asociados a las prendas en el inventario. 
+Interfaz que permite monitorear y gestionar el estado de conectividad y operatividad de los sensores IoT asociados a las
+prendas en el inventario.
 
 <table><thead>
   <tr>
@@ -1651,12 +1707,14 @@ Interfaz que permite monitorear y gestionar el estado de conectividad y operativ
 </table>
 
 **Métodos:**
+
 - `getStockStatus()`: Consulta el estado del sensor de una prenda (si está operativo o desconectado).
 - `updateStockStatus()`: Actualiza el estado del sensor, notificando si está activo o ha fallado.
 
 **AlertController**
 
-Interfaz que gestiona las alertas generadas por movimientos no autorizados o fallos en los sensores, y permite su resolución. 
+Interfaz que gestiona las alertas generadas por movimientos no autorizados o fallos en los sensores, y permite su
+resolución.
 
 <table><thead>
   <tr>
@@ -1680,26 +1738,39 @@ Interfaz que gestiona las alertas generadas por movimientos no autorizados o fal
 </table>
 
 **Métodos:**
+
 - `getAllAlerts()`: Obtiene una lista de todas las alertas activas en el sistema.
 - `resolveAlert()`: Marca una alerta como resuelta tras haber sido gestionada.
-- `createAlert()`: Genera una nueva alerta en el sistema cuando se detecta un evento inusual, como un movimiento de una prenda fuera de su lugar asignado. 
+- `createAlert()`: Genera una nueva alerta en el sistema cuando se detecta un evento inusual, como un movimiento de una
+  prenda fuera de su lugar asignado.
 
 ### 5.3.3. Application Layer
 
-En esta sección se definen los CommandHandlers y EventHandlers que controlan la ejecución de comandos y el manejo de eventos en el sistema de Inventory Management. Estos manejadores son responsables de coordinar las operaciones sobre las prendas, el estado de los sensores y las alertas generadas. 
+En esta sección se definen los CommandHandlers y EventHandlers que controlan la ejecución de comandos y el manejo de
+eventos en el sistema de Inventory Management. Estos manejadores son responsables de coordinar las operaciones sobre las
+prendas, el estado de los sensores y las alertas generadas.
 
-- `CreateItemCommandHandler`: Controla la creación de nuevos ítems en el inventario. Ejecuta la lógica de negocio necesaria para registrar una nueva prenda con un sensor IoT.
-- `UpdateItemCommandHandler`: Se encarga de la actualización de los datos de una prenda en el inventario, gestionando cambios en su estado o ubicación.
-- `GenerateAlertCommandHandler`: Controla la generación de alertas cuando se detecta un evento anómalo, como un movimiento no autorizado o la desconexión de un sensor.
-- `ResolveAlertCommandHandler`: Se encarga de la resolución de alertas, actualizando su estado a "resuelta" una vez que el incidente ha sido gestionado por el sistema o el personal. 
+- `CreateItemCommandHandler`: Controla la creación de nuevos ítems en el inventario. Ejecuta la lógica de negocio
+  necesaria para registrar una nueva prenda con un sensor IoT.
+- `UpdateItemCommandHandler`: Se encarga de la actualización de los datos de una prenda en el inventario, gestionando
+  cambios en su estado o ubicación.
+- `GenerateAlertCommandHandler`: Controla la generación de alertas cuando se detecta un evento anómalo, como un
+  movimiento no autorizado o la desconexión de un sensor.
+- `ResolveAlertCommandHandler`: Se encarga de la resolución de alertas, actualizando su estado a "resuelta" una vez que
+  el incidente ha sido gestionado por el sistema o el personal.
 
 ### 5.3.4. Infrastructure Layer
 
-En esta sección se presentan las clases encargadas de conectar la infraestructura del sistema de Inventory Management con los repositorios de datos, facilitando el acceso a la base de datos y la integración con los servicios externos.
+En esta sección se presentan las clases encargadas de conectar la infraestructura del sistema de Inventory Management
+con los repositorios de datos, facilitando el acceso a la base de datos y la integración con los servicios externos.
 
-- `ItemRepository`: Intercambio de datos entre la entidad Item y la base de datos. Esta clase permite crear, leer, actualizar y eliminar información de las prendas en el inventario.
-- `StockRepository`: Gestiona la persistencia de los datos relacionados con el estado de los sensores IoT asociados a las prendas. A través de esta clase, el sistema puede consultar y actualizar el estado de los sensores en la base de datos.
-- `AlertRepository`: Intercambio de datos entre la entidad Alert y la base de datos. Se encarga de almacenar y recuperar las alertas generadas por los eventos del sistema, como movimientos no autorizados o desconexión de sensores. 
+- `ItemRepository`: Intercambio de datos entre la entidad Item y la base de datos. Esta clase permite crear, leer,
+  actualizar y eliminar información de las prendas en el inventario.
+- `StockRepository`: Gestiona la persistencia de los datos relacionados con el estado de los sensores IoT asociados a
+  las prendas. A través de esta clase, el sistema puede consultar y actualizar el estado de los sensores en la base de
+  datos.
+- `AlertRepository`: Intercambio de datos entre la entidad Alert y la base de datos. Se encarga de almacenar y recuperar
+  las alertas generadas por los eventos del sistema, como movimientos no autorizados o desconexión de sensores.
 
 ### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -1717,44 +1788,46 @@ En esta sección se presentan las clases encargadas de conectar la infraestructu
 
 ## 5.4. Bounded Context: ERP
 
-| Nombre  | ERPUser                               |
-|---------|----------------------------------------|
-| Descripción | Representa un usuario en el sistema ERP. |
-| **Atributos** | **Tipo de Dato**                     |
-| userId  | int                                   |
-| username| String                                |
-| email   | String                                |
-| **Relaciones** | **Tipo**                           |
-| getUserDetails() | String                          |
-| updateUserDetails(details: String) | void         |
+| Nombre                             | ERPUser                                  |
+|------------------------------------|------------------------------------------|
+| Descripción                        | Representa un usuario en el sistema ERP. |
+| **Atributos**                      | **Tipo de Dato**                         |
+| userId                             | int                                      |
+| username                           | String                                   |
+| email                              | String                                   |
+| **Relaciones**                     | **Tipo**                                 |
+| getUserDetails()                   | String                                   |
+| updateUserDetails(details: String) | void                                     |
 
-| Nombre  | ERPOrder                            |
-|---------|-------------------------------------|
-| Descripción | Representa una orden en el sistema ERP. |
-| **Atributos** | **Tipo de Dato**                  |
-| orderId | int                                 |
-| userId  | int                                 |
-| orderDate| Date                               |
-| status  | String                              |
-| **Relaciones** | **Tipo**                        |
-| getOrderDetails() | String                     |
-| updateOrderStatus(status: String) | void       |
+| Nombre                            | ERPOrder                                |
+|-----------------------------------|-----------------------------------------|
+| Descripción                       | Representa una orden en el sistema ERP. |
+| **Atributos**                     | **Tipo de Dato**                        |
+| orderId                           | int                                     |
+| userId                            | int                                     |
+| orderDate                         | Date                                    |
+| status                            | String                                  |
+| **Relaciones**                    | **Tipo**                                |
+| getOrderDetails()                 | String                                  |
+| updateOrderStatus(status: String) | void                                    |
 
-| Nombre  | ERPInventory                             |
-|---------|------------------------------------------|
-| Descripción | Representa un inventario en el sistema ERP. |
-| **Atributos** | **Tipo de Dato**                        |
-| userId  | int                                      |
-| productId | int                                    |
-| stockLevel | int                                   |
-| **Relaciones** | **Tipo**                              |
-| getStockLevel() | int                              |
-| updateStockLevel(change: int) | void               |
-
+| Nombre                        | ERPInventory                                |
+|-------------------------------|---------------------------------------------|
+| Descripción                   | Representa un inventario en el sistema ERP. |
+| **Atributos**                 | **Tipo de Dato**                            |
+| userId                        | int                                         |
+| productId                     | int                                         |
+| stockLevel                    | int                                         |
+| **Relaciones**                | **Tipo**                                    |
+| getStockLevel()               | int                                         |
+| updateStockLevel(change: int) | void                                        |
 
 ### 5.4.1. Domain Layer
 
-En un Domain Layer, es fundamental determinar cuáles son las entidades y los agregados. En este caso, tanto `ERPUser` como `ERPOrder` pueden tratarse como entidades separadas, ya que ambas tienen identificadores únicos y sus ciclos de vida pueden ser independientes. Además, se podría considerar que `ERPOrder` forma parte de un agregado más grande que incluya elementos relacionados con transacciones o detalles de productos.
+En un Domain Layer, es fundamental determinar cuáles son las entidades y los agregados. En este caso, tanto `ERPUser`
+como `ERPOrder` pueden tratarse como entidades separadas, ya que ambas tienen identificadores únicos y sus ciclos de
+vida pueden ser independientes. Además, se podría considerar que `ERPOrder` forma parte de un agregado más grande que
+incluya elementos relacionados con transacciones o detalles de productos.
 
 ### 1. ERPUser
 
@@ -1857,7 +1930,6 @@ En un Domain Layer, es fundamental determinar cuáles son las entidades y los ag
 - `message` (String)
 - `orderId` (int)
 
-
 ### 5.4.3. Application Layer
 
 ## Application Services para ERPUser
@@ -1866,7 +1938,8 @@ En un Domain Layer, es fundamental determinar cuáles son las entidades y los ag
 
 **UserService**
 
-**Descripción:** Servicio que implementa la lógica de aplicación necesaria para gestionar los usuarios en el sistema ERP.
+**Descripción:** Servicio que implementa la lógica de aplicación necesaria para gestionar los usuarios en el sistema
+ERP.
 
 **Responsabilidades:**
 
@@ -1923,13 +1996,15 @@ En un Domain Layer, es fundamental determinar cuáles son las entidades y los ag
 
 ## Patrones de Diseño
 
-- **Command Pattern** para encapsular toda la información necesaria para realizar una operación o desencadenar un evento en la aplicación.
-- **Repository Pattern** para abstraer la lógica de acceso a datos de la capa de dominio, utilizado por los servicios de aplicación para interactuar con la base de datos.
+- **Command Pattern** para encapsular toda la información necesaria para realizar una operación o desencadenar un evento
+  en la aplicación.
+- **Repository Pattern** para abstraer la lógica de acceso a datos de la capa de dominio, utilizado por los servicios de
+  aplicación para interactuar con la base de datos.
 
 ## Manejo de Excepciones
 
-El Application Layer también debe manejar las excepciones de manera centralizada para asegurar respuestas coherentes y proporcionar un manejo de errores adecuado.
-
+El Application Layer también debe manejar las excepciones de manera centralizada para asegurar respuestas coherentes y
+proporcionar un manejo de errores adecuado.
 
 ### 5.4.4. Infrastructure Layer
 
@@ -1965,7 +2040,8 @@ El Application Layer también debe manejar las excepciones de manera centralizad
 
 **MessagingService**
 
-**Descripción:** Provee funcionalidades para enviar y recibir mensajes entre distintas partes del sistema, facilitando la integración asincrónica y el desacoplamiento de componentes.
+**Descripción:** Provee funcionalidades para enviar y recibir mensajes entre distintas partes del sistema, facilitando
+la integración asincrónica y el desacoplamiento de componentes.
 
 **Uso:**
 
@@ -1976,7 +2052,8 @@ El Application Layer también debe manejar las excepciones de manera centralizad
 
 **ERPIntegrationService**
 
-**Descripción:** Facilita la integración con sistemas ERP externos para sincronizar datos como inventarios y registros de transacciones.
+**Descripción:** Facilita la integración con sistemas ERP externos para sincronizar datos como inventarios y registros
+de transacciones.
 
 **Métodos:**
 
@@ -1998,7 +2075,8 @@ El Application Layer también debe manejar las excepciones de manera centralizad
 
 ### ConfigurationManager
 
-**Descripción:** Administra la configuración del sistema, asegurando que los parámetros de operación sean fácilmente configurables y centralizados.
+**Descripción:** Administra la configuración del sistema, asegurando que los parámetros de operación sean fácilmente
+configurables y centralizados.
 
 **Uso:**
 
@@ -2009,7 +2087,8 @@ El Application Layer también debe manejar las excepciones de manera centralizad
 
 ### CacheManager
 
-**Descripción:** Mejora el rendimiento del sistema mediante el almacenamiento en caché de datos frecuentemente accedidos, como los detalles de usuario o estados de órdenes.
+**Descripción:** Mejora el rendimiento del sistema mediante el almacenamiento en caché de datos frecuentemente
+accedidos, como los detalles de usuario o estados de órdenes.
 
 **Funcionalidades:**
 
@@ -2021,17 +2100,17 @@ El Application Layer también debe manejar las excepciones de manera centralizad
 
 ### Logger
 
-**Descripción:** Proporciona mecanismos para registrar actividades y errores en el sistema, facilitando la auditoría y el diagnóstico de problemas.
+**Descripción:** Proporciona mecanismos para registrar actividades y errores en el sistema, facilitando la auditoría y
+el diagnóstico de problemas.
 
 **Funcionalidades:**
 
 - `logInfo(message)`
 - `logError(message, exception)`
 
-
 ### 5.4.5. Bounded Context Software Architecture Component Level Diagrams
 
-A continuación, presentamos el component level diagram: 
+A continuación, presentamos el component level diagram:
 
 ![](./assets/capitulo5/ERPBoundedContext/1.png)
 
@@ -2039,13 +2118,13 @@ A continuación, presentamos el component level diagram:
 
 #### 5.4.6.1. Bounded Context Domain Layer Class Diagrams
 
-A continuación, presentamos el diagrama de clases del dominio: 
+A continuación, presentamos el diagrama de clases del dominio:
 
 ![](./assets/capitulo5/ERPBoundedContext/2.png)
 
 #### 5.4.6.2. Bounded Context Database Design Diagram
 
-A continuación, presentamos el diagrama de base de datos: 
+A continuación, presentamos el diagrama de base de datos:
 
 ![](./assets/capitulo5/ERPBoundedContext/3.png)
 
@@ -2055,11 +2134,16 @@ A continuación, presentamos el diagrama de base de datos:
 
 ## 6.1. Style Guidelines
 
-El diseño de las aplicaciones web y móviles debe basarse en un enfoque elegante y simple que promueva la claridad y la facilidad de uso en pantallas más pequeñas. El desorden visual debe evitarse para que los usuarios puedan concentrarse en sus tareas principales. Para garantizar una experiencia de usuario coherente en toda la aplicación, la consistencia es esencial en todos los aspectos del diseño, incluidos colores, tipografía y espaciado. 
+El diseño de las aplicaciones web y móviles debe basarse en un enfoque elegante y simple que promueva la claridad y la
+facilidad de uso en pantallas más pequeñas. El desorden visual debe evitarse para que los usuarios puedan concentrarse
+en sus tareas principales. Para garantizar una experiencia de usuario coherente en toda la aplicación, la consistencia
+es esencial en todos los aspectos del diseño, incluidos colores, tipografía y espaciado.
 
 ### 6.1.1. General Style Guidelines
 
-Para que los usuarios puedan concentrarse en ver las prendas para buscar, LockItem busca un diseño limpio y minimalista. A su vez, debe mantener un diseño coherente en elementos como colores, tipografía y espaciado para que la aplicación tenga una experiencia coherente.
+Para que los usuarios puedan concentrarse en ver las prendas para buscar, LockItem busca un diseño limpio y minimalista.
+A su vez, debe mantener un diseño coherente en elementos como colores, tipografía y espaciado para que la aplicación
+tenga una experiencia coherente.
 
 ![colors](./assets/capitulo6/general_styles/colors.png)
 
@@ -2067,7 +2151,8 @@ Para que los usuarios puedan concentrarse en ver las prendas para buscar, LockIt
 
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
 
-El diseño de la aplicación web para el trabajador de la tienda no difiere mucho a la aplicación móvil para el usuario, ambos tienen un mismo estandar visual que facilita su entendimiento para ambos.
+El diseño de la aplicación web para el trabajador de la tienda no difiere mucho a la aplicación móvil para el usuario,
+ambos tienen un mismo estandar visual que facilita su entendimiento para ambos.
 
 Diseño del home para la versión web:
 ![webhome](./assets/capitulo6/web-mobile_styles/WebHomepage.jpg)
@@ -2079,7 +2164,8 @@ Diseño de la sección de catalogo para la versión móvil:
 
 ### 6.2.1. Labeling Systems
 
-Para las etiquetas se trata de minizar el numero de palabras y manteniendo un entendimiento claro, ademas implementamos iconos que dan a entender ciertas 
+Para las etiquetas se trata de minizar el numero de palabras y manteniendo un entendimiento claro, ademas implementamos
+iconos que dan a entender ciertas
 funciones, como los íconos del bottom navbar o la de busqueda o fecha.
 
 <div align="center">
@@ -2096,7 +2182,8 @@ funciones, como los íconos del bottom navbar o la de busqueda o fecha.
 
 ### 6.2.2. Searching Systems
 
-Para la version web debera dirigirse a la ventana de busqueda 'Search' pa la cual aparecera un buscador donde podra ingresar el nombre de alguna prenda.
+Para la version web debera dirigirse a la ventana de busqueda 'Search' pa la cual aparecera un buscador donde podra
+ingresar el nombre de alguna prenda.
 
 ![web](./assets/capitulo6/searching_systems/web.png)
 
@@ -2106,13 +2193,19 @@ Para la versión móvil debera presionar en el botón de mismo nombre en donde i
 
 ### 6.2.3. SEO Tags and Meta Tags
 
-Para mejorar la visibilidad y accesibilidad de la experiencia web en motores de búsqueda, se implementarán SEO Tags y Meta Tags adecuados. Las principales páginas, como el Landing Page y la aplicación web, contarán con etiquetas de Title, Description, Keywords y Author que reflejen el contenido y los objetivos del sitio. Ejemplo de etiquetas:
+Para mejorar la visibilidad y accesibilidad de la experiencia web en motores de búsqueda, se implementarán SEO Tags y
+Meta Tags adecuados. Las principales páginas, como el Landing Page y la aplicación web, contarán con etiquetas de Title,
+Description, Keywords y Author que reflejen el contenido y los objetivos del sitio. Ejemplo de etiquetas:
 
 - Title: "LockItem - Localiza tus prendas fácilmente"
-- Meta Description: "LockItem te permite encontrar prendas de tu catálogo favorito en tiendas cercanas. Descarga la aplicación para una experiencia de compra sin esfuerzo."
+- Meta Description: "LockItem te permite encontrar prendas de tu catálogo favorito en tiendas cercanas. Descarga la
+  aplicación para una experiencia de compra sin esfuerzo."
 - Keywords: "localización de prendas, tienda de ropa, app para tiendas, inventario de prendas"
-- 
-En cuanto a las aplicaciones móviles, se aplicarán elementos de ASO (App Store Optimization), como el App Title, Keywords, Subtitle, y Description, para garantizar que la aplicación sea fácilmente localizable en las tiendas de aplicaciones.
+-
+
+En cuanto a las aplicaciones móviles, se aplicarán elementos de ASO (App Store Optimization), como el App Title,
+Keywords, Subtitle, y Description, para garantizar que la aplicación sea fácilmente localizable en las tiendas de
+aplicaciones.
 
 ### 6.2.4. Navigation Systems
 
@@ -2132,7 +2225,7 @@ Por último la versión móvil tendra un bottom navbar dividido en cuatro seccio
 
 ### 6.3.1. Landing Page Wireframe
 
-A continuación, diseñamos el cómo sería el wireframe de nuestra landing page usando Figma 
+A continuación, diseñamos el cómo sería el wireframe de nuestra landing page usando Figma
 
 ![lpwireframe](./assets/capitulo6/landing_design/Wireframe.png)
 
@@ -2146,7 +2239,7 @@ Para la presentación del mock-up tomamos en cuenta la tonalidad de colores que 
 
 ### 6.4.1. Applications Wireframes
 
-La representación mediante wireframes de nuestra app web se basa en 3 secciones principales: 
+La representación mediante wireframes de nuestra app web se basa en 3 secciones principales:
 
 - Home: Donde el trabajador podra revisar el inventario de las prendas.
 
@@ -2157,13 +2250,13 @@ La representación mediante wireframes de nuestra app web se basa en 3 secciones
   ![search](./assets/capitulo6/application_design/web/Search-2.jpg)
 
 - Account: Seccion en la cual el trabajador verá sus datos y podra editarlos.
-  
+
   ![account](./assets/capitulo6/application_design/web/Account-2.jpg)
 
 Para la versión móvil contamos con 4 vistas principales
 
 - Home: En esta vista el usuario primero elige la tienda afiliada y luego se le muestra su catálogo disponible.
-  
+
   ![home1](./assets/capitulo6/application_design/movil/Homepage-1.jpg)
 
   ![home2](./assets/capitulo6/application_design/movil/Store-1.jpg)
@@ -2176,78 +2269,82 @@ Para la versión móvil contamos con 4 vistas principales
 
   ![Saved](./assets/capitulo6/application_design/movil/Saved%20Items-1.jpg)
 
-- Account: Pestaña donde se encuenta los datos del usuario. 
-  
+- Account: Pestaña donde se encuenta los datos del usuario.
+
   ![Account](./assets/capitulo6/application_design/movil/My%20Details-1.jpg)
 
 ### 6.4.2. Applications Wireflow Diagrams
 
-| USER FLOW Nro. 1 | |
-|-----|--------|
-| User | Cliente |
-| Goal | Localizar prenda |
+| USER FLOW Nro. 1 |                  |
+|------------------|------------------|
+| User             | Cliente          |
+| Goal             | Localizar prenda |
 
-Cuando el cliente elija la prenda que desee le dara al botón 'Locate' y le mostrar un mapeo de dónde se encuentra la prenda.
+Cuando el cliente elija la prenda que desee le dara al botón 'Locate' y le mostrar un mapeo de dónde se encuentra la
+prenda.
 
 ![uf1](./assets/capitulo6/application_design/wireflows_diagrams/wf1.jpg)
 
-| USER FLOW Nro. 2 | |
-|-----|--------|
-| User | Cliente |
-| Goal | Buscar prenda |
+| USER FLOW Nro. 2 |               |
+|------------------|---------------|
+| User             | Cliente       |
+| Goal             | Buscar prenda |
 
 Cuando el cliente quiera buscar una prenda en especifico, le dará al botón 'Search' y escribirá el nombre de la prenda.
 
 ![uf2](./assets/capitulo6/application_design/wireflows_diagrams/wf2.jpg)
 
-| USER FLOW Nro. 3 | |
-|-----|--------|
-| User | Cliente |
-| Goal | Mapa |
+| USER FLOW Nro. 3 |         |
+|------------------|---------|
+| User             | Cliente |
+| Goal             | Mapa    |
 
 Al momento que el cliente busque la prenda el mapa le mostrará con un ícono rojo en que parte de la tienda se encuentra.
 
 ![uf3](./assets/capitulo6/application_design/wireflows_diagrams/wf3.jpg)
 
-| USER FLOW Nro. 4 | |
-|-----|--------|
-| User | Trabajador |
-| Goal | Inventario |
+| USER FLOW Nro. 4 |            |
+|------------------|------------|
+| User             | Trabajador |
+| Goal             | Inventario |
 
-Cuando el trabajador quiera ver cuantas prenda tiene en stock, simplemente deberá elegir alguna y se mostrará un apartado lateral con los detalles de esta prenda, incluido su stock disponible.
+Cuando el trabajador quiera ver cuantas prenda tiene en stock, simplemente deberá elegir alguna y se mostrará un
+apartado lateral con los detalles de esta prenda, incluido su stock disponible.
 
 ![uf4](./assets/capitulo6/application_design/wireflows_diagrams/wf4.jpg)
 
-| USER FLOW Nro. 5 | |
-|-----|--------|
-| User | Cliente |
-| Goal | Inicio de sesión |
+| USER FLOW Nro. 5 |                  |
+|------------------|------------------|
+| User             | Cliente          |
+| Goal             | Inicio de sesión |
 
 Cuando el usaurio quiera acceder a la aplicación móvil, debera iniciar sesión ingrersando su correo y contraseña.
 
 ![uf5](./assets/capitulo6/application_design/wireflows_diagrams/wf5.jpg)
 
-| USER FLOW Nro. 6 | |
-|-----|--------|
-| User | Cliente |
-| Goal | Cierre de sesión |
+| USER FLOW Nro. 6 |                  |
+|------------------|------------------|
+| User             | Cliente          |
+| Goal             | Cierre de sesión |
 
-Cuando el usaurio termine de usar la aplicación puede cerrar sus sesion dirigiendose a la sección 'Account', en la cual encontrará un botón para finalizar la seción.
+Cuando el usaurio termine de usar la aplicación puede cerrar sus sesion dirigiendose a la sección 'Account', en la cual
+encontrará un botón para finalizar la seción.
 
 ![uf6](./assets/capitulo6/application_design/wireflows_diagrams/wf6.jpg)
 
-| USER FLOW Nro. 7 | |
-|-----|--------|
-| User | Cliente |
-| Goal | Favoritos |
+| USER FLOW Nro. 7 |           |
+|------------------|-----------|
+| User             | Cliente   |
+| Goal             | Favoritos |
 
-Cuando el usaurio le guste una prenda del catálogo, puede darle al boton del corazón y se guardará en un apartado llamado 'Saved'.
+Cuando el usaurio le guste una prenda del catálogo, puede darle al boton del corazón y se guardará en un apartado
+llamado 'Saved'.
 
 ![uf7](./assets/capitulo6/application_design/wireflows_diagrams/wf7.jpg)
 
 ### 6.4.3. Applications Mock-ups
 
-Una vez implementados los diseños, los mock-ups de la app web se verian de la siguiente manera 
+Una vez implementados los diseños, los mock-ups de la app web se verian de la siguiente manera
 
 - Home: Donde el trabajador podra revisar el inventario de las prendas.
 
@@ -2258,13 +2355,13 @@ Una vez implementados los diseños, los mock-ups de la app web se verian de la s
   ![search](./assets/capitulo6/application_design/web/Search.jpg)
 
 - Account: Seccion en la cual el trabajador verá sus datos y podra editarlos.
-  
+
   ![account](./assets/capitulo6/application_design/web/Account.jpg)
 
 Para la versión móvil este sería su resultado
 
 - Home: En esta vista el usuario primero elige la tienda afiliada y luego se le muestra su catálogo disponible.
-  
+
   ![home1](./assets/capitulo6/application_design/movil/Homepage.jpg)
 
   ![home2](./assets/capitulo6/application_design/movil/Store.jpg)
@@ -2277,71 +2374,75 @@ Para la versión móvil este sería su resultado
 
   ![Saved](./assets/capitulo6/application_design/movil/Saved%20Items.jpg)
 
-- Account: Pestaña donde se encuenta los datos del usuario. 
-  
+- Account: Pestaña donde se encuenta los datos del usuario.
+
   ![Account](./assets/capitulo6/application_design/movil/My%20Details.jpg)
 
 ### 6.4.4. Applications User Flow Diagrams
 
-| USER FLOW Nro. 1 | |
-|-----|--------|
-| User | Cliente |
-| Goal | Localizar prenda |
+| USER FLOW Nro. 1 |                  |
+|------------------|------------------|
+| User             | Cliente          |
+| Goal             | Localizar prenda |
 
-Cuando el cliente elija la prenda que desee le dara al botón 'Locate' y le mostrar un mapeo de dónde se encuentra la prenda.
+Cuando el cliente elija la prenda que desee le dara al botón 'Locate' y le mostrar un mapeo de dónde se encuentra la
+prenda.
 
 ![uf1](./assets/capitulo6/application_design/userflows_diagrams/uf1.jpg)
 
-| USER FLOW Nro. 2 | |
-|-----|--------|
-| User | Cliente |
-| Goal | Buscar prenda |
+| USER FLOW Nro. 2 |               |
+|------------------|---------------|
+| User             | Cliente       |
+| Goal             | Buscar prenda |
 
 Cuando el cliente quiera buscar una prenda en especifico, le dará al botón 'Search' y escribirá el nombre de la prenda.
 
 ![uf2](./assets/capitulo6/application_design/userflows_diagrams/uf2.jpg)
 
-| USER FLOW Nro. 3 | |
-|-----|--------|
-| User | Cliente |
-| Goal | Mapa |
+| USER FLOW Nro. 3 |         |
+|------------------|---------|
+| User             | Cliente |
+| Goal             | Mapa    |
 
 Al momento que el cliente busque la prenda el mapa le mostrará con un ícono rojo en que parte de la tienda se encuentra.
 
 ![uf3](./assets/capitulo6/application_design/userflows_diagrams/uf3.jpg)
 
-| USER FLOW Nro. 4 | |
-|-----|--------|
-| User | Trabajador |
-| Goal | Inventario |
+| USER FLOW Nro. 4 |            |
+|------------------|------------|
+| User             | Trabajador |
+| Goal             | Inventario |
 
-Cuando el trabajador quiera ver cuantas prenda tiene en stock, simplemente deberá elegir alguna y se mostrará un apartado lateral con los detalles de esta prenda, incluido su stock disponible.
+Cuando el trabajador quiera ver cuantas prenda tiene en stock, simplemente deberá elegir alguna y se mostrará un
+apartado lateral con los detalles de esta prenda, incluido su stock disponible.
 
 ![uf4](./assets/capitulo6/application_design/userflows_diagrams/uf4.jpg)
 
-| USER FLOW Nro. 5 | |
-|-----|--------|
-| User | Cliente |
-| Goal | Inicio de sesión |
+| USER FLOW Nro. 5 |                  |
+|------------------|------------------|
+| User             | Cliente          |
+| Goal             | Inicio de sesión |
 
 Cuando el usaurio quiera acceder a la aplicación móvil, debera iniciar sesión ingrersando su correo y contraseña.
 
 ![uf5](./assets/capitulo6/application_design/userflows_diagrams/uf5.jpg)
 
-| USER FLOW Nro. 6 | |
-|-----|--------|
-| User | Cliente |
-| Goal | Cierre de sesión |
+| USER FLOW Nro. 6 |                  |
+|------------------|------------------|
+| User             | Cliente          |
+| Goal             | Cierre de sesión |
 
-Cuando el usaurio termine de usar la aplicación puede cerrar sus sesion dirigiendose a la sección 'Account', en la cual encontrará un botón para finalizar la seción.
+Cuando el usaurio termine de usar la aplicación puede cerrar sus sesion dirigiendose a la sección 'Account', en la cual
+encontrará un botón para finalizar la seción.
 
 ![uf6](./assets/capitulo6/application_design/userflows_diagrams/uf6.jpg)
 
-| USER FLOW Nro. 7 | |
-|-----|--------|
-| User | Cliente |
-| Goal | Favoritos |
+| USER FLOW Nro. 7 |           |
+|------------------|-----------|
+| User             | Cliente   |
+| Goal             | Favoritos |
 
-Cuando el usaurio le guste una prenda del catálogo, puede darle al boton del corazón y se guardará en un apartado llamado 'Saved'.
+Cuando el usaurio le guste una prenda del catálogo, puede darle al boton del corazón y se guardará en un apartado
+llamado 'Saved'.
 
 ![uf7](./assets/capitulo6/application_design/userflows_diagrams/uf7.jpg)
