@@ -1337,6 +1337,7 @@ Escenario: Localizar Prenda  <br>
 | Search(query) | Location                                                                                                                                                                                    | Public      |
 
 ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
+![User Context - Components Diagram](assets/capitulo5/UserBoundedContext/components%20diagram.png)
 
 ### 5.1.6. Bounded Context Software Architecture Code Level Diagrams
 
