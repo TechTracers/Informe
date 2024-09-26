@@ -39,6 +39,7 @@ ___
 | 1.3     | 07/09/2024 | Giakomo Causso    | Desarrollo del Capítulo 3 - Capitulo 4 hasta 4.1.2.2. Quality attribute Scenarios                     |
 | 1.4     | 07/09/2024 | Eduardo Chero     | Desarrollo del 4.1.2.3. Constraints hasta 4.2.3. Domain Message Flows Modeling                        |
 | 1.5     | 08/09/2024 | Yoimer Dávila     | Desarrollo del 4.2.4. Bounded Context Canvases hasta 4.3.4. Software Architecture Deployment Diagrams |
+| 1.6     | 26/09/2024 | Adrian Melgar     | Desarrollo de todo el punto 5.3. Bounded Context: Inventory                                           |
 
 ---
 
@@ -160,7 +161,7 @@ ___
 
 | Criterio Específico                                                                                | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias. | *Giakomo Rodolfo Causso Mariano*<br>**TB1**<br>La aplicación de la metodología Domain-Driven Design (DDD) durante el desarrollo permitió enfocar el diseño del software en torno a los dominios del negocio de tiendas de ropa. Esto incluyó la creación de modelos de dominio que reflejan fielmente los procesos y necesidades de las tiendas, facilitando así un desarrollo más orientado y coherente con las necesidades reales del usuario final. La colaboración continua con stakeholders del proyecto garantizó que los modelos y el software desarrollado alinearan precisamente con los requisitos y expectativas del negocio.<br><br>*Giakomo Rodolfo Causso Mariano*<br>**TP1**<br> Desarrollé interfaces y servicios de aplicación para la integración de ERP en el proyecto LockItem, gestionando la lógica de negocio y asegurando operaciones de datos eficientes y seguras para usuarios y órdenes. Implementé patrones de diseño y estrategias de seguridad para proteger los datos y facilitar su uso por diferentes audiencias, desde técnicos hasta usuarios finales. <br><br> *Eduardo André Chero Emé*<br>**TB1:**<br>El desarrollo del event Storming nos ayudó para tener una visualizacion más definida de nuestros bounded context para una mejor implementación en el código. Clasificar los escenarios mediante el modelado de Message flows y generar los Bounded Context Canvas nos brindan un mejor entendimiento de las variables, conexiones y propisitos de los bounded context que impementamos.<br><br>*Adrian Gonzalo Melgar Takahashi*<br>**TB1:**<br>Durante el desarrollo de mi proyecto, estructuré la comunicación para distintas audiencias. En la Descripción de la Startup y los perfiles del equipo, destaqué información clave para inversionistas y colaboradores. En el Solution Profile, presenté los antecedentes y problemática de forma clara, y en el Lean UX Process, expuse los Problem Statements y Hypothesis Statements de manera visual para facilitar su comprensión por parte de usuarios técnicos y no técnicos. Estas acciones garantizaron una comunicación efectiva y adaptada a cada grupo.<br><br> *Josué David Arrunátegui Aguilar*<br>**TB1**<br> Durante el desarrollo del proyecto LockItem, tuve la oportunidad de comunicarme con diversas audiencias, incluyendo clientes y usuarios finales. Llevé a cabo entrevistas para entender sus necesidades, desarrollé user personas y user task matrices, lo que me permitió adaptar nuestras soluciones a sus expectativas. Esta experiencia me ayudó a transmitir ideas complejas de forma clara, tanto a miembros técnicos del equipo como a personas sin formación técnica, mejorando así la comunicación efectiva en el proyect <br><br>*Yoimer Yanir Davila Ramirez*<br>**TB1**<br>Para esta primera entrega, siguiendo DDD y una comunicación efectiva se desarrollaron los Bounded Context Canvases , donde se identificaron y definieron los límites claros de cada contexto dentro del sistema, estableciendo sus responsabilidades y flujos de información. Además, se crearon los diagramas de la arquitectura de software, los cuales ilustran cómo los componentes del sistema interactuan, seleccionando las tecnologías adecuadas para asegurar la escalabilidad y eficiencia del sistema. Estas actividades incluyeron reuniones con las partes interesadas para validar los contextos y diagramas, garantizando la alineación con los objetivos del proyecto. | *Giakomo Rodolfo Causso Mariano* <br>**TB1**<br> La adopción de DDD mejoró significativamente nuestra precisión en la implementación del software y en la alineación con los objetivos del negocio, asegurando que cada funcionalidad desarrollada proporcionara valor real y tangible a los usuarios finales.Este enfoque destaca cómo una metodología de desarrollo específica puede influir positivamente en la claridad del diseño y la efectividad de la implementación, lo que es relevante para tus criterios de ABET en cuanto a comunicación efectiva y adaptación a un rango de audiencias.<br><br>*Giakomo Rodolfo Causso Mariano*<br>**TP1**<br>Mi contribución demuestra una capacidad efectiva de comunicarme con un rango diverso de audiencias, esencial para el éxito de la implementación tecnológica en entornos empresariales y la mejora continua de la experiencia del usuario final. <br><br> *Eduardo André Chero Emé*<br>**TB1:**<br> La presente entrega sirvió para validar que la solución propuesta es adecuada para los segmentos objetivo abordados, esto en base al trabajo colaborativo realizado durante las entrevistas y el análisis de estas.<br><br>*Adrian Gonzalo Melgar Takahashi*<br>**TB1:**<br> Las acciones realizadas durante el desarrollo del proyecto permitieron una comunicación efectiva y adaptada a las necesidades de cada audiencia. Desde la presentación clara de la startup y su equipo hasta la exposición visual de los aspectos técnicos en el Lean UX Process, logré transmitir la información de manera precisa y comprensible, lo que contribuyó al entendimiento general del proyecto y facilitó su avance exitoso con el apoyo de todos los involucrados.<br><br> Josué David Arrunátegui Aguilar<br>**TB1**<br> Durante el desarrollo del proyecto LockItem, tuve la oportunidad de comunicarme con diversas audiencias, incluyendo clientes y usuarios finales. Llevé a cabo entrevistas para entender sus necesidades, desarrollé user personas y user task matrices, lo que me permitió adaptar nuestras soluciones a sus expectativas. Esta experiencia me ayudó a transmitir ideas complejas de forma clara, tanto a miembros técnicos del equipo como a personas sin formación técnica, mejorando así la comunicación efectiva en el proyect <br><br> *Yoimer Yanir Davila Ramirez*<br>**TB1**<br> El desarrollo de los canvases facilitó una mejor comprensión de los límites y responsabilidades dentro del sistema, mejorando la comunicación entre los equipos técnicos y no técnicos. Los diagramas permitieron optimizar los componentes del sistema, asegurando una base sólida para su futura escalabilidad y adaptabilidad, cumpliendo con los requisitos de sostenibilidad y rendimiento del proyecto. |
+| ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias. | *Giakomo Rodolfo Causso Mariano*<br>**TB1**<br>La aplicación de la metodología Domain-Driven Design (DDD) durante el desarrollo permitió enfocar el diseño del software en torno a los dominios del negocio de tiendas de ropa. Esto incluyó la creación de modelos de dominio que reflejan fielmente los procesos y necesidades de las tiendas, facilitando así un desarrollo más orientado y coherente con las necesidades reales del usuario final. La colaboración continua con stakeholders del proyecto garantizó que los modelos y el software desarrollado alinearan precisamente con los requisitos y expectativas del negocio.<br><br>*Giakomo Rodolfo Causso Mariano*<br>**TP1**<br> Desarrollé interfaces y servicios de aplicación para la integración de ERP en el proyecto LockItem, gestionando la lógica de negocio y asegurando operaciones de datos eficientes y seguras para usuarios y órdenes. Implementé patrones de diseño y estrategias de seguridad para proteger los datos y facilitar su uso por diferentes audiencias, desde técnicos hasta usuarios finales. <br><br> *Eduardo André Chero Emé*<br>**TB1:**<br>El desarrollo del event Storming nos ayudó para tener una visualizacion más definida de nuestros bounded context para una mejor implementación en el código. Clasificar los escenarios mediante el modelado de Message flows y generar los Bounded Context Canvas nos brindan un mejor entendimiento de las variables, conexiones y propisitos de los bounded context que impementamos.<br><br>*Adrian Gonzalo Melgar Takahashi*<br>**TB1:**<br>Durante el desarrollo de mi proyecto, estructuré la comunicación para distintas audiencias. En la Descripción de la Startup y los perfiles del equipo, destaqué información clave para inversionistas y colaboradores. En el Solution Profile, presenté los antecedentes y problemática de forma clara, y en el Lean UX Process, expuse los Problem Statements y Hypothesis Statements de manera visual para facilitar su comprensión por parte de usuarios técnicos y no técnicos. Estas acciones garantizaron una comunicación efectiva y adaptada a cada grupo.<br>**TP:**<br>En esta entrega, desarrollé el Bounded Context de **Inventory**, abordando las capas de **Domain**, **Interface**, **Application** e **Infrastructure**. Elaboré diagramas de arquitectura a nivel de componentes y de código, incluyendo los **Diagramas de Clase de la Capa de Dominio** y el **Diagrama de Diseño de Base de Datos**. Estos materiales fueron diseñados para comunicar de manera efectiva la estructura y funcionalidad del módulo de inventario a diferentes miembros del equipo y stakeholders.<br><br> *Josué David Arrunátegui Aguilar*<br>**TB1**<br> Durante el desarrollo del proyecto LockItem, tuve la oportunidad de comunicarme con diversas audiencias, incluyendo clientes y usuarios finales. Llevé a cabo entrevistas para entender sus necesidades, desarrollé user personas y user task matrices, lo que me permitió adaptar nuestras soluciones a sus expectativas. Esta experiencia me ayudó a transmitir ideas complejas de forma clara, tanto a miembros técnicos del equipo como a personas sin formación técnica, mejorando así la comunicación efectiva en el proyect <br><br>*Yoimer Yanir Davila Ramirez*<br>**TB1**<br>Para esta primera entrega, siguiendo DDD y una comunicación efectiva se desarrollaron los Bounded Context Canvases , donde se identificaron y definieron los límites claros de cada contexto dentro del sistema, estableciendo sus responsabilidades y flujos de información. Además, se crearon los diagramas de la arquitectura de software, los cuales ilustran cómo los componentes del sistema interactuan, seleccionando las tecnologías adecuadas para asegurar la escalabilidad y eficiencia del sistema. Estas actividades incluyeron reuniones con las partes interesadas para validar los contextos y diagramas, garantizando la alineación con los objetivos del proyecto. | *Giakomo Rodolfo Causso Mariano* <br>**TB1**<br> La adopción de DDD mejoró significativamente nuestra precisión en la implementación del software y en la alineación con los objetivos del negocio, asegurando que cada funcionalidad desarrollada proporcionara valor real y tangible a los usuarios finales.Este enfoque destaca cómo una metodología de desarrollo específica puede influir positivamente en la claridad del diseño y la efectividad de la implementación, lo que es relevante para tus criterios de ABET en cuanto a comunicación efectiva y adaptación a un rango de audiencias.<br><br>*Giakomo Rodolfo Causso Mariano*<br>**TP1**<br>Mi contribución demuestra una capacidad efectiva de comunicarme con un rango diverso de audiencias, esencial para el éxito de la implementación tecnológica en entornos empresariales y la mejora continua de la experiencia del usuario final. <br><br> *Eduardo André Chero Emé*<br>**TB1:**<br> La presente entrega sirvió para validar que la solución propuesta es adecuada para los segmentos objetivo abordados, esto en base al trabajo colaborativo realizado durante las entrevistas y el análisis de estas.<br><br>*Adrian Gonzalo Melgar Takahashi*<br>**TB1:**<br> Las acciones realizadas durante el desarrollo del proyecto permitieron una comunicación efectiva y adaptada a las necesidades de cada audiencia. Desde la presentación clara de la startup y su equipo hasta la exposición visual de los aspectos técnicos en el Lean UX Process, logré transmitir la información de manera precisa y comprensible, lo que contribuyó al entendimiento general del proyecto y facilitó su avance exitoso con el apoyo de todos los involucrados.<br>**TP:**<br>Mediante este trabajo, mejoré mi capacidad para comunicar conceptos técnicos complejos de forma clara y adaptada a diversas audiencias, facilitando la comprensión compartida y promoviendo la colaboración efectiva en el proyecto.<br><br> Josué David Arrunátegui Aguilar<br>**TB1**<br> Durante el desarrollo del proyecto LockItem, tuve la oportunidad de comunicarme con diversas audiencias, incluyendo clientes y usuarios finales. Llevé a cabo entrevistas para entender sus necesidades, desarrollé user personas y user task matrices, lo que me permitió adaptar nuestras soluciones a sus expectativas. Esta experiencia me ayudó a transmitir ideas complejas de forma clara, tanto a miembros técnicos del equipo como a personas sin formación técnica, mejorando así la comunicación efectiva en el proyect <br><br> *Yoimer Yanir Davila Ramirez*<br>**TB1**<br> El desarrollo de los canvases facilitó una mejor comprensión de los límites y responsabilidades dentro del sistema, mejorando la comunicación entre los equipos técnicos y no técnicos. Los diagramas permitieron optimizar los componentes del sistema, asegurando una base sólida para su futura escalabilidad y adaptabilidad, cumpliendo con los requisitos de sostenibilidad y rendimiento del proyecto. |
 
 ---
 
@@ -1403,21 +1404,315 @@ Diagrama del modelado de la base de datos para el bounded context de IoT device:
 ## 5.3. Bounded Context: Inventory
 
 ### 5.3.1. Domain Layer
+<table>
+  <tr style="text-align: center;">
+    <th>Nombre</th>
+    <th colspan="2">Item</th>
+  </tr>
+  <tbody>
+    <tr style="text-align: center;">
+      <td>Categoria</td>
+      <td colspan="2">Entity</td>
+    </tr>
+    <tr style="text-align: center;">
+      <td>Proposito</td>
+      <td colspan="2">Representa las prendas en las que se han instalado sensores IoT para su seguimiento dentro del inventario</td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align: center;">Atributos</td>
+    </tr>
+    <tr style="text-align: center;">
+      <td>Nombre</td>
+      <td>Tipo de dato</td>
+      <td>Visibilidad</td>
+    </tr>
+    <tr style="text-align: center;">
+      <td>Id</td>
+      <td>Integer</td>
+      <td>Public</td>
+    </tr>
+    <tr style="text-align: center;">
+      <td>Name</td>
+      <td>String</td>
+      <td>Public</td>
+    </tr>
+    <tr style="text-align: center;">
+      <td>SensorId</td>
+      <td>Integer</td>
+      <td>Public</td>
+    </tr>
+    <tr style="text-align: center;">
+      <td>Status</td>
+      <td>Enum</td>
+      <td>Public</td>
+    </tr>
+    <tr style="text-align: center;">
+      <td>Location</td>
+      <td>String</td>
+      <td>Public</td>
+    </tr>
+    <tr style="text-align: center;">
+      <td>LastUpdate</td>
+      <td>DateTime</td>
+      <td>Public</td>
+    </tr>
+  </tbody>
+</table>
+</br>
+<table>
+   <tr style="text-align: center;">
+      <th>Nombre</th>
+      <th colspan="2">Stock</th>
+   </tr>
+   <tbody>
+      <tr style="text-align: center;">
+         <td>Categoria</td>
+         <td colspan="2">Value Object</td>
+      </tr>
+      <tr style="text-align: center;">
+         <td>Proposito</td>
+         <td colspan="2">Monitorea la conectividad y el estado del sensor IoT asociado a cada prenda, asegurando que el sistema tenga datos actualizados de las prendas en tiempo real</td>
+      </tr>
+      <tr>
+         <td colspan="3" style="text-align: center;">Atributos</td>
+      </tr>
+      <tr style="text-align: center;">
+         <td>Nombre</td>
+         <td>Tipo de dato</td>
+         <td>Visibilidad</td>
+      </tr>
+      <tr style="text-align: center;">
+         <td>ItemId</td>
+         <td>Integer</td>
+         <td>Public</td>
+      </tr>
+      <tr style="text-align: center;">
+         <td>SensorStatus</td>
+         <td>Boolean</td>
+         <td>Public</td>
+      </tr>
+      <tr style="text-align: center;">
+         <td>LastConnection</td>
+         <td>DateTime</td>
+         <td>Public</td>
+      </tr>
+      <tr style="text-align: center;">
+         <td>IsOperational</td>
+         <td>Boolean</td>
+         <td>Public</td>
+      </tr>
+   </tbody>
+</table>
+</br>
+<table>
+   <tr style="text-align: center;">
+      <th>Nombre</th>
+      <th colspan="2">Alert</th>
+   </tr>
+   <tbody>
+      <tr style="text-align: center;">
+         <td>Categoria</td>
+         <td colspan="2">Value Object</td>
+      </tr>
+      <tr style="text-align: center;">
+         <td>Proposito</td>
+         <td colspan="2">Almacena información relacionada con los movimientos no autorizados o cambios de ubicación detectados por los sensores IoT instalados en las prendas</td>
+      </tr>
+      <tr>
+         <td colspan="3" style="text-align: center;">Atributos</td>
+      </tr>
+      <tr style="text-align: center;">
+         <td>Nombre</td>
+         <td>Tipo de dato</td>
+         <td>Visibilidad</td>
+      </tr>
+      <tr style="text-align: center;">
+         <td>ItemId</td>
+         <td>Integer</td>
+         <td>Public</td>
+      </tr>
+      <tr style="text-align: center;">
+         <td>DetectedTime</td>
+         <td>DateTime</td>
+         <td>Public</td>
+      </tr>
+      <tr style="text-align: center;">
+         <td>AlertType</td>
+         <td>Enum</td>
+         <td>Public</td>
+      </tr>
+      <tr style="text-align: center;">
+         <td>Location</td>
+         <td>String</td>
+         <td>Public</td>
+      </tr>
+      <tr style="text-align: center;">
+         <td>Resolved</td>
+         <td>Boolean</td>
+         <td>Public</td>
+      </tr>
+   </tbody>
+</table>
+</br>
+El Domain Layer de Inventory Management define las entidades clave, así como los objetos de valor que modelan los elementos principales del sistema. Cada entidad tiene un propósito específico y atributos que permiten gestionar el inventario de prendas con sensores IoT. A continuación, se detalla la función de cada entidad y objeto de valor: 
+
+**Entidades:**
+**Item (Entity):**
+- **Propósito:** Esta entidad representa las prendas que cuentan con sensores IoT instalados para su seguimiento dentro del inventario. Es el componente central del sistema, permitiendo rastrear la ubicación y el estado de las prendas en tiempo real.
+- Atributos:
+  - Id: Identificador único de la prenda.
+  - Name: Nombre o descripción de la prenda. 
+  - SensorId: Identificador del sensor IoT instalado en la prenda.
+  - Status: Estado actual de la prenda (usualmente basado en un Enum que podría incluir estados como "Disponible", "Movida", etc.).
+  - Location: Ubicación física de la prenda en la tienda o almacén.
+  - LastUpdate: Fecha y hora de la última actualización de la ubicación de la prenda.
+
+</br>
+
+**Stock (Value Object):**
+- **Propósito:** Este objeto de valor monitorea la conectividad y el estado del sensor IoT asociado a cada prenda. Asegura que el sistema tenga datos actualizados sobre la operatividad del sensor. 
+- Atributos:
+  - ItemId: Identificador del ítem al que está asociado el stock.
+  - SensorStatus: Estado del sensor (booleano que indica si el sensor está activo).
+  - LastConnection: Fecha y hora de la última vez que el sensor se conectó al sistema.
+  - IsOperational: Indica si el sensor está operando correctamente.
+
+</br>
+
+**Objetos de Valor:**
+**Alert (Value Object):**
+- **Propósito:** Almacena la información relacionada con movimientos no autorizados o cambios de ubicación detectados por los sensores IoT instalados en las prendas. Se activa cuando hay una anomalía en la ubicación de una prenda.
+- Atributos:
+  - ItemId: Identificador de la prenda que generó la alerta.
+  - DetectedTime: Fecha y hora en la que se detectó la alerta.
+  - AlertType: Tipo de alerta generada (usualmente basado en un Enum, como "Movimiento Detectado" o "Conexión Perdida").
+  - Location: Ubicación de la prenda cuando se detectó la alerta.
+  - Resolved: Estado de la alerta (booleano que indica si la alerta ha sido resuelta o no). 
 
 ### 5.3.2. Interface Layer
 
+En este apartado, se definen las interfaces que permiten la interacción entre el sistema y los usuarios o sistemas externos. Estas interfaces permiten realizar operaciones sobre las prendas, el stock y las alertas, asegurando que el sistema de inventario se mantenga actualizado y operativo. 
+
+**ItemController**
+
+Interfaz que permite gestionar las operaciones relacionadas con las prendas en el inventario, como la creación, actualización y eliminación de ítems.
+
+<table><thead>
+  <tr>
+    <th>Nombre</th>
+    <th>Descripción</th>
+    <th>Métodos</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="4">ItemController</td>
+    <td rowspan="4">Gestiona las prendas en el inventario</td>
+    <td><code>createItem()</code></td>
+  </tr>
+  <tr>
+    <td><code>getItemById()</code></td>
+  </tr>
+  <tr>
+    <td><code>updateItem()</code></td>
+  </tr>
+  <tr>
+    <td><code>deleteItem()</code></td>
+  </tr>
+</tbody>
+</table>
+
+**Métodos:**
+- `createItem()`: Crea una nueva prenda en el sistema con los datos proporcionados.
+- `getItemById()`: Obtiene la información de una prenda específica basada en su identificador.
+- `updateItem()`: Actualiza los detalles de una prenda existente en el inventario.
+- `deleteItem()`: Elimina una prenda del inventario, desactivando su sensor IoT.
+
+**StockController**
+
+Interfaz que permite monitorear y gestionar el estado de conectividad y operatividad de los sensores IoT asociados a las prendas en el inventario. 
+
+<table><thead>
+  <tr>
+    <th>Nombre</th>
+    <th>Descripción</th>
+    <th>Métodos</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="2">StockController</td>
+    <td rowspan="2">Gestiona el estado de los sensores IoT</td>
+    <td><code>getStockStatus()</code></td>
+  </tr>
+  <tr>
+    <td><code>updateStockStatus()</code></td>
+  </tr>
+</tbody>
+</table>
+
+**Métodos:**
+- `getStockStatus()`: Consulta el estado del sensor de una prenda (si está operativo o desconectado).
+- `updateStockStatus()`: Actualiza el estado del sensor, notificando si está activo o ha fallado.
+
+**AlertController**
+
+Interfaz que gestiona las alertas generadas por movimientos no autorizados o fallos en los sensores, y permite su resolución. 
+
+<table><thead>
+  <tr>
+    <th>Nombre</th>
+    <th>Descripción</th>
+    <th>Métodos</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="3">AlertController</td>
+    <td rowspan="3">Gestiona las alertas del sistema</td>
+    <td><code>getAllAlerts()</code></td>
+  </tr>
+  <tr>
+    <td><code>resolveAlert()</code></td>
+  </tr>
+  <tr>
+    <td><code>createAlert()</code></td>
+  </tr>
+</tbody>
+</table>
+
+**Métodos:**
+- `getAllAlerts()`: Obtiene una lista de todas las alertas activas en el sistema.
+- `resolveAlert()`: Marca una alerta como resuelta tras haber sido gestionada.
+- `createAlert()`: Genera una nueva alerta en el sistema cuando se detecta un evento inusual, como un movimiento de una prenda fuera de su lugar asignado. 
+
 ### 5.3.3. Application Layer
+
+En esta sección se definen los CommandHandlers y EventHandlers que controlan la ejecución de comandos y el manejo de eventos en el sistema de Inventory Management. Estos manejadores son responsables de coordinar las operaciones sobre las prendas, el estado de los sensores y las alertas generadas. 
+
+- `CreateItemCommandHandler`: Controla la creación de nuevos ítems en el inventario. Ejecuta la lógica de negocio necesaria para registrar una nueva prenda con un sensor IoT.
+- `UpdateItemCommandHandler`: Se encarga de la actualización de los datos de una prenda en el inventario, gestionando cambios en su estado o ubicación.
+- `GenerateAlertCommandHandler`: Controla la generación de alertas cuando se detecta un evento anómalo, como un movimiento no autorizado o la desconexión de un sensor.
+- `ResolveAlertCommandHandler`: Se encarga de la resolución de alertas, actualizando su estado a "resuelta" una vez que el incidente ha sido gestionado por el sistema o el personal. 
 
 ### 5.3.4. Infrastructure Layer
 
+En esta sección se presentan las clases encargadas de conectar la infraestructura del sistema de Inventory Management con los repositorios de datos, facilitando el acceso a la base de datos y la integración con los servicios externos.
+
+- `ItemRepository`: Intercambio de datos entre la entidad Item y la base de datos. Esta clase permite crear, leer, actualizar y eliminar información de las prendas en el inventario.
+- `StockRepository`: Gestiona la persistencia de los datos relacionados con el estado de los sensores IoT asociados a las prendas. A través de esta clase, el sistema puede consultar y actualizar el estado de los sensores en la base de datos.
+- `AlertRepository`: Intercambio de datos entre la entidad Alert y la base de datos. Se encarga de almacenar y recuperar las alertas generadas por los eventos del sistema, como movimientos no autorizados o desconexión de sensores. 
+
 ### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Inventory Component Level Diagrams](./assets/capitulo5/InventoryBoundedContext/inventory_component_level_diagrams.jpg)
 
 ### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.3.6.1. Bounded Context Domain Layer Class Diagrams
 
+![Inventory Domain Layer Class Diagrams](./assets/capitulo5/InventoryBoundedContext/inventory_domain_layer_diagram.jpg)
+
 #### 5.3.6.2. Bounded Context Database Design Diagram
-----
+
+![Inventory  Database Design Diagram](./assets/capitulo5/InventoryBoundedContext/inventory_database_design_diagram.jpg)
 
 ## 5.4. Bounded Context: ERP
 
