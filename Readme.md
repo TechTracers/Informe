@@ -2725,8 +2725,132 @@ Para Dueños de Tiendas de Ropa
 ¿Cuánto estarías dispuesto a invertir en una tecnología que mejore la experiencia de tus clientes y la gestión de inventario?
 ¿Qué otras características o mejoras te gustaría ver en LockItem para que se ajuste mejor a las necesidades de tu tienda?
 
-### 7.3.2. Registro de Entrevistas.
+### 7.3.2. Registro de Entrevistas
+
+**Segemento Cleintes**
+
+|                        | **Descripcion**        |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre y apellidos** | Sebastian Cordova        |
+| **Edad**               | 20     |
+| **Evidencia**          | ![Comprador 1](assets/capitulo6/entrevistas/cliente1.png) |
+| **Duracion del video** | 05:07 min                              |
+| **URL**                | [MS Stream - Comprador 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EXxzDY6JRYFHu3Qt56CksZUB8H8cXj_GH8WHmr_c9ZQmUg?e=2dceyt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)       |
+| **Entrevistador**      | Eduardo Chero                    |
+| **Resumen**            | Sebastian encuenta la app muy util para encontrar las prendas que necesita, considera que es una forma de ahorrar mucho tiempo  y que la experiencia de compra es mucho mejor.       |
 
 
+|                        | **Descripcion**        |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre y apellidos** | Maria Cabrejos        |
+| **Edad**               | 20     |
+| **Evidencia**          | ![Comprador 2](assets/capitulo6/entrevistas/cliente2.png) |
+| **Duracion del video** | 07:02 min                              |
+| **URL**                | [MS Stream - Comprador 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/ET_LoAgTHSlOqeaBCDpu4SEBz5AuiEWqeuNtf5mIKo6siA?e=D9iz2j&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)       |
+| **Entrevistador**      | Josue Arrunategui                  |
+| **Resumen**            | Maria nos comenta que solia demorar mucho tiempo buscando la prenda que quiere pero que con la applicacion ahorra demasiado tiempo y hace que sea mucho mas agradable buscar la prenda deseada.       |
+
+|                        | **Descripcion**        |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre y apellidos** | Heylen Vallejos        |
+| **Edad**               | 20     |
+| **Evidencia**          | ![Comprador 3](assets/capitulo6/entrevistas/cliente3.png) |
+| **Duracion del video** | 04:07 min                              |
+| **URL**                | [MS Stream - Comprador 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/ES5jCmVyl1VCjnWb7y7xRRQBOSGoWQgDneEmdgEi-1jxMw?e=wh5tOh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)       |
+| **Entrevistador**      | Yoimer Davila                  |
+| **Resumen**            | Al igual que las anteriores entrevistados, considera que la aplicacion mejoraria la manera de ahorrar mucho timepo al encontrar las prendas que necesita o le guste.       |
+
+**Segmento Dueño**
+
+|                        | **Descripcion**        |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre y apellidos** | Piero Palomino        |
+| **Edad**               | 23     |
+| **Evidencia**          | ![Dueño 1](assets/capitulo6/entrevistas/dueño1.png) |
+| **Duracion del video** | 06:19 min                              |
+| **URL**                | [MS Stream - Dueño 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EVp-3Ui8LglIlOZP4YlRCikB5IrXET_k4c2mCAXaeYyFFA?e=auVMqv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)       |
+| **Entrevistador**      | Adrian Melgar                  |
+| **Resumen**            | Piero encuentra util esta apliacaion ya que le ayudaria a reducir los costos operativos al tener una forma mas facil de validar el inventario, ya que no tendria que generar gastos extras al  tener que contratar a alguien para que se encargue de esto.       |
 
 ### 7.3.3. Evaluaciones según heurísticas.
+
+#### Evaluación de User Experience según Heurísticas
+- CARRERA : Ingeniería de Software 
+- CURSO : ArquitecturaArquitectura de Foftware Emergentes 
+- SECCIÓN : SI728
+- PROFESORES : Royer Edelwer Rojas Malasquez 
+- AUDITOR : Debuggers
+- CLIENTE(S) : Segmento clientes y dueños
+
+##### SITE o APP A EVALUAR: 
+LockItem
+
+##### TAREAS A EVALUAR:
+
+- **Tarea 1:** Validar la existencia de la aplicación en el mercado.
+- **Tarea 2:** Identificar los beneficios de la aplicación para los clientes.
+- **Tarea 3:** Identificar los beneficios de la aplicación para el dueño.
+- **Tarea 4:** Evaluar la usabilidad general y la satisfacción del usuario final
+
+##### ESCALA DE SEVERIDAD
+
+| **Nivel** | **Descripción**                                                                                                                                                                                 |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | Problema superficial: puede ser fácilmente superador por el usuario o ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
+| 2         | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3         | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4         | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+##### TABLA RESUMEN
+
+| #   | Problema                                                                            | Escala de severidad | Heurística/Principio violado       |
+| --- | ----------------------------------------------------------------------------------- | ------------------- | ---------------------------------- |
+| 1   | La navegación entre secciones no es intuitiva y confunde a los usuarios.            | 3            | Consistencia y estándares          |
+| 2   | Falta de retroalimentación clara tras acciones como guardar o eliminar información. | 2            | Visibilidad del estado del sistema |
+| 3   | Texto de ayuda insuficiente en formularios complejos.                               | 2            | Ayuda y documentación              |
+| 4   | La disposición de elementos clave no sigue un patrón que facilite la usabilidad.    | 3           | Diseño estético y minimalista      |
+
+##### DESCRIPCIÓN DE PROBLEMAS:
+---
+###### **PROBLEMA #1:** 
+
+**Severidad:** 3 
+
+**Heurística violada:** Consistencia y estándares
+
+**Problema:** La navegación entre secciones no es intuitiva y confunde a los usuarios, lo que dificulta encontrar información rápidamente.
+
+**Recomendación:** Rediseñar el menú de navegación para que sea más coherente y utilice terminología familiar para los usuarios, asegurando una experiencia uniforme en todas las secciones.
+
+---
+###### **PROBLEMA #2:** 
+
+**Severidad:** 2 
+
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Problema:** Falta de retroalimentación clara tras acciones como guardar o eliminar información, lo que genera incertidumbre en el usuario sobre si la acción fue exitosa.
+
+**Recomendación:** Implementar mensajes de confirmación visuales y auditivos que notifiquen al usuario cuando una acción ha sido realizada exitosamente.
+
+---
+###### **PROBLEMA #3:** 
+
+**Severidad:** 2 
+
+**Heurística violada:** Ayuda y documentación
+
+**Problema:** Texto de ayuda insuficiente en formularios complejos, lo que puede llevar a errores de entrada de datos.
+
+**Recomendación:** Añadir instrucciones claras y ejemplos de formato en los formularios para guiar al usuario durante el proceso de llenado.
+
+---
+###### **PROBLEMA #4:**  
+
+**Severidad:** 3 
+
+**Heurística violada:** Diseño estético y minimalista
+
+**Problema:** La disposición de elementos clave no sigue un patrón que facilite la usabilidad, lo que provoca que los usuarios tengan que buscar más tiempo para encontrar lo que necesitan.
+
+**Recomendación:** Reorganizar los elementos visuales clave en la interfaz para seguir un diseño más limpio y lógico, alineado con los principios de diseño de prioridad visual.
