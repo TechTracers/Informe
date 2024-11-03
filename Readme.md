@@ -1594,7 +1594,7 @@ Diagrama del modelado de la base de datos para el bounded context de IoT device:
     </tr>
   </tbody>
 </table>
-</br>
+
 <table>
    <tr style="text-align: center;">
       <th>Nombre</th>
@@ -1639,7 +1639,7 @@ Diagrama del modelado de la base de datos para el bounded context de IoT device:
       </tr>
    </tbody>
 </table>
-</br>
+
 <table>
    <tr style="text-align: center;">
       <th>Nombre</th>
@@ -1689,7 +1689,7 @@ Diagrama del modelado de la base de datos para el bounded context de IoT device:
       </tr>
    </tbody>
 </table>
-</br>
+
 El Domain Layer de Inventory Management define las entidades clave, así como los objetos de valor que modelan los elementos principales del sistema. Cada entidad tiene un propósito específico y atributos que permiten gestionar el inventario de prendas con sensores IoT. A continuación, se detalla la función de cada entidad y objeto de valor: 
 
 **Entidades:**
@@ -1707,7 +1707,6 @@ El Domain Layer de Inventory Management define las entidades clave, así como lo
     - Location: Ubicación física de la prenda en la tienda o almacén.
     - LastUpdate: Fecha y hora de la última actualización de la ubicación de la prenda.
 
-</br>
 
 **Stock (Value Object):**
 
@@ -1719,7 +1718,6 @@ El Domain Layer de Inventory Management define las entidades clave, así como lo
     - LastConnection: Fecha y hora de la última vez que el sensor se conectó al sistema.
     - IsOperational: Indica si el sensor está operando correctamente.
 
-</br>
 
 **Objetos de Valor:**
 **Alert (Value Object):**
@@ -2674,15 +2672,74 @@ Para las convenciones de nomenclatura en CSS:
 
 ### 7.1.4. Software Deployment Configuration
 
+En este punto, se dara a conocer el proceso de despliegue de las aplicaciones, así como la configuración de los servidores y la infraestructura necesaria para su correcto funcionamiento.
+
+**Landing Page:**
+Para desplegar la Landing Page, se utilizó GitHub Pages, una plataforma gratuita que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. El proceso de despliegue fue el siguiente:
+1. Crear un repositorio en GitHub con el código de la Landing Page.
+2. Acceder a la configuración del repositorio y habilitar GitHub Pages.
+
+![github pages1](assets/capitulo7/githubpagesLanding1.png)
+![github pages1](assets/capitulo7/githubpagesLanding2.png)
+
+3. Seleccionar la rama y la carpeta de origen del sitio web.
+4. Guardar la configuración y obtener la URL del sitio web desplegado.
+5. Finalmente, acceder a la URL del sitio web para verificar que se haya desplegado correctamente.
+
+![landing page desplegada](assets/capitulo7/landingpagedeployed.png)
+
++ Enlace de la Landing Page desplegada: https://techtracers.github.io/landing-page/
+
 ## 7.2. Solution Implementation 
 
-### 7.2.1. Sprint 1 
+### 7.2.1. Sprint 1
+#### 7.2.1.1. Sprint Planning 1
 
-### 7.2.1.1. Sprint Planning 1
+| Sprint #                           | 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint Planning Background         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Date                               | 2024-10-25                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Time                               | 08:00 AM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Location                           | Reunión virtual durante la clase                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Prepared By                        | Chero Emé, Eduardo André                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Attendees                          | Josué Arrunátegui / Giakomo Causso / Yoimer Dávila / Eduardo Chero / Adrian Melgar                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint n – 1 Review Summary        | Este es el primer Sprint, por lo que no hay un resumen anterior, sin embargo se aplicaron las correcciones notadas por el profesor.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sprint n – 1 Retrospective Summary | Gracias a las observaciones del profesor, nos dimos cuenta de las deficiencias que teniamos, por lo que mejoramos los detalles para el proceso de desarrollo siguiendo las pautas Domain-Driven Design.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sprint Goal & User Stories         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sprint n Goal                      | **Nos centramos en** la entrega de las primeras versiones de la aplicación móvil y el backend, las actualizaciones de la página de destino y la aplicación web, así como el diseño inicial del dispositivo IoT de detección de fugas de gas, medición de temperatura, presión y humedad y la Edge API para el procesamiento local de datos.<br><br> **Creemos que** esto proporcionará a los conductores un beneficio como las notificaciones de los viajes a través de la aplicación móvil, los supervisores gestionarán y asignarán los viajes a través de la aplicación web, los visitantes podrán ver la página de destino actualizada y los desarrolladores tendrán acceso al backend para dar soporte a las aplicaciones web y móviles. Además, la solución IoT con el sensor de detección de fugas de gas, medición de temperatura, presión y humedad  y el Edge API mejorará la seguridad del conductor al permitir la supervisión de materiales peligrosos antes, durante y después del transporte.<br><br> **Esto se confirmará cuando** los conductores puedan utilizar la App Móvil para ver la información del viaje y las notificaciones, los supervisores puedan asignar y supervisar los viajes a través de la Aplicación Web, los desarrolladores puedan interactuar con la primera versión del Backend para soportar las funcionalidades del sistema, el diseño del dispositivo IoT y la Edge API permiten la detección de fugas de gas, medición de temperatura, presión y humedad proporcionando datos esenciales al sistema y los visitantes pueden acceder a la Landing Page actualizada. |
+| Sprint n Velocity                  | 50                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sum of Story Points                | 48                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 #### 7.2.1.2. Sprint Backlog 1.
 
 #### 7.2.1.3. Development Evidence for Sprint Review.
+
+Se completó la implementación de la Landing-page, se avanzó con los commits para la aplicación web, el Backend y el dispositivo IoT.
+
+Tablero de commits del repositorio de la Landing-page:
+
+| Repository               | Branch  | Commit ID                                |
+|--------------------------|---------|------------------------------------------|
+| TechTracers/landing-page | main    | a3414c1fc5852586d44badf1c5450a4d27b3a716 |
+
+Tablero de commits del repositorio de la App Web:
+
+| Repository           | Branch                  | Commit ID                                 |
+|----------------------|-------------------------|-------------------------------------------|
+| TechTracers/Frontend | feature/section-login   | 3052d03442c7f7f676c0e097127a27aeddf8fcbd  |
+|                      | feature/section-signup  | c2b9a1f6637a081b3f41504006a1c8ebc28ac4ae  |
+
+Tablero de commits del repositorio del Backend:
+
+| Repository              | Branch  | Commit ID                                |
+|-------------------------|---------|------------------------------------------|
+| TechTracers/LockItemApi | main    | 0bdb6f0582c2401cb26c0a96304e6b2959717258 |
+
+Tablero de commits del repositorio del dispositivo IoT:
+
+| Repository              | Branch  | Commit ID                                |
+|-------------------------|---------|------------------------------------------|
+| TechTracers/LockItemIoT | main    | 04ffac8d4f0bd47438e0c2be1e4cb2172eefbfea |
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 
@@ -2699,31 +2756,31 @@ Para las convenciones de nomenclatura en CSS:
 ### 7.3.1. Diseño de Entrevistas.
 Para esta entrega de nuestro trabajos hemos identificado las siguientes preguntas para nuestros entrevistados luego de presentarles nuestra aplicación:
 
-Para Clientes de Tiendas de Ropa
+**Para Clientes de Tiendas de Ropa**
 
-¿Qué aspectos de la app móvil de LockItem te parecen más atractivos?
-¿Consideras que la funcionalidad de localizar prendas en tiempo real mejoraría tu experiencia de compra? ¿Por qué?
-¿Cuánto tiempo sueles pasar buscando una prenda específica en una tienda? ¿Crees que esta solución reduciría ese tiempo?
-¿Te sentirías cómodo utilizando tu smartphone para buscar y localizar productos dentro de una tienda?
-¿Hay algo en la app de LockItem que te gustaría que fuera diferente o que agregarías para mejorarla?
-¿Qué tan importante es para ti la eficiencia y rapidez en tus compras en tiendas físicas?
-¿Usarías una app como LockItem con regularidad al visitar tiendas de ropa?
-¿Qué tan fácil te pareció la navegación y el uso de la app de LockItem?
-¿Qué otras funcionalidades te gustaría que tuviera la app para hacer tu experiencia de compra más completa?
-¿Te motivaría esta tecnología a visitar más frecuentemente tiendas que la implementen?
+* ¿Qué aspectos de la app móvil de LockItem te parecen más atractivos?
+* ¿Consideras que la funcionalidad de localizar prendas en tiempo real mejoraría tu experiencia de compra? ¿Por qué?
+* ¿Cuánto tiempo sueles pasar buscando una prenda específica en una tienda? ¿Crees que esta solución reduciría ese tiempo?
+* ¿Te sentirías cómodo utilizando tu smartphone para buscar y localizar productos dentro de una tienda?
+* ¿Hay algo en la app de LockItem que te gustaría que fuera diferente o que agregarías para mejorarla?
+* ¿Qué tan importante es para ti la eficiencia y rapidez en tus compras en tiendas físicas?
+* ¿Usarías una app como LockItem con regularidad al visitar tiendas de ropa?
+* ¿Qué tan fácil te pareció la navegación y el uso de la app de LockItem?
+* ¿Qué otras funcionalidades te gustaría que tuviera la app para hacer tu experiencia de compra más completa?
+* ¿Te motivaría esta tecnología a visitar más frecuentemente tiendas que la implementen?
 
-Para Dueños de Tiendas de Ropa
+**Para Dueños de Tiendas de Ropa**
 
-¿Qué te parece la idea de integrar LockItem en tu tienda? ¿Cuáles crees que serían los beneficios más relevantes?
-¿Cómo evalúas la posible mejora en la gestión de inventarios al usar esta solución?
-¿Crees que la implementación de LockItem podría ayudar a reducir los costos operativos de tu tienda? ¿De qué manera?
-¿Qué tan sencillo te parece el proceso de adopción e integración de esta tecnología en tu negocio?
-¿Consideras que LockItem puede mejorar la satisfacción del cliente y aumentar sus visitas? ¿Por qué?
-¿Qué preocupaciones o retos crees que enfrentarías al implementar una solución basada en IoT como LockItem?
-¿Cuál es tu nivel de familiaridad con el uso de tecnología IoT en tu negocio? ¿Qué otros sistemas similares has considerado?
-¿Qué aspectos específicos de la app te resultan más útiles o atractivos para tu tienda?
-¿Cuánto estarías dispuesto a invertir en una tecnología que mejore la experiencia de tus clientes y la gestión de inventario?
-¿Qué otras características o mejoras te gustaría ver en LockItem para que se ajuste mejor a las necesidades de tu tienda?
+* ¿Qué te parece la idea de integrar LockItem en tu tienda? ¿Cuáles crees que serían los beneficios más relevantes?
+* ¿Cómo evalúas la posible mejora en la gestión de inventarios al usar esta solución?
+* ¿Crees que la implementación de LockItem podría ayudar a reducir los costos operativos de tu tienda? ¿De qué manera?
+* ¿Qué tan sencillo te parece el proceso de adopción e integración de esta tecnología en tu negocio?
+* ¿Consideras que LockItem puede mejorar la satisfacción del cliente y aumentar sus visitas? ¿Por qué?
+* ¿Qué preocupaciones o retos crees que enfrentarías al implementar una solución basada en IoT como LockItem?
+* ¿Cuál es tu nivel de familiaridad con el uso de tecnología IoT en tu negocio? ¿Qué otros sistemas similares has considerado?
+* ¿Qué aspectos específicos de la app te resultan más útiles o atractivos para tu tienda?
+* ¿Cuánto estarías dispuesto a invertir en una tecnología que mejore la experiencia de tus clientes y la gestión de inventario?
+* ¿Qué otras características o mejoras te gustaría ver en LockItem para que se ajuste mejor a las necesidades de tu tienda?
 
 ### 7.3.2. Registro de Entrevistas
 
