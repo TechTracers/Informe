@@ -2545,11 +2545,131 @@ llamado 'Saved'.
 
 ## 7.1. Software Configuration Management
 
+En esta sección se detallan las decisiones y normas que posibilitarán que el equipo garantice la coherencia a lo largo de todo el ciclo de vida de desarrollo de nuestra solución.
+
 ### 7.1.1. Software Development Environment Configuration 
+
+En la siguiente sección, vamos a describir con precisión los programas y plataformas que empleamos para llevar a cabo nuestro proyecto LockItem.
+
+| Herramienta                                                                                    |                                      |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------ |
+| **GitHub:** En este espacio, estableceremos el repositorio para llevar a cabo los progresos de nuestra Startup. Asimismo, facilita una supervisión más efectiva del trabajo en equipo, ya que permite visualizar el progreso de cada miembro mediante los commits.    | ![GitHub](./assets/capitulo6/software_configuration_management/github.jpg)        |
+| **Git:** Sistema de gestión de versiones más popular y es necesario para llevar a cabo los commits en Github.    | ![Git](./assets/capitulo6/software_configuration_management/git.jpg)        |
+| **Discord:** Esta es una herramienta de mensajería que facilita la creación de grupos con personas seleccionadas. También ofrece funciones como llamadas, videollamadas, carga de archivos, entre otras. Utilizamos esta aplicación para comunicarnos eficazmente, coordinar tareas y resolver preguntas en grupo.    | ![Discord](./assets/capitulo6/software_configuration_management/discord.jpg)        |
+| **Figma:** Es una herramienta esencial en nuestro conjunto de software para el desarrollo de nuestro startup. Esta plataforma nos permite colaborar de manera efectiva en el diseño y prototipado de nuestras aplicaciones y productos. Con Figma, podemos crear y compartir diseños en tiempo real, lo que facilita la revisión y la retroalimentación por parte de todo el equipo. Además, esta herramienta nos ayuda a mantener una coherencia visual en nuestros proyectos, lo que es fundamental para la experiencia del usuario.    | ![Figma](./assets/capitulo6/software_configuration_management/figma.jpg)        |
+| **UxPressia:** Es una plataforma en línea especializada en el mapeo de la trayectoria del cliente. Nos ayuda a crear mapas de impacto y perfiles de usuario, como User Personas, Empathy Maps y Journey Maps.    | ![UxPressia](./assets/capitulo6/software_configuration_management/uxpressia.jpg)        |
+| **Visual Studio Code:** Es un editor de código que posibilita la programación en varios lenguajes y ofrece la posibilidad de ampliar sus capacidades mediante extensiones, lo que mejora la experiencia de trabajo en equipo.    | ![VSCode](./assets/capitulo6/software_configuration_management/vscode.jpg)        |
+| **Flutter:** Framework de desarrollo de aplicaciones móviles de código abierto creado por Google. Permite la creación de aplicaciones nativas de alta calidad para iOS y Android desde un único código base. En nuestro proyecto, Flutter nos proporciona una solución eficiente para el desarrollo multiplataforma, facilitando la implementación de una interfaz de usuario consistente y optimizada para diferentes dispositivos. Gracias a sus widgets personalizables y a su rendimiento cercano al nativo, Flutter es esencial para la creación de una experiencia de usuario fluida y responsiva.    | ![Flutter](./assets/capitulo6/software_configuration_management/flutter.jpg)        |
+| **Vue.js:** Es un framework progresivo de JavaScript que facilita la construcción de interfaces de usuario interactivas. Vue es especialmente útil en el desarrollo de aplicaciones web y ofrece una curva de aprendizaje accesible, lo cual acelera el desarrollo y reduce la complejidad de la codificación. Con su sistema de componentes y su facilidad para integrarse con otros proyectos, Vue resulta fundamental para la creación de interfaces dinámicas en nuestro proyecto.    | ![Vue](./assets/capitulo6/software_configuration_management/vue.jpg)        |
 
 ### 7.1.2. Source Code Management 
 
-### 7.1.3. Source Code Style Guide & Conventions 
+En la siguiente sección, presentaremos los medios que usaremos para el seguimiento del código de ReWear, usaremos GitHub como plataforma ysistema de control de versiones.
+
+A continuación se detalla la aplicación de GitFlow como un WorkFlow para el control de versiones en el desarrollo de ramas o branches.
+
+**Main Branch:** Este es nuestro branch principal y la raíz para nuestras ramificaciones. Aquí se mostrará el estado actual del código fuente, que posteriormente será enviado a producción. Una vez finalizadas las tareas en las otras ramas, se integrarán en el producto final.
+
+**Develop Branch:** En esta rama se encuentra el código fuente más actualizado y podemos observar el estado actual de los últimos cambios realizados en el desarrollo. Todos los cambios que estén listos para ser publicados se fusionarán con la rama principal (main Branch) junto con una etiqueta que identifica el número de la publicación. Asimismo, cada modificación efectuada en esta rama será posteriormente fusionada de nuevo con la rama principal como una nueva versión del producto.
+
+**Feature Branches:** Estas ramas serán empleadas para crear nuevas funciones destinadas a una próxima versión. Se derivarán del develop Branch y, una vez completado el desarrollo, se fusionarán de nuevo en la misma rama develop. En caso de que la función no obtenga resultados satisfactorios, se descartará. Se seguirá una convención de nomenclatura secuencial para nuestros Feature Branches, como por ejemplo: Feature001, Feature002, Feature003, y así sucesivamente. Se exceptúan las palabras master, develop, release y hotfix.
+
+**Release Branches:** Estas ramas facilitan la preparación de nuestro proyecto para la última fase de pruebas o testing, permitiéndonos corregir bugs y garantizar la optimización de la interfaz antes de lanzar la versión definitiva. Se derivan del develop y se fusionan nuevamente en él para indicar una "próxima versión".
+
+**Convenciones Release Branches:**
+
+| Release       | Descripción                                                                                              |
+|---------------|----------------------------------------------------------------------------------------------------------|
+| Release 0.1.0 | Comenzar con la versión del desarrollo inicial de nuestro landing page.                                  |
+| Release 1.0.0 | Se realiza la implementación de la API pública.                                                          |
+| Release 1.1.0 | Se ha implementado una nueva funcionalidad en la API pública que es compatible con versiones anteriores. |
+| Release 1.1.1 | Se corrigen bug o errores compatibles con las versiones anteriores.                                      |
+| Release 2.0.0 | Se implementan funciones incompatibles con versiones anteriores en la API pública.                       |
+
+**Hotfix branches:**
+Son utilizadas para abordar rápidamente problemas o errores en la versión actual de producción. Estas ramas se crean a partir de la main Branch. Una vez solucionado el problema se fusionará.
+
+| Hotfix       | Descripción                                                                                                |
+|--------------|------------------------------------------------------------------------------------------------------------|
+| Hotfix 1.1.0 | Alguna funcionalidad de la API pública esta marcada como obsoleta.                                         |
+| Hotfix 1.1.1 | Se introduce nuevas funciones o metodos para la corrección de errores compatibles con versiones anteriores |
+
+**Conventional Commits:**
+Es una convención para escribir mensajes de confirmación en un repositorio de control de versiones como Git. Esta convencion tiene como objetivo estandarizar y hacer mas comprensibles los mensajes de confirmación.
+
+La estructura de un mensaje de confirmacion es la siguiente:
+
+    <type>[optional scope]: <description>
+    [optional body]
+    [optional footer(s)]
+
+**fix:** usamos este commit del tipo fix cuando se arregla un bug que afecta al usuario.
+
+**feat:** usamos este commit del tipo feat cuando se agrega una nueva característica para el usuario.
+
+**BREAKING CHANGE:** Es un commit que tiene un como footer (como se vió en la estructura) **BREAKING CHANGE:** o agrega un ! esto con el fin de comunicar un cambio grande realizado en el API.
+
+También se permiten distintos tipos de **feat:** y **fix:** basados en la convención Angular estos son:
+
+**perf:** Cambios que mejoran el rendimiento del sitio.
+**build:** Para los cambios en el sistema de build.
+**ci:** Para los cambios en la integración continua.
+**docs:** Para cambios en la documentación.
+**refactor:** Cuando se realiza una refactorización del código como cambios de nombre de variables o funciones.
+**style:** Para los cambios de formato, tabulaciones, espacios o puntos y coma, etc;
+**test:** Cuando se añade tests o refactoriza uno existente.
+Por otro lado, también se pueden proporcionar footers que no sean **BREAKING CHANGE:** <description> y poder seguir otra convención similar.
+
+### 7.1.3. Source Code Style Guide & Conventions
+
+Esta sección detalla las normas y estándares de estilo que seguimos para asegurar un código claro, uniforme y fácil de mantener. Estas convenciones promueven una colaboración eficiente y minimizan posibles errores, facilitando la escalabilidad y consistencia en el desarrollo del proyecto.
+
+Para el desarrollo de los prodcutos del proyecto se usarán las siguientes nomenclaturas:
+
+- Declaración del tipo de documento.
+  En nuestro archivo index.html en la primera línea de código colocaremos la instrucción ```<!DODCTYPE html>```
+- Atributo Lang
+  Con este atributo podemos permitir que los motores de búsqueda puedan identificar y configurar nuestro idioma. ```<html lang="es">```
+- Se dara uso a las etiquetas ```<body></body>  <header></header> <section> </section>  <nav></nav>  <p></p>  <img/> <iframe></iframe>  <h1></h1> <h2></h2>```
+- Para distribuir texto en parrafos utilizatemos la siguiente etiqueta ```<p> Somos <p>```
+- Implementaremos la etiqueta meta data
+
+Esta nos servirá para que, en nuestro documento HTML, pueda proporcionar información codificada a navegadores y motores de búsqueda acerca de nuestra página web
+
+Para las convenciones de nomenclatura en CSS:
+
+- En nuestra codificación de nuestro proyecto, usaremos las minusculas para nombrar estos archivos con el fin de no tener conflictos con los nombres de nuestros archivos html.
+- Se evitará el uso de las tildes para los nombres de estas.
+- Se abreviarán los nombres con el fin de tener una mejor practicidad.
+
+**Convenciones para la nomenclatura en Vue.js:**
+
+- **Estructura de Archivos y Componentes**  
+  Los nombres de los archivos de componentes se escribirán en **PascalCase** (por ejemplo, `UserProfile.vue`) para facilitar la identificación y diferenciación de otros archivos. Además, cada componente debe tener una única responsabilidad, evitando componentes demasiado grandes o complejos. En caso necesario, dividir los componentes grandes en otros más pequeños y específicos.
+
+- **Nombres de Props y Variables**  
+  Las **props** se definirán en **camelCase** en el script y en **kebab-case** dentro de las plantillas de Vue. Ejemplo: en el script `userAge` y en el template `<user-profile :user-age="userAge">`. Las **variables reactivas** deben comenzar con un prefijo descriptivo y estar en camelCase (por ejemplo, `isUserActive`).
+
+- **Directivas Personalizadas**  
+  Las directivas personalizadas se escribirán en **kebab-case** y deben describir de manera clara la acción que realizan. Ejemplo: `v-focus`, `v-scroll-to`.
+
+- **Nombres de Eventos**  
+  Los eventos personalizados deben seguir el formato **kebab-case** y describir la acción de forma clara, como `user-logged-in` o `item-selected`.
+
+
+**Convenciones para la nomenclatura en Flutter:**
+
+- **Nombres de Clases y Widgets**  
+  Los nombres de **clases** y **widgets** se escribirán en **PascalCase** (por ejemplo, `UserProfileWidget`, `LoginForm`). Los nombres de los widgets deben describir claramente su funcionalidad o propósito en la interfaz.
+
+- **Variables y Constantes**  
+  Las **variables** se nombrarán en **camelCase** y deben ser descriptivas (por ejemplo, `isUserLoggedIn`). Las **constantes** se escribirán en **mayúsculas** con guiones bajos (`_`) para separar palabras (por ejemplo, `MAX_USER_AGE`).
+
+- **Estructura de Archivos**  
+  Los archivos de widgets deben organizarse en una carpeta `widgets/` para mejorar la organización del proyecto. Los nombres de archivos estarán en **snake_case** y describirán el contenido del archivo (por ejemplo, `user_profile_widget.dart`).
+
+- **Estilo de Código**  
+  Usaremos el modificador **const** en los widgets siempre que sea posible para mejorar el rendimiento. Además, se deben utilizar los operadores `??` y `?.` para manejar valores nulos de manera segura y evitar errores en la ejecución.
 
 ### 7.1.4. Software Deployment Configuration
 
