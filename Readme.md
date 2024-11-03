@@ -50,178 +50,176 @@ ___
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+    - [1.1. Startup Profile](#11-startup-profile)
+        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+        - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+        - [1.2.2 Lean UX Process](#122-lean-ux-process)
+            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. Empathy Mapping](#233-empathy-mapping)
-    - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+    - [2.1. Competidores](#21-competidores)
+        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.3. Needfinding](#23-needfinding)
+        - [2.3.1. User Personas](#231-user-personas)
+        - [2.3.2. User Task Matrix](#232-user-task-matrix)
+        - [2.3.3. Empathy Mapping](#233-empathy-mapping)
+        - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
+    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
+    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [3.2. User Stories](#32-user-stories)
+    - [3.3. Impact Mapping](#33-impact-mapping)
+    - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
-  - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
-    - [4.1.1. Design Purpose](#411-design-purpose)
-    - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
-      - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
-      - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
-      - [4.1.2.3. Constraints](#4123-constraints)
-    - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
-    - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
-    - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
-  - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
-    - [4.2.1. EventStorming](#421-eventstorming)
-    - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
-    - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
-    - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
-      - [User bounded context canvas](#user-bounded-context-canvas)
-      - [Iot device management bounded context canvas](#iot-device-management-bounded-context-canvas)
-      - [Inventory management bounded context canvas](#inventory-management-bounded-context-canvas)
-      - [ERP integration bounded context canvas](#erp-integration-bounded-context-canvas)
-    - [4.2.5. Context Mapping](#425-context-mapping)
-  - [4.3. Software Architecture](#43-software-architecture)
-    - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
-    - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
-    - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
-    - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+    - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
+        - [4.1.1. Design Purpose](#411-design-purpose)
+        - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
+            - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
+            - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
+            - [4.1.2.3. Constraints](#4123-constraints)
+        - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
+        - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
+        - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
+    - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
+        - [4.2.1. EventStorming](#421-eventstorming)
+        - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
+        - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
+        - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
+            - [User bounded context canvas](#user-bounded-context-canvas)
+            - [Iot device management bounded context canvas](#iot-device-management-bounded-context-canvas)
+            - [Inventory management bounded context canvas](#inventory-management-bounded-context-canvas)
+            - [ERP integration bounded context canvas](#erp-integration-bounded-context-canvas)
+        - [4.2.5. Context Mapping](#425-context-mapping)
+    - [4.3. Software Architecture](#43-software-architecture)
+        - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
+        - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
+        - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
+        - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
 - [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
-  - [5.1. Bounded Context: User](#51-bounded-context-user)
-    - [5.1.1. Domain Layer](#511-domain-layer)
-    - [5.1.2. Interface Layer](#512-interface-layer)
-    - [5.1.3. Application Layer](#513-application-layer)
-    - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
-    - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
-    - [5.1.6. Bounded Context Software Architecture Code Level Diagrams](#516-bounded-context-software-architecture-code-level-diagrams)
-      - [5.1.6.1. Bounded Context Domain Layer Class Diagrams](#5161-bounded-context-domain-layer-class-diagrams)
-      - [5.1.6.2. Bounded Context Database Design Diagram](#5162-bounded-context-database-design-diagram)
-  - [5.2. Bounded Context: IoT device](#52-bounded-context-iot-device)
-    - [5.2.1. Domain Layer](#521-domain-layer)
-    - [5.2.2. Interface Layer](#522-interface-layer)
-    - [5.2.3. Application Layer](#523-application-layer)
-    - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
-    - [5.2.5. Bounded Context Software Architecture Component Level Diagrams](#525-bounded-context-software-architecture-component-level-diagrams)
-    - [5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)
-      - [5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)
-      - [5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)
-  - [5.3. Bounded Context: Inventory](#53-bounded-context-inventory)
-    - [5.3.1. Domain Layer](#531-domain-layer)
-    - [5.3.2. Interface Layer](#532-interface-layer)
-    - [5.3.3. Application Layer](#533-application-layer)
-    - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
-    - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
-    - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
-      - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
-      - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
-  - [5.4. Bounded Context: ERP](#54-bounded-context-erp)
-    - [5.4.1. Domain Layer](#541-domain-layer)
-    - [1. ERPUser](#1-erpuser)
-    - [2. ERPOrder](#2-erporder)
-    - [5.4.2. Interface Layer](#542-interface-layer)
-  - [Interfaces para ERPUser](#interfaces-para-erpuser)
-    - [Interfaces](#interfaces)
-    - [DTOs (Data Transfer Objects)](#dtos-data-transfer-objects)
-    - [Response Objects](#response-objects)
-  - [Interfaces para ERPOrder](#interfaces-para-erporder)
-    - [Interfaces](#interfaces-1)
-    - [DTOs (Data Transfer Objects)](#dtos-data-transfer-objects-1)
-    - [Response Objects](#response-objects-1)
-    - [5.4.3. Application Layer](#543-application-layer)
-  - [Application Services para ERPUser](#application-services-para-erpuser)
-    - [Servicios de Aplicación](#servicios-de-aplicación)
-  - [Application Services para ERPOrder](#application-services-para-erporder)
-    - [Servicios de Aplicación](#servicios-de-aplicación-1)
-  - [Controladores](#controladores)
-    - [UserController](#usercontroller)
-    - [OrderController](#ordercontroller)
-  - [Patrones de Diseño](#patrones-de-diseño)
-  - [Manejo de Excepciones](#manejo-de-excepciones)
-    - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
-  - [Repositorios](#repositorios)
-    - [UserRepository](#userrepository)
-    - [OrderRepository](#orderrepository)
-  - [Servicios de Infraestructura](#servicios-de-infraestructura)
-    - [Servicios de Mensajería](#servicios-de-mensajería)
-    - [Servicios de Conexión](#servicios-de-conexión)
-  - [Seguridad y Autenticación](#seguridad-y-autenticación)
-    - [SecurityService](#securityservice)
-  - [Gestión de Configuraciones](#gestión-de-configuraciones)
-    - [ConfigurationManager](#configurationmanager)
-  - [Caching](#caching)
-    - [CacheManager](#cachemanager)
-  - [Logging](#logging)
-    - [Logger](#logger)
-    - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
-    - [5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)
-      - [5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)
-      - [5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)
+    - [5.1. Bounded Context: User](#51-bounded-context-user)
+        - [5.1.1. Domain Layer](#511-domain-layer)
+        - [5.1.2. Interface Layer](#512-interface-layer)
+        - [5.1.3. Application Layer](#513-application-layer)
+        - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
+        - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
+        - [5.1.6. Bounded Context Software Architecture Code Level Diagrams](#516-bounded-context-software-architecture-code-level-diagrams)
+            - [5.1.6.1. Bounded Context Domain Layer Class Diagrams](#5161-bounded-context-domain-layer-class-diagrams)
+            - [5.1.6.2. Bounded Context Database Design Diagram](#5162-bounded-context-database-design-diagram)
+    - [5.2. Bounded Context: IoT device](#52-bounded-context-iot-device)
+        - [5.2.1. Domain Layer](#521-domain-layer)
+        - [5.2.2. Interface Layer](#522-interface-layer)
+        - [5.2.3. Application Layer](#523-application-layer)
+        - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
+        - [5.2.5. Bounded Context Software Architecture Component Level Diagrams](#525-bounded-context-software-architecture-component-level-diagrams)
+        - [5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)
+            - [5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)
+            - [5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)
+    - [5.3. Bounded Context: Inventory](#53-bounded-context-inventory)
+        - [5.3.1. Domain Layer](#531-domain-layer)
+        - [5.3.2. Interface Layer](#532-interface-layer)
+        - [5.3.3. Application Layer](#533-application-layer)
+        - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
+        - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
+        - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
+            - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
+            - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
+    - [5.4. Bounded Context: ERP](#54-bounded-context-erp)
+        - [5.4.1. Domain Layer](#541-domain-layer)
+        - [1. ERPUser](#1-erpuser)
+        - [2. ERPOrder](#2-erporder)
+        - [5.4.2. Interface Layer](#542-interface-layer)
+    - [Interfaces para ERPUser](#interfaces-para-erpuser)
+        - [Interfaces](#interfaces)
+        - [DTOs (Data Transfer Objects)](#dtos-data-transfer-objects)
+        - [Response Objects](#response-objects)
+    - [Interfaces para ERPOrder](#interfaces-para-erporder)
+        - [Interfaces](#interfaces-1)
+        - [DTOs (Data Transfer Objects)](#dtos-data-transfer-objects-1)
+        - [Response Objects](#response-objects-1)
+        - [5.4.3. Application Layer](#543-application-layer)
+    - [Application Services para ERPUser](#application-services-para-erpuser)
+        - [Servicios de Aplicación](#servicios-de-aplicación)
+    - [Application Services para ERPOrder](#application-services-para-erporder)
+        - [Servicios de Aplicación](#servicios-de-aplicación-1)
+    - [Controladores](#controladores)
+        - [UserController](#usercontroller)
+        - [OrderController](#ordercontroller)
+    - [Patrones de Diseño](#patrones-de-diseño)
+    - [Manejo de Excepciones](#manejo-de-excepciones)
+        - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
+    - [Repositorios](#repositorios)
+        - [UserRepository](#userrepository)
+        - [OrderRepository](#orderrepository)
+    - [Servicios de Infraestructura](#servicios-de-infraestructura)
+        - [Servicios de Mensajería](#servicios-de-mensajería)
+        - [Servicios de Conexión](#servicios-de-conexión)
+    - [Seguridad y Autenticación](#seguridad-y-autenticación)
+        - [SecurityService](#securityservice)
+    - [Gestión de Configuraciones](#gestión-de-configuraciones)
+        - [ConfigurationManager](#configurationmanager)
+    - [Caching](#caching)
+        - [CacheManager](#cachemanager)
+    - [Logging](#logging)
+        - [Logger](#logger)
+        - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
+        - [5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)
+            - [5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)
+            - [5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)
 - [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
-  - [6.1. Style Guidelines](#61-style-guidelines)
-    - [6.1.1. General Style Guidelines](#611-general-style-guidelines)
-    - [6.1.2. Web, Mobile \& Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
-  - [6.2. Information Architecture](#62-information-architecture)
-    - [6.2.1. Labeling Systems](#621-labeling-systems)
-    - [6.2.2. Searching Systems](#622-searching-systems)
-    - [6.2.3. SEO Tags and Meta Tags](#623-seo-tags-and-meta-tags)
-    - [6.2.4. Navigation Systems](#624-navigation-systems)
-  - [6.3. Landing Page UI Design](#63-landing-page-ui-design)
-    - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
-    - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
-  - [6.4. Applications UX/UI Design](#64-applications-uxui-design)
-    - [6.4.1. Applications Wireframes](#641-applications-wireframes)
-    - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
-    - [6.4.3. Applications Mock-ups](#643-applications-mock-ups)
-    - [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
-  - [6.5. Applications Prototyping](#65-applications-prototyping)
+    - [6.1. Style Guidelines](#61-style-guidelines)
+        - [6.1.1. General Style Guidelines](#611-general-style-guidelines)
+        - [6.1.2. Web, Mobile \& Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
+    - [6.2. Information Architecture](#62-information-architecture)
+        - [6.2.1. Labeling Systems](#621-labeling-systems)
+        - [6.2.2. Searching Systems](#622-searching-systems)
+        - [6.2.3. SEO Tags and Meta Tags](#623-seo-tags-and-meta-tags)
+        - [6.2.4. Navigation Systems](#624-navigation-systems)
+    - [6.3. Landing Page UI Design](#63-landing-page-ui-design)
+        - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
+        - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
+    - [6.4. Applications UX/UI Design](#64-applications-uxui-design)
+        - [6.4.1. Applications Wireframes](#641-applications-wireframes)
+        - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
+        - [6.4.3. Applications Mock-ups](#643-applications-mock-ups)
+        - [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
+    - [6.5. Applications Prototyping](#65-applications-prototyping)
 - [Capítulo VII: Product Implementation, Validation \& Deployment](#capítulo-vii-product-implementation-validation--deployment)
-  - [7.1. Software Configuration Management](#71-software-configuration-management)
-    - [7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration)
-    - [7.1.2. Source Code Management](#712-source-code-management)
-    - [7.1.3. Source Code Style Guide \& Conventions](#713-source-code-style-guide--conventions)
-    - [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
-  - [7.2. Solution Implementation](#72-solution-implementation)
-    - [7.2.1. Sprint 1](#721-sprint-1)
-    - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
-      - [7.2.1.2. Sprint Backlog 1.](#7212-sprint-backlog-1)
-      - [7.2.1.3. Development Evidence for Sprint Review.](#7213-development-evidence-for-sprint-review)
-      - [7.2.1.4. Testing Suite Evidence for Sprint Review.](#7214-testing-suite-evidence-for-sprint-review)
-      - [7.2.1.5. Execution Evidence for Sprint Review.](#7215-execution-evidence-for-sprint-review)
-      - [7.2.1.6. Services Documentation Evidence for Sprint Review.](#7216-services-documentation-evidence-for-sprint-review)
-      - [7.2.1.7. Software Deployment Evidence for Sprint Review.](#7217-software-deployment-evidence-for-sprint-review)
-      - [7.2.1.8. Team Collaboration Insights during Sprint.](#7218-team-collaboration-insights-during-sprint)
-  - [7.3. Validation Interviews.](#73-validation-interviews)
-    - [7.3.1. Diseño de Entrevistas.](#731-diseño-de-entrevistas)
-    - [7.3.2. Registro de Entrevistas.](#732-registro-de-entrevistas)
-    - [7.3.3. Evaluaciones según heurísticas.](#733-evaluaciones-según-heurísticas)
-
-
+    - [7.1. Software Configuration Management](#71-software-configuration-management)
+        - [7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration)
+        - [7.1.2. Source Code Management](#712-source-code-management)
+        - [7.1.3. Source Code Style Guide \& Conventions](#713-source-code-style-guide--conventions)
+        - [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
+    - [7.2. Solution Implementation](#72-solution-implementation)
+        - [7.2.1. Sprint 1](#721-sprint-1)
+        - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+            - [7.2.1.2. Sprint Backlog 1.](#7212-sprint-backlog-1)
+            - [7.2.1.3. Development Evidence for Sprint Review.](#7213-development-evidence-for-sprint-review)
+            - [7.2.1.4. Testing Suite Evidence for Sprint Review.](#7214-testing-suite-evidence-for-sprint-review)
+            - [7.2.1.5. Execution Evidence for Sprint Review.](#7215-execution-evidence-for-sprint-review)
+            - [7.2.1.6. Services Documentation Evidence for Sprint Review.](#7216-services-documentation-evidence-for-sprint-review)
+            - [7.2.1.7. Software Deployment Evidence for Sprint Review.](#7217-software-deployment-evidence-for-sprint-review)
+            - [7.2.1.8. Team Collaboration Insights during Sprint.](#7218-team-collaboration-insights-during-sprint)
+    - [7.3. Validation Interviews.](#73-validation-interviews)
+        - [7.3.1. Diseño de Entrevistas.](#731-diseño-de-entrevistas)
+        - [7.3.2. Registro de Entrevistas.](#732-registro-de-entrevistas)
+        - [7.3.3. Evaluaciones según heurísticas.](#733-evaluaciones-según-heurísticas)
 
 ---
 
 # Student Outcome
 
-| Criterio Específico                                                                                | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Criterio Específico                                                                                | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias. | *Giakomo Rodolfo Causso Mariano*<br>**TB1**<br>La aplicación de la metodología Domain-Driven Design (DDD) durante el desarrollo permitió enfocar el diseño del software en torno a los dominios del negocio de tiendas de ropa. Esto incluyó la creación de modelos de dominio que reflejan fielmente los procesos y necesidades de las tiendas, facilitando así un desarrollo más orientado y coherente con las necesidades reales del usuario final. La colaboración continua con stakeholders del proyecto garantizó que los modelos y el software desarrollado alinearan precisamente con los requisitos y expectativas del negocio.<br><br>*Giakomo Rodolfo Causso Mariano*<br>**TP1**<br> Desarrollé interfaces y servicios de aplicación para la integración de ERP en el proyecto LockItem, gestionando la lógica de negocio y asegurando operaciones de datos eficientes y seguras para usuarios y órdenes. Implementé patrones de diseño y estrategias de seguridad para proteger los datos y facilitar su uso por diferentes audiencias, desde técnicos hasta usuarios finales. <br><br> *Eduardo André Chero Emé*<br>**TB1:**<br>El desarrollo del event Storming nos ayudó para tener una visualizacion más definida de nuestros bounded context para una mejor implementación en el código. Clasificar los escenarios mediante el modelado de Message flows y generar los Bounded Context Canvas nos brindan un mejor entendimiento de las variables, conexiones y propisitos de los bounded context que impementamos.<br>**TP1:**<br><br>Para esta entrega desarrollé la sección del modelado de la landing page, app web y app movil en figma con ayuda del equipo para un mejor entendimiento de la aplicación.<br><br>*Adrian Gonzalo Melgar Takahashi*<br>**TB1:**<br>Durante el desarrollo de mi proyecto, estructuré la comunicación para distintas audiencias. En la Descripción de la Startup y los perfiles del equipo, destaqué información clave para inversionistas y colaboradores. En el Solution Profile, presenté los antecedentes y problemática de forma clara, y en el Lean UX Process, expuse los Problem Statements y Hypothesis Statements de manera visual para facilitar su comprensión por parte de usuarios técnicos y no técnicos. Estas acciones garantizaron una comunicación efectiva y adaptada a cada grupo.<br>**TP:**<br>En esta entrega, desarrollé el Bounded Context de **Inventory**, abordando las capas de **Domain**, **Interface**, **Application** e **Infrastructure**. Elaboré diagramas de arquitectura a nivel de componentes y de código, incluyendo los **Diagramas de Clase de la Capa de Dominio** y el **Diagrama de Diseño de Base de Datos**. Estos materiales fueron diseñados para comunicar de manera efectiva la estructura y funcionalidad del módulo de inventario a diferentes miembros del equipo y stakeholders.<br>**TB2:**<br>En esta entregaenfoqué mis esfuerzos en la implementación, validación y despliegue de componentes clave del producto, siguiendo los lineamientos de configuración del entorno de desarrollo, gestión del código fuente, y las guías de estilo de codificación. Estas acciones permitieron crear un ambiente de desarrollo estandarizado, optimizando el trabajo colaborativo y facilitando la mantenibilidad del código. Al implementar las prácticas de gestión de código fuente, aseguré un control eficiente de versiones y una trazabilidad clara en el progreso del proyecto, esencial para un desarrollo ágil y organizado. Finalmente, la aplicación de convenciones de estilo mejoró la legibilidad y cohesión del código, permitiendo que el equipo pueda trabajar de forma más efectiva y uniforme.<br><br> *Josué David Arrunátegui Aguilar*<br>**TB1**<br> Durante el desarrollo del proyecto LockItem, tuve la oportunidad de comunicarme con diversas audiencias, incluyendo clientes y usuarios finales. Llevé a cabo entrevistas para entender sus necesidades, desarrollé user personas y user task matrices, lo que me permitió adaptar nuestras soluciones a sus expectativas. Esta experiencia me ayudó a transmitir ideas complejas de forma clara, tanto a miembros técnicos del equipo como a personas sin formación técnica, mejorando así la comunicación efectiva en el proyect<br>**TP:**<br>En esta entrega, desarrollé el bounded context de IoT Device, abarcando las capas de dominio, aplicación, interfaz e infraestructura. Elaboré diagramas de base de datos, clases y componentes para representar de manera clara la estructura del sistema. Estas actividades me permitieron comunicarme efectivamente con un rango de audiencias, desde miembros técnicos del equipo hasta stakeholders no técnicos, asegurando que todos comprendieran la funcionalidad y la alineación del proyecto con sus objetivos. <br><br>*Yoimer Yanir Davila Ramirez*<br>**TB1**<br>Para esta primera entrega, siguiendo DDD y una comunicación efectiva se desarrollaron los Bounded Context Canvases , donde se identificaron y definieron los límites claros de cada contexto dentro del sistema, estableciendo sus responsabilidades y flujos de información. Además, se crearon los diagramas de la arquitectura de software, los cuales ilustran cómo los componentes del sistema interactuan, seleccionando las tecnologías adecuadas para asegurar la escalabilidad y eficiencia del sistema. Estas actividades incluyeron reuniones con las partes interesadas para validar los contextos y diagramas, garantizando la alineación con los objetivos del proyecto. <br>**TP1**<br> En esta entrega, se llevó a cabo un diseño de software a nivel táctico, donde se definieron y documentaron los Bounded Contexts para la aplicación LockItem, yo me encarge del contexto User. Se elaboraron descripciones de las diferentes capas, como la capa de dominio, interfaz, aplicación e infraestructura, lo que permitió una representación clara de la estructura del sistema. Además, se crearon diagramas de arquitectura de software a nivel de componentes y código, que visualizan la interacción entre los elementos de este contexto. Para asegurar que estas decisiones técnicas se alinearan con las expectativas y requisitos del proyecto se realizaron sesiones de retroalimentación, fomentando un diálogo constante que contribuyó a afinar el desarrollo del proyecto. | *Giakomo Rodolfo Causso Mariano* <br>**TB1**<br> La adopción de DDD mejoró significativamente nuestra precisión en la implementación del software y en la alineación con los objetivos del negocio, asegurando que cada funcionalidad desarrollada proporcionara valor real y tangible a los usuarios finales.Este enfoque destaca cómo una metodología de desarrollo específica puede influir positivamente en la claridad del diseño y la efectividad de la implementación, lo que es relevante para tus criterios de ABET en cuanto a comunicación efectiva y adaptación a un rango de audiencias.<br><br>*Giakomo Rodolfo Causso Mariano*<br>**TP1**<br>Mi contribución demuestra una capacidad efectiva de comunicarme con un rango diverso de audiencias, esencial para el éxito de la implementación tecnológica en entornos empresariales y la mejora continua de la experiencia del usuario final. <br><br> *Eduardo André Chero Emé*<br>**TB1:**<br> La presente entrega sirvió para validar que la solución propuesta es adecuada para los segmentos objetivo abordados, esto en base al trabajo colaborativo realizado durante las entrevistas y el análisis de estas.<br>**TP:**<br><br>Nos comunicacmos de una mejor manera para detallar como debe verse nuestras aplicaciones para un mejor entendimiento del usuario.<br><br>*Adrian Gonzalo Melgar Takahashi*<br>**TB1:**<br> Las acciones realizadas durante el desarrollo del proyecto permitieron una comunicación efectiva y adaptada a las necesidades de cada audiencia. Desde la presentación clara de la startup y su equipo hasta la exposición visual de los aspectos técnicos en el Lean UX Process, logré transmitir la información de manera precisa y comprensible, lo que contribuyó al entendimiento general del proyecto y facilitó su avance exitoso con el apoyo de todos los involucrados.<br>**TP:**<br>Mediante este trabajo, mejoré mi capacidad para comunicar conceptos técnicos complejos de forma clara y adaptada a diversas audiencias, facilitando la comprensión compartida y promoviendo la colaboración efectiva en el proyecto.<br>**TB2:**<br>Esta entrega me permitió consolidar habilidades críticas para el desarrollo de software profesional, enfocándome en la creación de un entorno de desarrollo robusto y en la aplicación de mejores prácticas de gestión y estilo de código. Estas acciones no solo contribuyeron a la eficiencia del equipo, sino que también establecieron una base sólida para el crecimiento y mantenimiento continuo del proyecto, garantizando su escalabilidad y adaptabilidad en futuras fases. La experiencia obtenida refuerza mi capacidad para implementar soluciones técnicas organizadas y efectivas, promoviendo una colaboración fluida y un desarrollo de software de alta calidad.<br><br> Josué David Arrunátegui Aguilar<br>**TB1**<br> Durante el desarrollo del proyecto LockItem, tuve la oportunidad de comunicarme con diversas audiencias, incluyendo clientes y usuarios finales. Llevé a cabo entrevistas para entender sus necesidades, desarrollé user personas y user task matrices, lo que me permitió adaptar nuestras soluciones a sus expectativas. Esta experiencia me ayudó a transmitir ideas complejas de forma clara, tanto a miembros técnicos del equipo como a personas sin formación técnica, mejorando así la comunicación efectiva en el proyect<br>**TP**<br>La implementación del bounded context de IoT Device permitió establecer una estructura clara y precisa dentro del sistema, facilitando la comunicación tanto con el equipo técnico como con los stakeholders. El enfoque en la definición de cada capa y la elaboración de diagramas detallados aseguró que todos los involucrados tuvieran una comprensión compartida de la funcionalidad del sistema. Esta experiencia destaca cómo la capacidad de comunicar conceptos técnicos a diversas audiencias contribuyó al éxito del proyecto, alineándose con los objetivos de implementación y los requisitos del negocio. <br><br> *Yoimer Yanir Davila Ramirez*<br>**TB1**<br> El desarrollo de los canvases facilitó una mejor comprensión de los límites y responsabilidades dentro del sistema, mejorando la comunicación entre los equipos técnicos y no técnicos. Los diagramas permitieron optimizar los componentes del sistema, asegurando una base sólida para su futura escalabilidad y adaptabilidad, cumpliendo con los requisitos de sostenibilidad y rendimiento del proyecto. <br>**TP1**<br>La implementación de los Bounded Contexts ha sido crucial para establecer un marco claro que delimita las responsabilidades y la interacción entre las diferentes partes del sistema LockItem. Esto no solo ha mejorado la comunicación entre los equipos técnicos y no técnicos, sino que también ha permitido una visualización efectiva de la arquitectura del software, facilitando la identificación de posibles áreas de mejora. |
 
 ---
@@ -637,15 +635,15 @@ y mantenerse competitivos en el mercado minorista peruano.
   </tr>
 </table>
 
-|                        | **Descripcion**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre y apellidos** | Diego Ancajima                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Edad**               | 21                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| **Evidencia**          | ![Comprador 2](assets/capitulo2/entrevista_cliente_2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Duracion del video** | 02:50                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **URL**                | [MS Stream - Comprador 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/ETnFqc77aM5NnYcJaFXkrJ4B0jNSsqfaRhplHrIOAK6W5Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Za8Z8W)                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Entrevistador**      | Eduardo André Chero Emé                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Resumen**            | Diego cuando quiere comprar una prenda suele ir a la tienda, pero pierde tiempo buscándola, pero a veces no puede encontrarla, y eso le molesta ya que pierde el tiempo, considera que nuestra aplicación serviría para mejorar la rapidez en la que encuentra la prenda que desea. |
+|                        | **Descripcion**                                                                                                                                                                                                                                                                                                                                        |
+|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre y apellidos** | Diego Ancajima                                                                                                                                                                                                                                                                                                                                         |
+| **Edad**               | 21                                                                                                                                                                                                                                                                                                                                                     |
+| **Evidencia**          | ![Comprador 2](assets/capitulo2/entrevista_cliente_2.png)                                                                                                                                                                                                                                                                                              |
+| **Duracion del video** | 02:50                                                                                                                                                                                                                                                                                                                                                  |
+| **URL**                | [MS Stream - Comprador 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/ETnFqc77aM5NnYcJaFXkrJ4B0jNSsqfaRhplHrIOAK6W5Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Za8Z8W) |
+| **Entrevistador**      | Eduardo André Chero Emé                                                                                                                                                                                                                                                                                                                                |
+| **Resumen**            | Diego cuando quiere comprar una prenda suele ir a la tienda, pero pierde tiempo buscándola, pero a veces no puede encontrarla, y eso le molesta ya que pierde el tiempo, considera que nuestra aplicación serviría para mejorar la rapidez en la que encuentra la prenda que desea.                                                                    |
 
 |                        | **Descripcion**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -657,7 +655,6 @@ y mantenerse competitivos en el mercado minorista peruano.
 | **Entrevistador**      | Yoimer Yanir Davila Ramirez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Resumen**            | Heylen, estudiante de ingeniería civil, tiene dificultades para comprar ropa específica debido a las largas visitas a las tiendas y a la frustración de no encontrar los artículos deseados en el color y la talla adecuados, lo que supone una pérdida de tiempo. A pesar de utilizar las aplicaciones de las tiendas, Heylen sigue teniendo problemas con la disponibilidad de existencias, ya que estas aplicaciones no reflejan con exactitud el inventario de las tiendas físicas, lo que aumenta la frustración. Se sugiere mejorar la funcionalidad de la aplicación utilizando tecnología de localización para mostrar la disponibilidad en tiendas específicas y ofrecer funciones para comparar modelos, precios y ubicaciones para mejorar la experiencia de compra. |
 
-
 **Dueños de Tiendas de Ropa:**
 
 | Atributo                | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -667,7 +664,7 @@ y mantenerse competitivos en el mercado minorista peruano.
 | **Dirección**           | San Isidro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Evidencia               | ![](assets/capitulo2/1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Duración del video**  | 07:20                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **URL**                 | [MS Stream - Dueño 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EUQUx-d0G71PtaqzQ1TqAqEBhaWx3Tc41315Qg-QnGY89g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zCTznY)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **URL**                 | [MS Stream - Dueño 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EUQUx-d0G71PtaqzQ1TqAqEBhaWx3Tc41315Qg-QnGY89g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zCTznY)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **Entrevistador**       | Giakomo Rodolfo Causso Mariano                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Resumen**             | Nicole Gallardo, una joven empresaria de San Isidro, Lima, maneja su propia tienda de ropa utilizando software especializado para la gestión de inventarios, complementado ocasionalmente con conteo físico. Los principales desafíos que enfrenta incluyen el robo de inventario y la capacitación del personal en nuevas tecnologías, especialmente durante períodos de alta demanda como fiestas o rebajas. Actualmente, emplea hojas de cálculo y redes sociales para gestionar inventarios y la atención al cliente, respectivamente. Aunque reticente a las innovaciones por los costos adicionales, Nicole está abierta a adoptar tecnologías que mejoren la eficiencia y productividad sin imponer grandes cargas financieras. Ve un valor particular en las soluciones de localización de prendas mediante IoT, que podrían agilizar la localización de productos y mejorar el servicio al cliente. Nicole valora funcionalidades como la sincronización en tiempo real para el registro exacto de ubicaciones de las prendas y una plataforma escalable que se adapte al crecimiento del negocio. Con un presupuesto de inversión de $20 a $70, evalúa nuevas tecnologías considerando su costo-beneficio y la recuperación de la inversión. Para la implementación de nuevas tecnologías, es crucial la seguridad en la migración de datos y el cumplimiento de los objetivos del negocio. Post-implementación, espera un soporte técnico que incluya resolución de problemas, ajustes según pruebas y soporte continuo para la capacitación del personal y actualizaciones del sistema. |
 
@@ -678,7 +675,7 @@ y mantenerse competitivos en el mercado minorista peruano.
 | **Dirección**           | Comas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Evidencia               | ![](assets/capitulo2/2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | **Duración del video**  | 06:36                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| **URL**                 | [MS Stream - Dueño 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EUS-OON3nXVHg6Z81VaSVAoBm6ae1ZgMPtdbE0a-7guAVw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fjJxKU)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **URL**                 | [MS Stream - Dueño 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EUS-OON3nXVHg6Z81VaSVAoBm6ae1ZgMPtdbE0a-7guAVw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fjJxKU)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Entrevistador**       | Giakomo Rodolfo Causso Mariano                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | **Resumen**             | Aracely Gallardo, quien estudia contabilidad en Comas y dirige una tienda de venta de ropa al por mayor y menor, maneja su inventario con métodos manuales y un software básico. Aunque estos métodos son funcionales, enfrenta desafíos como la lentitud para localizar prendas y desórdenes que afectan la disponibilidad del producto, lo que impacta negativamente en la experiencia del cliente. Interesada en mejorar esta situación, está abierta a adoptar nuevas tecnologías como el IoT para una mejor organización y acceso rápido al stock, tanto para el personal como para los clientes. Evalúa las inversiones en tecnología basándose en su capacidad para aumentar la eficiencia y las ventas, con un presupuesto flexible que se ajusta al impacto esperado de las soluciones. Espera que cualquier nueva tecnología implementada sea eficaz, fácil de usar y mantenga la integridad de los datos importantes, con un soporte técnico que sea eficiente pero no disruptivo. |
 
@@ -691,7 +688,6 @@ y mantenerse competitivos en el mercado minorista peruano.
 | **URL**                 | [MS Stream - Dueño 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EaD1jEtgQdFIhhgRzIXlR9sBufkZ0KmqtETwCqguvwVcdQ?e=Yn3Jcc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | **Entrevistador**       | Adrian Gonzalo Melgar Takahashi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Resumen**             | Piero Palomino, dueño de una tienda de ropa actualmente maneja todo su inventario mediante un Excel, a pesar de que este método le funciona nos menciona que debido a que el proceso es altamente manual suelen ocurrir errores al momento de hacer el inventario. Al escuchar nuestra propuesta de solución IOT se mostró altamente interesado y pensaba como podría implementarlo en su negocio. Nos recalca que lo principal que necesitaría de nuestra solución, aparte de la localización de prendas a tiempo real, es que le muestre el inventario que tiene de cada prenda y que este pueda ser actualizado de manera rápido y fácil. Piero indica que en su empresa le gusta adaptar nuevas tecnologías y que tienen un budget de entre 6000 a 7000 dólares. También nos enfatiza la importancia que cualquier implementación/ construcción necesaria en el local sea terminada en el menor tiempo posible para así no molestar a los compradores de la tienda. |
-
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -1690,7 +1686,9 @@ Diagrama del modelado de la base de datos para el bounded context de IoT device:
    </tbody>
 </table>
 
-El Domain Layer de Inventory Management define las entidades clave, así como los objetos de valor que modelan los elementos principales del sistema. Cada entidad tiene un propósito específico y atributos que permiten gestionar el inventario de prendas con sensores IoT. A continuación, se detalla la función de cada entidad y objeto de valor: 
+El Domain Layer de Inventory Management define las entidades clave, así como los objetos de valor que modelan los
+elementos principales del sistema. Cada entidad tiene un propósito específico y atributos que permiten gestionar el
+inventario de prendas con sensores IoT. A continuación, se detalla la función de cada entidad y objeto de valor:
 
 **Entidades:**
 **Item (Entity):**
@@ -1707,7 +1705,6 @@ El Domain Layer de Inventory Management define las entidades clave, así como lo
     - Location: Ubicación física de la prenda en la tienda o almacén.
     - LastUpdate: Fecha y hora de la última actualización de la ubicación de la prenda.
 
-
 **Stock (Value Object):**
 
 - **Propósito:** Este objeto de valor monitorea la conectividad y el estado del sensor IoT asociado a cada prenda.
@@ -1717,7 +1714,6 @@ El Domain Layer de Inventory Management define las entidades clave, así como lo
     - SensorStatus: Estado del sensor (booleano que indica si el sensor está activo).
     - LastConnection: Fecha y hora de la última vez que el sensor se conectó al sistema.
     - IsOperational: Indica si el sensor está operando correctamente.
-
 
 **Objetos de Valor:**
 **Alert (Value Object):**
@@ -2540,48 +2536,66 @@ llamado 'Saved'.
 
 ## 6.5. Applications Prototyping
 
-A continuacion se presentaran los prototipos de la aplicación móvil y la aplicacion  web.
+A continuacion se presentaran los prototipos de la aplicación móvil y la aplicacion web.
 
-**Aplicacion movil:** Enlace del diseño en [figma](https://www.figma.com/proto/diTYqNwAiNv6EZCPf3vOod/Arqui-de-software?page-id=0%3A1&node-id=5-3631&node-type=frame&viewport=507%2C581%2C0.14&t=usRD5u9ibfZjUi9I-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=5%3A3631)
+**Aplicacion movil:** Enlace del diseño
+en [figma](https://www.figma.com/proto/diTYqNwAiNv6EZCPf3vOod/Arqui-de-software?page-id=0%3A1&node-id=5-3631&node-type=frame&viewport=507%2C581%2C0.14&t=usRD5u9ibfZjUi9I-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=5%3A3631)
 ![proto_movil](assets/capitulo6/prototype/movil.png)
 
-**Aplicacion web:** Enlace del diseño en [figma](https://www.figma.com/proto/diTYqNwAiNv6EZCPf3vOod/Arqui-de-software?page-id=4%3A5803&node-id=11-5076&node-type=frame&viewport=1320%2C290%2C0.08&t=jcHpdyUTiXfIp4GJ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=11%3A5076&show-proto-sidebar=1)
+**Aplicacion web:** Enlace del diseño
+en [figma](https://www.figma.com/proto/diTYqNwAiNv6EZCPf3vOod/Arqui-de-software?page-id=4%3A5803&node-id=11-5076&node-type=frame&viewport=1320%2C290%2C0.08&t=jcHpdyUTiXfIp4GJ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=11%3A5076&show-proto-sidebar=1)
 ![proto_web](assets/capitulo6/prototype/web.png)
 
-# Capítulo VII: Product Implementation, Validation & Deployment 
+# Capítulo VII: Product Implementation, Validation & Deployment
 
 ## 7.1. Software Configuration Management
 
-En esta sección se detallan las decisiones y normas que posibilitarán que el equipo garantice la coherencia a lo largo de todo el ciclo de vida de desarrollo de nuestra solución.
+En esta sección se detallan las decisiones y normas que posibilitarán que el equipo garantice la coherencia a lo largo
+de todo el ciclo de vida de desarrollo de nuestra solución.
 
-### 7.1.1. Software Development Environment Configuration 
+### 7.1.1. Software Development Environment Configuration
 
-En la siguiente sección, vamos a describir con precisión los programas y plataformas que empleamos para llevar a cabo nuestro proyecto LockItem.
+En la siguiente sección, vamos a describir con precisión los programas y plataformas que empleamos para llevar a cabo
+nuestro proyecto LockItem.
 
-| Herramienta                                                                                    |                                      |
-| ---------------------------------------------------------------------------------------------- | ------------------------------------ |
-| **GitHub:** En este espacio, estableceremos el repositorio para llevar a cabo los progresos de nuestra Startup. Asimismo, facilita una supervisión más efectiva del trabajo en equipo, ya que permite visualizar el progreso de cada miembro mediante los commits.    | <img src="./assets/capitulo7/software_configuration_management/github.jpg" width="300"> |
-| **Git:** Sistema de gestión de versiones más popular y es necesario para llevar a cabo los commits en Github.    | <img src="./assets/capitulo7/software_configuration_management/git.jpg" width="300"> |
-| **Discord:** Esta es una herramienta de mensajería que facilita la creación de grupos con personas seleccionadas. También ofrece funciones como llamadas, videollamadas, carga de archivos, entre otras. Utilizamos esta aplicación para comunicarnos eficazmente, coordinar tareas y resolver preguntas en grupo.    | <img src="./assets/capitulo7/software_configuration_management/discord.jpg" width="300"> |
-| **Figma:** Es una herramienta esencial en nuestro conjunto de software para el desarrollo de nuestro startup. Esta plataforma nos permite colaborar de manera efectiva en el diseño y prototipado de nuestras aplicaciones y productos. Con Figma, podemos crear y compartir diseños en tiempo real, lo que facilita la revisión y la retroalimentación por parte de todo el equipo. Además, esta herramienta nos ayuda a mantener una coherencia visual en nuestros proyectos, lo que es fundamental para la experiencia del usuario.    | <img src="./assets/capitulo7/software_configuration_management/figma.jpg" width="300"> |
-| **UxPressia:** Es una plataforma en línea especializada en el mapeo de la trayectoria del cliente. Nos ayuda a crear mapas de impacto y perfiles de usuario, como User Personas, Empathy Maps y Journey Maps.    | <img src="./assets/capitulo7/software_configuration_management/uxpressia.jpg" width="300"> |
-| **Visual Studio Code:** Es un editor de código que posibilita la programación en varios lenguajes y ofrece la posibilidad de ampliar sus capacidades mediante extensiones, lo que mejora la experiencia de trabajo en equipo.    | <img src="./assets/capitulo7/software_configuration_management/vscode.jpg" width="300"> |
-| **Flutter:** Framework de desarrollo de aplicaciones móviles de código abierto creado por Google. Permite la creación de aplicaciones nativas de alta calidad para iOS y Android desde un único código base. En nuestro proyecto, Flutter nos proporciona una solución eficiente para el desarrollo multiplataforma, facilitando la implementación de una interfaz de usuario consistente y optimizada para diferentes dispositivos. Gracias a sus widgets personalizables y a su rendimiento cercano al nativo, Flutter es esencial para la creación de una experiencia de usuario fluida y responsiva.    | <img src="./assets/capitulo7/software_configuration_management/flutter.jpg" width="300"> |
-| **Vue.js:** Es un framework progresivo de JavaScript que facilita la construcción de interfaces de usuario interactivas. Vue es especialmente útil en el desarrollo de aplicaciones web y ofrece una curva de aprendizaje accesible, lo cual acelera el desarrollo y reduce la complejidad de la codificación. Con su sistema de componentes y su facilidad para integrarse con otros proyectos, Vue resulta fundamental para la creación de interfaces dinámicas en nuestro proyecto.    | <img src="./assets/capitulo7/software_configuration_management/vue.jpg" width="300"> |
+| Herramienta                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                            |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| **GitHub:** En este espacio, estableceremos el repositorio para llevar a cabo los progresos de nuestra Startup. Asimismo, facilita una supervisión más efectiva del trabajo en equipo, ya que permite visualizar el progreso de cada miembro mediante los commits.                                                                                                                                                                                                                                                                                                                                       | <img src="./assets/capitulo7/software_configuration_management/github.jpg" width="300">    |
+| **Git:** Sistema de gestión de versiones más popular y es necesario para llevar a cabo los commits en Github.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | <img src="./assets/capitulo7/software_configuration_management/git.jpg" width="300">       |
+| **Discord:** Esta es una herramienta de mensajería que facilita la creación de grupos con personas seleccionadas. También ofrece funciones como llamadas, videollamadas, carga de archivos, entre otras. Utilizamos esta aplicación para comunicarnos eficazmente, coordinar tareas y resolver preguntas en grupo.                                                                                                                                                                                                                                                                                       | <img src="./assets/capitulo7/software_configuration_management/discord.jpg" width="300">   |
+| **Figma:** Es una herramienta esencial en nuestro conjunto de software para el desarrollo de nuestro startup. Esta plataforma nos permite colaborar de manera efectiva en el diseño y prototipado de nuestras aplicaciones y productos. Con Figma, podemos crear y compartir diseños en tiempo real, lo que facilita la revisión y la retroalimentación por parte de todo el equipo. Además, esta herramienta nos ayuda a mantener una coherencia visual en nuestros proyectos, lo que es fundamental para la experiencia del usuario.                                                                   | <img src="./assets/capitulo7/software_configuration_management/figma.jpg" width="300">     |
+| **UxPressia:** Es una plataforma en línea especializada en el mapeo de la trayectoria del cliente. Nos ayuda a crear mapas de impacto y perfiles de usuario, como User Personas, Empathy Maps y Journey Maps.                                                                                                                                                                                                                                                                                                                                                                                            | <img src="./assets/capitulo7/software_configuration_management/uxpressia.jpg" width="300"> |
+| **Visual Studio Code:** Es un editor de código que posibilita la programación en varios lenguajes y ofrece la posibilidad de ampliar sus capacidades mediante extensiones, lo que mejora la experiencia de trabajo en equipo.                                                                                                                                                                                                                                                                                                                                                                            | <img src="./assets/capitulo7/software_configuration_management/vscode.jpg" width="300">    |
+| **Flutter:** Framework de desarrollo de aplicaciones móviles de código abierto creado por Google. Permite la creación de aplicaciones nativas de alta calidad para iOS y Android desde un único código base. En nuestro proyecto, Flutter nos proporciona una solución eficiente para el desarrollo multiplataforma, facilitando la implementación de una interfaz de usuario consistente y optimizada para diferentes dispositivos. Gracias a sus widgets personalizables y a su rendimiento cercano al nativo, Flutter es esencial para la creación de una experiencia de usuario fluida y responsiva. | <img src="./assets/capitulo7/software_configuration_management/flutter.jpg" width="300">   |
+| **Vue.js:** Es un framework progresivo de JavaScript que facilita la construcción de interfaces de usuario interactivas. Vue es especialmente útil en el desarrollo de aplicaciones web y ofrece una curva de aprendizaje accesible, lo cual acelera el desarrollo y reduce la complejidad de la codificación. Con su sistema de componentes y su facilidad para integrarse con otros proyectos, Vue resulta fundamental para la creación de interfaces dinámicas en nuestro proyecto.                                                                                                                   | <img src="./assets/capitulo7/software_configuration_management/vue.jpg" width="300">       |
 
-### 7.1.2. Source Code Management 
+### 7.1.2. Source Code Management
 
-En la siguiente sección, presentaremos los medios que usaremos para el seguimiento del código de LockItem, usaremos GitHub como plataforma ysistema de control de versiones.
+En la siguiente sección, presentaremos los medios que usaremos para el seguimiento del código de LockItem, usaremos
+GitHub como plataforma ysistema de control de versiones.
 
-A continuación se detalla la aplicación de GitFlow como un WorkFlow para el control de versiones en el desarrollo de ramas o branches.
+A continuación se detalla la aplicación de GitFlow como un WorkFlow para el control de versiones en el desarrollo de
+ramas o branches.
 
-**Main Branch:** Este es nuestro branch principal y la raíz para nuestras ramificaciones. Aquí se mostrará el estado actual del código fuente, que posteriormente será enviado a producción. Una vez finalizadas las tareas en las otras ramas, se integrarán en el producto final.
+**Main Branch:** Este es nuestro branch principal y la raíz para nuestras ramificaciones. Aquí se mostrará el estado
+actual del código fuente, que posteriormente será enviado a producción. Una vez finalizadas las tareas en las otras
+ramas, se integrarán en el producto final.
 
-**Develop Branch:** En esta rama se encuentra el código fuente más actualizado y podemos observar el estado actual de los últimos cambios realizados en el desarrollo. Todos los cambios que estén listos para ser publicados se fusionarán con la rama principal (main Branch) junto con una etiqueta que identifica el número de la publicación. Asimismo, cada modificación efectuada en esta rama será posteriormente fusionada de nuevo con la rama principal como una nueva versión del producto.
+**Develop Branch:** En esta rama se encuentra el código fuente más actualizado y podemos observar el estado actual de
+los últimos cambios realizados en el desarrollo. Todos los cambios que estén listos para ser publicados se fusionarán
+con la rama principal (main Branch) junto con una etiqueta que identifica el número de la publicación. Asimismo, cada
+modificación efectuada en esta rama será posteriormente fusionada de nuevo con la rama principal como una nueva versión
+del producto.
 
-**Feature Branches:** Estas ramas serán empleadas para crear nuevas funciones destinadas a una próxima versión. Se derivarán del develop Branch y, una vez completado el desarrollo, se fusionarán de nuevo en la misma rama develop. En caso de que la función no obtenga resultados satisfactorios, se descartará. Se seguirá una convención de nomenclatura secuencial para nuestros Feature Branches, como por ejemplo: Feature001, Feature002, Feature003, y así sucesivamente. Se exceptúan las palabras master, develop, release y hotfix.
+**Feature Branches:** Estas ramas serán empleadas para crear nuevas funciones destinadas a una próxima versión. Se
+derivarán del develop Branch y, una vez completado el desarrollo, se fusionarán de nuevo en la misma rama develop. En
+caso de que la función no obtenga resultados satisfactorios, se descartará. Se seguirá una convención de nomenclatura
+secuencial para nuestros Feature Branches, como por ejemplo: Feature001, Feature002, Feature003, y así sucesivamente. Se
+exceptúan las palabras master, develop, release y hotfix.
 
-**Release Branches:** Estas ramas facilitan la preparación de nuestro proyecto para la última fase de pruebas o testing, permitiéndonos corregir bugs y garantizar la optimización de la interfaz antes de lanzar la versión definitiva. Se derivan del develop y se fusionan nuevamente en él para indicar una "próxima versión".
+**Release Branches:** Estas ramas facilitan la preparación de nuestro proyecto para la última fase de pruebas o testing,
+permitiéndonos corregir bugs y garantizar la optimización de la interfaz antes de lanzar la versión definitiva. Se
+derivan del develop y se fusionan nuevamente en él para indicar una "próxima versión".
 
 **Convenciones Release Branches:**
 
@@ -2594,7 +2608,8 @@ A continuación se detalla la aplicación de GitFlow como un WorkFlow para el co
 | Release 2.0.0 | Se implementan funciones incompatibles con versiones anteriores en la API pública.                       |
 
 **Hotfix branches:**
-Son utilizadas para abordar rápidamente problemas o errores en la versión actual de producción. Estas ramas se crean a partir de la main Branch. Una vez solucionado el problema se fusionará.
+Son utilizadas para abordar rápidamente problemas o errores en la versión actual de producción. Estas ramas se crean a
+partir de la main Branch. Una vez solucionado el problema se fusionará.
 
 | Hotfix       | Descripción                                                                                                |
 |--------------|------------------------------------------------------------------------------------------------------------|
@@ -2602,7 +2617,8 @@ Son utilizadas para abordar rápidamente problemas o errores en la versión actu
 | Hotfix 1.1.1 | Se introduce nuevas funciones o metodos para la corrección de errores compatibles con versiones anteriores |
 
 **Conventional Commits:**
-Es una convención para escribir mensajes de confirmación en un repositorio de control de versiones como Git. Esta convencion tiene como objetivo estandarizar y hacer mas comprensibles los mensajes de confirmación.
+Es una convención para escribir mensajes de confirmación en un repositorio de control de versiones como Git. Esta
+convencion tiene como objetivo estandarizar y hacer mas comprensibles los mensajes de confirmación.
 
 La estructura de un mensaje de confirmacion es la siguiente:
 
@@ -2614,7 +2630,8 @@ La estructura de un mensaje de confirmacion es la siguiente:
 
 **feat:** usamos este commit del tipo feat cuando se agrega una nueva característica para el usuario.
 
-**BREAKING CHANGE:** Es un commit que tiene un como footer (como se vió en la estructura) **BREAKING CHANGE:** o agrega un ! esto con el fin de comunicar un cambio grande realizado en el API.
+**BREAKING CHANGE:** Es un commit que tiene un como footer (como se vió en la estructura) **BREAKING CHANGE:** o agrega
+un ! esto con el fin de comunicar un cambio grande realizado en el API.
 
 También se permiten distintos tipos de **feat:** y **fix:** basados en la convención Angular estos son:
 
@@ -2625,65 +2642,87 @@ También se permiten distintos tipos de **feat:** y **fix:** basados en la conve
 **refactor:** Cuando se realiza una refactorización del código como cambios de nombre de variables o funciones.
 **style:** Para los cambios de formato, tabulaciones, espacios o puntos y coma, etc;
 **test:** Cuando se añade tests o refactoriza uno existente.
-Por otro lado, también se pueden proporcionar footers que no sean **BREAKING CHANGE:** <description> y poder seguir otra convención similar.
+Por otro lado, también se pueden proporcionar footers que no sean **BREAKING CHANGE:** <description> y poder seguir otra
+convención similar.
 
 ### 7.1.3. Source Code Style Guide & Conventions
 
-Esta sección detalla las normas y estándares de estilo que seguimos para asegurar un código claro, uniforme y fácil de mantener. Estas convenciones promueven una colaboración eficiente y minimizan posibles errores, facilitando la escalabilidad y consistencia en el desarrollo del proyecto.
+Esta sección detalla las normas y estándares de estilo que seguimos para asegurar un código claro, uniforme y fácil de
+mantener. Estas convenciones promueven una colaboración eficiente y minimizan posibles errores, facilitando la
+escalabilidad y consistencia en el desarrollo del proyecto.
 
 Para el desarrollo de los prodcutos del proyecto se usarán las siguientes nomenclaturas:
 
 - Declaración del tipo de documento.
   En nuestro archivo index.html en la primera línea de código colocaremos la instrucción ```<!DODCTYPE html>```
 - Atributo Lang
-  Con este atributo podemos permitir que los motores de búsqueda puedan identificar y configurar nuestro idioma. ```<html lang="es">```
-- Se dara uso a las etiquetas ```<body></body>  <header></header> <section> </section>  <nav></nav>  <p></p>  <img/> <iframe></iframe>  <h1></h1> <h2></h2>```
+  Con este atributo podemos permitir que los motores de búsqueda puedan identificar y configurar nuestro idioma.
+  ```<html lang="es">```
+- Se dara uso a las etiquetas
+  ```<body></body>  <header></header> <section> </section>  <nav></nav>  <p></p>  <img/> <iframe></iframe>  <h1></h1> <h2></h2>```
 - Para distribuir texto en parrafos utilizatemos la siguiente etiqueta ```<p> Somos <p>```
 - Implementaremos la etiqueta meta data
 
-Esta nos servirá para que, en nuestro documento HTML, pueda proporcionar información codificada a navegadores y motores de búsqueda acerca de nuestra página web
+Esta nos servirá para que, en nuestro documento HTML, pueda proporcionar información codificada a navegadores y motores
+de búsqueda acerca de nuestra página web
 
 Para las convenciones de nomenclatura en CSS:
 
-- En nuestra codificación de nuestro proyecto, usaremos las minusculas para nombrar estos archivos con el fin de no tener conflictos con los nombres de nuestros archivos html.
+- En nuestra codificación de nuestro proyecto, usaremos las minusculas para nombrar estos archivos con el fin de no
+  tener conflictos con los nombres de nuestros archivos html.
 - Se evitará el uso de las tildes para los nombres de estas.
 - Se abreviarán los nombres con el fin de tener una mejor practicidad.
 
 **Convenciones para la nomenclatura en Vue.js:**
 
 - **Estructura de Archivos y Componentes**  
-  Los nombres de los archivos de componentes se escribirán en **PascalCase** (por ejemplo, `UserProfile.vue`) para facilitar la identificación y diferenciación de otros archivos. Además, cada componente debe tener una única responsabilidad, evitando componentes demasiado grandes o complejos. En caso necesario, dividir los componentes grandes en otros más pequeños y específicos.
+  Los nombres de los archivos de componentes se escribirán en **PascalCase** (por ejemplo, `UserProfile.vue`) para
+  facilitar la identificación y diferenciación de otros archivos. Además, cada componente debe tener una única
+  responsabilidad, evitando componentes demasiado grandes o complejos. En caso necesario, dividir los componentes
+  grandes en otros más pequeños y específicos.
 
 - **Nombres de Props y Variables**  
-  Las **props** se definirán en **camelCase** en el script y en **kebab-case** dentro de las plantillas de Vue. Ejemplo: en el script `userAge` y en el template `<user-profile :user-age="userAge">`. Las **variables reactivas** deben comenzar con un prefijo descriptivo y estar en camelCase (por ejemplo, `isUserActive`).
+  Las **props** se definirán en **camelCase** en el script y en **kebab-case** dentro de las plantillas de Vue. Ejemplo:
+  en el script `userAge` y en el template `<user-profile :user-age="userAge">`. Las **variables reactivas** deben
+  comenzar con un prefijo descriptivo y estar en camelCase (por ejemplo, `isUserActive`).
 
 - **Directivas Personalizadas**  
-  Las directivas personalizadas se escribirán en **kebab-case** y deben describir de manera clara la acción que realizan. Ejemplo: `v-focus`, `v-scroll-to`.
+  Las directivas personalizadas se escribirán en **kebab-case** y deben describir de manera clara la acción que
+  realizan. Ejemplo: `v-focus`, `v-scroll-to`.
 
 - **Nombres de Eventos**  
-  Los eventos personalizados deben seguir el formato **kebab-case** y describir la acción de forma clara, como `user-logged-in` o `item-selected`.
-
+  Los eventos personalizados deben seguir el formato **kebab-case** y describir la acción de forma clara, como
+  `user-logged-in` o `item-selected`.
 
 **Convenciones para la nomenclatura en Flutter:**
 
 - **Nombres de Clases y Widgets**  
-  Los nombres de **clases** y **widgets** se escribirán en **PascalCase** (por ejemplo, `UserProfileWidget`, `LoginForm`). Los nombres de los widgets deben describir claramente su funcionalidad o propósito en la interfaz.
+  Los nombres de **clases** y **widgets** se escribirán en **PascalCase** (por ejemplo, `UserProfileWidget`,
+  `LoginForm`). Los nombres de los widgets deben describir claramente su funcionalidad o propósito en la interfaz.
 
 - **Variables y Constantes**  
-  Las **variables** se nombrarán en **camelCase** y deben ser descriptivas (por ejemplo, `isUserLoggedIn`). Las **constantes** se escribirán en **mayúsculas** con guiones bajos (`_`) para separar palabras (por ejemplo, `MAX_USER_AGE`).
+  Las **variables** se nombrarán en **camelCase** y deben ser descriptivas (por ejemplo, `isUserLoggedIn`). Las *
+  *constantes** se escribirán en **mayúsculas** con guiones bajos (`_`) para separar palabras (por ejemplo,
+  `MAX_USER_AGE`).
 
 - **Estructura de Archivos**  
-  Los archivos de widgets deben organizarse en una carpeta `widgets/` para mejorar la organización del proyecto. Los nombres de archivos estarán en **snake_case** y describirán el contenido del archivo (por ejemplo, `user_profile_widget.dart`).
+  Los archivos de widgets deben organizarse en una carpeta `widgets/` para mejorar la organización del proyecto. Los
+  nombres de archivos estarán en **snake_case** y describirán el contenido del archivo (por ejemplo,
+  `user_profile_widget.dart`).
 
 - **Estilo de Código**  
-  Usaremos el modificador **const** en los widgets siempre que sea posible para mejorar el rendimiento. Además, se deben utilizar los operadores `??` y `?.` para manejar valores nulos de manera segura y evitar errores en la ejecución.
+  Usaremos el modificador **const** en los widgets siempre que sea posible para mejorar el rendimiento. Además, se deben
+  utilizar los operadores `??` y `?.` para manejar valores nulos de manera segura y evitar errores en la ejecución.
 
 ### 7.1.4. Software Deployment Configuration
 
-En este punto, se dara a conocer el proceso de despliegue de las aplicaciones, así como la configuración de los servidores y la infraestructura necesaria para su correcto funcionamiento.
+En este punto, se dara a conocer el proceso de despliegue de las aplicaciones, así como la configuración de los
+servidores y la infraestructura necesaria para su correcto funcionamiento.
 
 **Landing Page:**
-Para desplegar la Landing Page, se utilizó GitHub Pages, una plataforma gratuita que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. El proceso de despliegue fue el siguiente:
+Para desplegar la Landing Page, se utilizó GitHub Pages, una plataforma gratuita que permite alojar sitios web estáticos
+directamente desde un repositorio de GitHub. El proceso de despliegue fue el siguiente:
+
 1. Crear un repositorio en GitHub con el código de la Landing Page.
 2. Acceder a la configuración del repositorio y habilitar GitHub Pages.
 
@@ -2698,9 +2737,10 @@ Para desplegar la Landing Page, se utilizó GitHub Pages, una plataforma gratuit
 
 + Enlace de la Landing Page desplegada: https://techtracers.github.io/landing-page/
 
-## 7.2. Solution Implementation 
+## 7.2. Solution Implementation
 
 ### 7.2.1. Sprint 1
+
 #### 7.2.1.1. Sprint Planning 1
 
 | Sprint #                           | 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -2712,7 +2752,7 @@ Para desplegar la Landing Page, se utilizó GitHub Pages, una plataforma gratuit
 | Prepared By                        | Chero Emé, Eduardo André                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Attendees                          | Josué Arrunátegui / Giakomo Causso / Yoimer Dávila / Eduardo Chero / Adrian Melgar                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Sprint n – 1 Review Summary        | Este es el primer Sprint, por lo que no hay un resumen anterior, sin embargo se aplicaron las correcciones notadas por el profesor.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Sprint n – 1 Retrospective Summary | Gracias a las observaciones del profesor, nos dimos cuenta de las deficiencias que teniamos, por lo que mejoramos los detalles para el proceso de desarrollo siguiendo las pautas Domain-Driven Design.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sprint n – 1 Retrospective Summary | Gracias a las observaciones del profesor, nos dimos cuenta de las deficiencias que teniamos, por lo que mejoramos los detalles para el proceso de desarrollo siguiendo las pautas Domain-Driven Design.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Sprint Goal & User Stories         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Sprint n Goal                      | **Nos centramos en** la entrega de las primeras versiones de la aplicación móvil y el backend, las actualizaciones de la página de destino y la aplicación web, así como el diseño inicial del dispositivo IoT de detección de fugas de gas, medición de temperatura, presión y humedad y la Edge API para el procesamiento local de datos.<br><br> **Creemos que** esto proporcionará a los conductores un beneficio como las notificaciones de los viajes a través de la aplicación móvil, los supervisores gestionarán y asignarán los viajes a través de la aplicación web, los visitantes podrán ver la página de destino actualizada y los desarrolladores tendrán acceso al backend para dar soporte a las aplicaciones web y móviles. Además, la solución IoT con el sensor de detección de fugas de gas, medición de temperatura, presión y humedad  y el Edge API mejorará la seguridad del conductor al permitir la supervisión de materiales peligrosos antes, durante y después del transporte.<br><br> **Esto se confirmará cuando** los conductores puedan utilizar la App Móvil para ver la información del viaje y las notificaciones, los supervisores puedan asignar y supervisar los viajes a través de la Aplicación Web, los desarrolladores puedan interactuar con la primera versión del Backend para soportar las funcionalidades del sistema, el diseño del dispositivo IoT y la Edge API permiten la detección de fugas de gas, medición de temperatura, presión y humedad proporcionando datos esenciales al sistema y los visitantes pueden acceder a la Landing Page actualizada. |
 | Sprint n Velocity                  | 50                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -2722,53 +2762,140 @@ Para desplegar la Landing Page, se utilizó GitHub Pages, una plataforma gratuit
 
 #### 7.2.1.3. Development Evidence for Sprint Review.
 
-Se completó la implementación de la Landing-page, se avanzó con los commits para la aplicación web, el Backend y el dispositivo IoT.
+Se completó la implementación de la Landing-page, se avanzó con los commits para la aplicación web, el Backend y el
+dispositivo IoT.
 
 Tablero de commits del repositorio de la Landing-page:
 
-| Repository               | Branch  | Commit ID                                |
-|--------------------------|---------|------------------------------------------|
-| TechTracers/landing-page | main    | a3414c1fc5852586d44badf1c5450a4d27b3a716 |
+| Repository               | Branch | Commit ID                                |
+|--------------------------|--------|------------------------------------------|
+| TechTracers/landing-page | main   | a3414c1fc5852586d44badf1c5450a4d27b3a716 |
 
 Tablero de commits del repositorio de la App Web:
 
-| Repository           | Branch                  | Commit ID                                 |
-|----------------------|-------------------------|-------------------------------------------|
-| TechTracers/Frontend | feature/section-login   | 3052d03442c7f7f676c0e097127a27aeddf8fcbd  |
-|                      | feature/section-signup  | c2b9a1f6637a081b3f41504006a1c8ebc28ac4ae  |
+| Repository           | Branch                 | Commit ID                                |
+|----------------------|------------------------|------------------------------------------|
+| TechTracers/Frontend | feature/section-login  | 3052d03442c7f7f676c0e097127a27aeddf8fcbd |
+|                      | feature/section-signup | c2b9a1f6637a081b3f41504006a1c8ebc28ac4ae |
 
 Tablero de commits del repositorio del Backend:
 
-| Repository              | Branch  | Commit ID                                |
-|-------------------------|---------|------------------------------------------|
-| TechTracers/LockItemApi | main    | 0bdb6f0582c2401cb26c0a96304e6b2959717258 |
+| Repository              | Branch | Commit ID                                |
+|-------------------------|--------|------------------------------------------|
+| TechTracers/LockItemApi | main   | 0bdb6f0582c2401cb26c0a96304e6b2959717258 |
 
 Tablero de commits del repositorio del dispositivo IoT:
 
-| Repository              | Branch  | Commit ID                                |
-|-------------------------|---------|------------------------------------------|
-| TechTracers/LockItemIoT | main    | 04ffac8d4f0bd47438e0c2be1e4cb2172eefbfea |
+| Repository              | Branch | Commit ID                                |
+|-------------------------|--------|------------------------------------------|
+| TechTracers/LockItemIoT | main   | 04ffac8d4f0bd47438e0c2be1e4cb2172eefbfea |
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 
+En esta seccion, se detallan los Unit Tests, Integration Tests y Acceptance Tests
+automatizados para los Web Services relacionados con los User Stories especificados
+en el Sprint 1. Para los tests de BDD, se elaboran los archivos ".feature’ utilizando el
+Jenguaje Gherkin y los archivos Steps en el lenguaje de programacion.
+
+| Repository                                           | Branch                 | Commit Id | Commit Message  | Date       |
+|------------------------------------------------------|------------------------|-----------|-----------------|------------|
+| [Frontend](https://github.com/TechTracers/Frontend/) | feature/section-login  | 3052d03   | New: ViewLogin  | 29/10/2024 |
+| [Frontend](https://github.com/TechTracers/Frontend/) | feature/section-signup | 3052d03   | new: ViewSignUp | 29/10/2024 |
+
 #### 7.2.1.5. Execution Evidence for Sprint Review.
+En esta secci6n se presenta la ejecucion de los componentes desarrollados en el Sprint 1.
+
+<p align="center">
+Aqui se muestra un Request al Web Service desplegado en Azure.
+<img src="assets/capitulo7/Execution_Evidence/Rest%20API.png" alt="S1 RestApi Execution">
+</p>
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
 
+En esta secci6n se presenta la lista de Endpoints configurados en el Sprint 1.
+Dado que el RestApi de LockItem dependeria de services externos de las tiendas, que compartirian la informacion de sus
+recursos,
+como productos y precios, se decidio implementar un servicio adicional para complementar ello, puesto que acceder
+a esa informacion no nos es posible.
+
+| Controller                    | Method | Enlace | Endpoint                                 | Acciones                                        |
+|-------------------------------|--------|--------|------------------------------------------|-------------------------------------------------|
+| users-controller              | GET    |        | /api/v1/users/{id}                       | Obtener usuario por ID                          |
+| users-controller              | PUT    |        | /api/v1/users/{id}                       | Actualizar usuario por ID                       |
+| users-controller              | DELETE |        | /api/v1/users/{id}                       | Borrar usuario por ID                           |
+| users-controller              | GET    |        | /api/v1/users                            | Obtener todos los usuarios                      |
+| users-controller              | POST   |        | /api/v1/users                            | Crear un nuevo usuario                          |
+| users-controller              | POST   |        | /api/v1/users/login                      | Inicio de sesión de usuario                     |
+| store-controller              | GET    |        | /api/v1/stores/{id}                      | Obtener tienda por ID                           |
+| store-controller              | PUT    |        | /api/v1/stores/{id}                      | Actualizar tienda por ID                        |
+| store-controller              | DELETE |        | /api/v1/stores/{id}                      | Borrar tienda por ID                            |
+| store-controller              | GET    |        | /api/v1/stores                           | Obtener todas las tiendas                       |
+| store-controller              | POST   |        | /api/v1/stores                           | Crear una nueva tienda                          |
+| store-product-controller      | GET    |        | /api/v1/stores/{id}/products             | Obtener todos los productos de la tienda por ID |
+| store-product-controller      | PUT    |        | /api/v1/stores/{id}/products             | Actualizar producto en tienda por ID            |
+| store-product-controller      | POST   |        | /api/v1/stores/{id}/products             | Insertar producto en la tienda por ID           |
+| store-product-controller      | DELETE |        | /api/v1/stores/{id}/products/{productId} | Eliminar producto de la tienda por IDs          |
+| products-controller           | GET    |        | /api/v1/products/{id}                    | Obtener producto por ID                         |
+| products-controller           | PUT    |        | /api/v1/products/{id}                    | Actualizar producto por ID                      |
+| products-controller           | DELETE |        | /api/v1/products/{id}                    | Borrar producto por ID                          |
+| products-controller           | GET    |        | /api/v1/products                         | Obtener todos los productos                     |
+| products-controller           | POST   |        | /api/v1/products                         | Crear un nuevo producto                         |
+| products-controller           | GET    |        | /api/v1/products/search/{name}           | Buscar producto por nombre                      |
+| products-controller           | GET    |        | /api/v1/products/search/                 | Buscar productos                                |
+| product-categories-controller | GET    |        | /api/v1/product-categories               | Buscar todas las categorías de productos        |
+| product-categories-controller | POST   |        | /api/v1/product-categories               | Crear una nueva categoría de productos          |
+| product-categories-controller | GET    |        | /api/v1/product-categories/{id}          | Buscar categoría de producto por ID             |
+| product-categories-controller | DELETE |        | /api/v1/product-categories/{id}          | Borrar categoría de producto por ID             |
+
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
 
+En esta seccion, se muestran imagenes del proceso y deployment de los componentes desarrollados en el sprint 1.
+
+Rest Api:
+Para la rest api de LockItem, se uso una MV en Azure, junto con un DB en la misma. A continuacion se muestran imagenes del procesos
+
+
+<p align="center">
+Aqui se muestra el deployment del Java Package al Web Service en Azure.
+<img src="assets/capitulo7/Software_Deployment/RestApi.png" alt="S1 JetBrains Azure Deploy">
+</p>
+
+<p align="center">
+Aqui se muestra el Web Service en Azure.
+<img src="assets/capitulo7/Software_Deployment/Azure%20VM.png" alt="S1 Azure Web Service">
+</p>
+
+<p align="center">
+Aqui se muestra el Swagger del RestApi.
+<img src="assets/capitulo7/Software_Deployment/Api%20Swagger.png" alt="S1 Azure Web Service">
+</p>
+
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
+
+Para el desarrollo del web application, hemos usado un repositorio en GitHub en el
+cual, hemos implementado de manera grupal el desarrollo de nuestro frontend y backend. Esto se evidencia en los
+diferentes commits
+realizados en el repositorio, los cuales fueron realizados mediante distintas ramas
+features para luego unirlas en la rama develop. En las siguientes capturas de pantalla
+se puede demostrar el trabajo colaborativo del sprint 1:
+
+![S1 Repositories Collab](assets/capitulo7/Team_Collaboration/repositories.png)
+
+![S1 Frontend Collab](assets/capitulo7/Team_Collaboration/frontend.png)
 
 ## 7.3. Validation Interviews.
 
 ### 7.3.1. Diseño de Entrevistas.
-Para esta entrega de nuestro trabajos hemos identificado las siguientes preguntas para nuestros entrevistados luego de presentarles nuestra aplicación:
+
+Para esta entrega de nuestro trabajos hemos identificado las siguientes preguntas para nuestros entrevistados luego de
+presentarles nuestra aplicación:
 
 **Para Clientes de Tiendas de Ropa**
 
 * ¿Qué aspectos de la app móvil de LockItem te parecen más atractivos?
 * ¿Consideras que la funcionalidad de localizar prendas en tiempo real mejoraría tu experiencia de compra? ¿Por qué?
-* ¿Cuánto tiempo sueles pasar buscando una prenda específica en una tienda? ¿Crees que esta solución reduciría ese tiempo?
+* ¿Cuánto tiempo sueles pasar buscando una prenda específica en una tienda? ¿Crees que esta solución reduciría ese
+  tiempo?
 * ¿Te sentirías cómodo utilizando tu smartphone para buscar y localizar productos dentro de una tienda?
 * ¿Hay algo en la app de LockItem que te gustaría que fuera diferente o que agregarías para mejorarla?
 * ¿Qué tan importante es para ti la eficiencia y rapidez en tus compras en tiendas físicas?
@@ -2785,69 +2912,73 @@ Para esta entrega de nuestro trabajos hemos identificado las siguientes pregunta
 * ¿Qué tan sencillo te parece el proceso de adopción e integración de esta tecnología en tu negocio?
 * ¿Consideras que LockItem puede mejorar la satisfacción del cliente y aumentar sus visitas? ¿Por qué?
 * ¿Qué preocupaciones o retos crees que enfrentarías al implementar una solución basada en IoT como LockItem?
-* ¿Cuál es tu nivel de familiaridad con el uso de tecnología IoT en tu negocio? ¿Qué otros sistemas similares has considerado?
+* ¿Cuál es tu nivel de familiaridad con el uso de tecnología IoT en tu negocio? ¿Qué otros sistemas similares has
+  considerado?
 * ¿Qué aspectos específicos de la app te resultan más útiles o atractivos para tu tienda?
-* ¿Cuánto estarías dispuesto a invertir en una tecnología que mejore la experiencia de tus clientes y la gestión de inventario?
-* ¿Qué otras características o mejoras te gustaría ver en LockItem para que se ajuste mejor a las necesidades de tu tienda?
+* ¿Cuánto estarías dispuesto a invertir en una tecnología que mejore la experiencia de tus clientes y la gestión de
+  inventario?
+* ¿Qué otras características o mejoras te gustaría ver en LockItem para que se ajuste mejor a las necesidades de tu
+  tienda?
 
 ### 7.3.2. Registro de Entrevistas
 
 **Segemento Cleintes**
 
-|                        | **Descripcion**        |
-|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre y apellidos** | Sebastian Cordova        |
-| **Edad**               | 20     |
-| **Evidencia**          | ![Comprador 1](assets/capitulo7/interviews/cliente1.png) |
-| **Duracion del video** | 05:07 min                              |
-| **URL**                | [MS Stream - Comprador 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EXxzDY6JRYFHu3Qt56CksZUB8H8cXj_GH8WHmr_c9ZQmUg?e=2dceyt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)       |
-| **Entrevistador**      | Eduardo Chero                    |
-| **Resumen**            | Sebastian encuenta la app muy util para encontrar las prendas que necesita, considera que es una forma de ahorrar mucho tiempo  y que la experiencia de compra es mucho mejor.       |
+|                        | **Descripcion**                                                                                                                                                                                                                                                                                                                                   |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre y apellidos** | Sebastian Cordova                                                                                                                                                                                                                                                                                                                                 |
+| **Edad**               | 20                                                                                                                                                                                                                                                                                                                                                |
+| **Evidencia**          | ![Comprador 1](assets/capitulo7/interviews/cliente1.png)                                                                                                                                                                                                                                                                                          |
+| **Duracion del video** | 05:07 min                                                                                                                                                                                                                                                                                                                                         |
+| **URL**                | [MS Stream - Comprador 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EXxzDY6JRYFHu3Qt56CksZUB8H8cXj_GH8WHmr_c9ZQmUg?e=2dceyt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Entrevistador**      | Eduardo Chero                                                                                                                                                                                                                                                                                                                                     |
+| **Resumen**            | Sebastian encuenta la app muy util para encontrar las prendas que necesita, considera que es una forma de ahorrar mucho tiempo  y que la experiencia de compra es mucho mejor.                                                                                                                                                                    |
 
+|                        | **Descripcion**                                                                                                                                                                                                                                                                                                                                   |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre y apellidos** | Maria Cabrejos                                                                                                                                                                                                                                                                                                                                    |
+| **Edad**               | 20                                                                                                                                                                                                                                                                                                                                                |
+| **Evidencia**          | ![Comprador 2](assets/capitulo7/interviews/cliente2.png)                                                                                                                                                                                                                                                                                          |
+| **Duracion del video** | 07:02 min                                                                                                                                                                                                                                                                                                                                         |
+| **URL**                | [MS Stream - Comprador 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/ET_LoAgTHSlOqeaBCDpu4SEBz5AuiEWqeuNtf5mIKo6siA?e=D9iz2j&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Entrevistador**      | Josue Arrunategui                                                                                                                                                                                                                                                                                                                                 |
+| **Resumen**            | Maria nos comenta que solia demorar mucho tiempo buscando la prenda que quiere pero que con la applicacion ahorra demasiado tiempo y hace que sea mucho mas agradable buscar la prenda deseada.                                                                                                                                                   |
 
-|                        | **Descripcion**        |
-|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre y apellidos** | Maria Cabrejos        |
-| **Edad**               | 20     |
-| **Evidencia**          | ![Comprador 2](assets/capitulo7/interviews/cliente2.png) |
-| **Duracion del video** | 07:02 min                              |
-| **URL**                | [MS Stream - Comprador 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/ET_LoAgTHSlOqeaBCDpu4SEBz5AuiEWqeuNtf5mIKo6siA?e=D9iz2j&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)       |
-| **Entrevistador**      | Josue Arrunategui                  |
-| **Resumen**            | Maria nos comenta que solia demorar mucho tiempo buscando la prenda que quiere pero que con la applicacion ahorra demasiado tiempo y hace que sea mucho mas agradable buscar la prenda deseada.       |
-
-|                        | **Descripcion**        |
-|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre y apellidos** | Heylen Vallejos        |
-| **Edad**               | 20     |
-| **Evidencia**          | ![Comprador 3](assets/capitulo7/interviews/cliente3.png) |
-| **Duracion del video** | 04:07 min                              |
-| **URL**                | [MS Stream - Comprador 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/ES5jCmVyl1VCjnWb7y7xRRQBOSGoWQgDneEmdgEi-1jxMw?e=wh5tOh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)       |
-| **Entrevistador**      | Yoimer Davila                  |
-| **Resumen**            | Al igual que las anteriores entrevistados, considera que la aplicacion mejoraria la manera de ahorrar mucho timepo al encontrar las prendas que necesita o le guste.       |
+|                        | **Descripcion**                                                                                                                                                                                                                                                                                                                                   |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre y apellidos** | Heylen Vallejos                                                                                                                                                                                                                                                                                                                                   |
+| **Edad**               | 20                                                                                                                                                                                                                                                                                                                                                |
+| **Evidencia**          | ![Comprador 3](assets/capitulo7/interviews/cliente3.png)                                                                                                                                                                                                                                                                                          |
+| **Duracion del video** | 04:07 min                                                                                                                                                                                                                                                                                                                                         |
+| **URL**                | [MS Stream - Comprador 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/ES5jCmVyl1VCjnWb7y7xRRQBOSGoWQgDneEmdgEi-1jxMw?e=wh5tOh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Entrevistador**      | Yoimer Davila                                                                                                                                                                                                                                                                                                                                     |
+| **Resumen**            | Al igual que las anteriores entrevistados, considera que la aplicacion mejoraria la manera de ahorrar mucho timepo al encontrar las prendas que necesita o le guste.                                                                                                                                                                              |
 
 **Segmento Dueño**
 
-|                        | **Descripcion**        |
-|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre y apellidos** | Piero Palomino        |
-| **Edad**               | 23     |
-| **Evidencia**          | ![Dueño 1](assets/capitulo7/interviews/dueño1.png) |
-| **Duracion del video** | 06:19 min                              |
-| **URL**                | [MS Stream - Dueño 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EVp-3Ui8LglIlOZP4YlRCikB5IrXET_k4c2mCAXaeYyFFA?e=auVMqv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)       |
-| **Entrevistador**      | Adrian Melgar                  |
-| **Resumen**            | Piero encuentra util esta apliacaion ya que le ayudaria a reducir los costos operativos al tener una forma mas facil de validar el inventario, ya que no tendria que generar gastos extras al  tener que contratar a alguien para que se encargue de esto.       |
+|                        | **Descripcion**                                                                                                                                                                                                                                                                                                                               |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre y apellidos** | Piero Palomino                                                                                                                                                                                                                                                                                                                                |
+| **Edad**               | 23                                                                                                                                                                                                                                                                                                                                            |
+| **Evidencia**          | ![Dueño 1](assets/capitulo7/interviews/dueño1.png)                                                                                                                                                                                                                                                                                            |
+| **Duracion del video** | 06:19 min                                                                                                                                                                                                                                                                                                                                     |
+| **URL**                | [MS Stream - Dueño 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EVp-3Ui8LglIlOZP4YlRCikB5IrXET_k4c2mCAXaeYyFFA?e=auVMqv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Entrevistador**      | Adrian Melgar                                                                                                                                                                                                                                                                                                                                 |
+| **Resumen**            | Piero encuentra util esta apliacaion ya que le ayudaria a reducir los costos operativos al tener una forma mas facil de validar el inventario, ya que no tendria que generar gastos extras al  tener que contratar a alguien para que se encargue de esto.                                                                                    |
 
 ### 7.3.3. Evaluaciones según heurísticas.
 
 #### Evaluación de User Experience según Heurísticas
-- CARRERA : Ingeniería de Software 
-- CURSO : ArquitecturaArquitectura de Foftware Emergentes 
+
+- CARRERA : Ingeniería de Software
+- CURSO : ArquitecturaArquitectura de Foftware Emergentes
 - SECCIÓN : SI728
-- PROFESORES : Royer Edelwer Rojas Malasquez 
+- PROFESORES : Royer Edelwer Rojas Malasquez
 - AUDITOR : Debuggers
 - CLIENTE(S) : Segmento clientes y dueños
 
-##### SITE o APP A EVALUAR: 
+##### SITE o APP A EVALUAR:
+
 LockItem
 
 ##### TAREAS A EVALUAR:
@@ -2860,7 +2991,7 @@ LockItem
 ##### ESCALA DE SEVERIDAD
 
 | **Nivel** | **Descripción**                                                                                                                                                                                 |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1         | Problema superficial: puede ser fácilmente superador por el usuario o ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
 | 2         | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
 | 3         | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
@@ -2868,54 +2999,65 @@ LockItem
 
 ##### TABLA RESUMEN
 
-| #   | Problema                                                                            | Escala de severidad | Heurística/Principio violado       |
-| --- | ----------------------------------------------------------------------------------- | ------------------- | ---------------------------------- |
-| 1   | La navegación entre secciones no es intuitiva y confunde a los usuarios.            | 3            | Consistencia y estándares          |
-| 2   | Falta de retroalimentación clara tras acciones como guardar o eliminar información. | 2            | Visibilidad del estado del sistema |
-| 3   | Texto de ayuda insuficiente en formularios complejos.                               | 2            | Ayuda y documentación              |
-| 4   | La disposición de elementos clave no sigue un patrón que facilite la usabilidad.    | 3           | Diseño estético y minimalista      |
+| # | Problema                                                                            | Escala de severidad | Heurística/Principio violado       |
+|---|-------------------------------------------------------------------------------------|---------------------|------------------------------------|
+| 1 | La navegación entre secciones no es intuitiva y confunde a los usuarios.            | 3                   | Consistencia y estándares          |
+| 2 | Falta de retroalimentación clara tras acciones como guardar o eliminar información. | 2                   | Visibilidad del estado del sistema |
+| 3 | Texto de ayuda insuficiente en formularios complejos.                               | 2                   | Ayuda y documentación              |
+| 4 | La disposición de elementos clave no sigue un patrón que facilite la usabilidad.    | 3                   | Diseño estético y minimalista      |
 
 ##### DESCRIPCIÓN DE PROBLEMAS:
 ---
-###### **PROBLEMA #1:** 
 
-**Severidad:** 3 
+###### **PROBLEMA #1:**
+
+**Severidad:** 3
 
 **Heurística violada:** Consistencia y estándares
 
-**Problema:** La navegación entre secciones no es intuitiva y confunde a los usuarios, lo que dificulta encontrar información rápidamente.
+**Problema:** La navegación entre secciones no es intuitiva y confunde a los usuarios, lo que dificulta encontrar
+información rápidamente.
 
-**Recomendación:** Rediseñar el menú de navegación para que sea más coherente y utilice terminología familiar para los usuarios, asegurando una experiencia uniforme en todas las secciones.
+**Recomendación:** Rediseñar el menú de navegación para que sea más coherente y utilice terminología familiar para los
+usuarios, asegurando una experiencia uniforme en todas las secciones.
 
 ---
-###### **PROBLEMA #2:** 
 
-**Severidad:** 2 
+###### **PROBLEMA #2:**
+
+**Severidad:** 2
 
 **Heurística violada:** Visibilidad del estado del sistema
 
-**Problema:** Falta de retroalimentación clara tras acciones como guardar o eliminar información, lo que genera incertidumbre en el usuario sobre si la acción fue exitosa.
+**Problema:** Falta de retroalimentación clara tras acciones como guardar o eliminar información, lo que genera
+incertidumbre en el usuario sobre si la acción fue exitosa.
 
-**Recomendación:** Implementar mensajes de confirmación visuales y auditivos que notifiquen al usuario cuando una acción ha sido realizada exitosamente.
+**Recomendación:** Implementar mensajes de confirmación visuales y auditivos que notifiquen al usuario cuando una acción
+ha sido realizada exitosamente.
 
 ---
-###### **PROBLEMA #3:** 
 
-**Severidad:** 2 
+###### **PROBLEMA #3:**
+
+**Severidad:** 2
 
 **Heurística violada:** Ayuda y documentación
 
 **Problema:** Texto de ayuda insuficiente en formularios complejos, lo que puede llevar a errores de entrada de datos.
 
-**Recomendación:** Añadir instrucciones claras y ejemplos de formato en los formularios para guiar al usuario durante el proceso de llenado.
+**Recomendación:** Añadir instrucciones claras y ejemplos de formato en los formularios para guiar al usuario durante el
+proceso de llenado.
 
 ---
-###### **PROBLEMA #4:**  
 
-**Severidad:** 3 
+###### **PROBLEMA #4:**
+
+**Severidad:** 3
 
 **Heurística violada:** Diseño estético y minimalista
 
-**Problema:** La disposición de elementos clave no sigue un patrón que facilite la usabilidad, lo que provoca que los usuarios tengan que buscar más tiempo para encontrar lo que necesitan.
+**Problema:** La disposición de elementos clave no sigue un patrón que facilite la usabilidad, lo que provoca que los
+usuarios tengan que buscar más tiempo para encontrar lo que necesitan.
 
-**Recomendación:** Reorganizar los elementos visuales clave en la interfaz para seguir un diseño más limpio y lógico, alineado con los principios de diseño de prioridad visual.
+**Recomendación:** Reorganizar los elementos visuales clave en la interfaz para seguir un diseño más limpio y lógico,
+alineado con los principios de diseño de prioridad visual.
