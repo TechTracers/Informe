@@ -2540,6 +2540,14 @@ llamado 'Saved'.
 
 ## 6.5. Applications Prototyping
 
+A continuacion se presentaran los prototipos de la aplicación móvil y la aplicacion  web.
+
+**Aplicacion movil:** Enlace del diseño en [figma](https://www.figma.com/proto/diTYqNwAiNv6EZCPf3vOod/Arqui-de-software?page-id=0%3A1&node-id=5-3631&node-type=frame&viewport=507%2C581%2C0.14&t=usRD5u9ibfZjUi9I-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=5%3A3631)
+![proto_movil](assets/capitulo6/prototype/movil.png)
+
+**Aplicacion web:** Enlace del diseño en [figma](https://www.figma.com/proto/diTYqNwAiNv6EZCPf3vOod/Arqui-de-software?page-id=4%3A5803&node-id=11-5076&node-type=frame&viewport=1320%2C290%2C0.08&t=jcHpdyUTiXfIp4GJ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=11%3A5076&show-proto-sidebar=1)
+![proto_web](assets/capitulo6/prototype/web.png)
+
 # Capítulo VII: Product Implementation, Validation & Deployment 
 
 ## 7.1. Software Configuration Management
