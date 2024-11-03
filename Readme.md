@@ -2733,7 +2733,7 @@ Para Dueños de Tiendas de Ropa
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Nombre y apellidos** | Sebastian Cordova        |
 | **Edad**               | 20     |
-| **Evidencia**          | ![Comprador 1](assets/capitulo6/entrevistas/cliente1.png) |
+| **Evidencia**          | ![Comprador 1](assets/capitulo7/interviews/cliente1.png) |
 | **Duracion del video** | 05:07 min                              |
 | **URL**                | [MS Stream - Comprador 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EXxzDY6JRYFHu3Qt56CksZUB8H8cXj_GH8WHmr_c9ZQmUg?e=2dceyt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)       |
 | **Entrevistador**      | Eduardo Chero                    |
@@ -2744,7 +2744,7 @@ Para Dueños de Tiendas de Ropa
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Nombre y apellidos** | Maria Cabrejos        |
 | **Edad**               | 20     |
-| **Evidencia**          | ![Comprador 2](assets/capitulo6/entrevistas/cliente2.png) |
+| **Evidencia**          | ![Comprador 2](assets/capitulo7/interviews/cliente2.png) |
 | **Duracion del video** | 07:02 min                              |
 | **URL**                | [MS Stream - Comprador 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/ET_LoAgTHSlOqeaBCDpu4SEBz5AuiEWqeuNtf5mIKo6siA?e=D9iz2j&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)       |
 | **Entrevistador**      | Josue Arrunategui                  |
@@ -2754,7 +2754,7 @@ Para Dueños de Tiendas de Ropa
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Nombre y apellidos** | Heylen Vallejos        |
 | **Edad**               | 20     |
-| **Evidencia**          | ![Comprador 3](assets/capitulo6/entrevistas/cliente3.png) |
+| **Evidencia**          | ![Comprador 3](assets/capitulo7/interviews/cliente3.png) |
 | **Duracion del video** | 04:07 min                              |
 | **URL**                | [MS Stream - Comprador 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/ES5jCmVyl1VCjnWb7y7xRRQBOSGoWQgDneEmdgEi-1jxMw?e=wh5tOh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)       |
 | **Entrevistador**      | Yoimer Davila                  |
@@ -2766,7 +2766,7 @@ Para Dueños de Tiendas de Ropa
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Nombre y apellidos** | Piero Palomino        |
 | **Edad**               | 23     |
-| **Evidencia**          | ![Dueño 1](assets/capitulo6/entrevistas/dueño1.png) |
+| **Evidencia**          | ![Dueño 1](assets/capitulo7/interviews/dueño1.png) |
 | **Duracion del video** | 06:19 min                              |
 | **URL**                | [MS Stream - Dueño 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/EVp-3Ui8LglIlOZP4YlRCikB5IrXET_k4c2mCAXaeYyFFA?e=auVMqv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)       |
 | **Entrevistador**      | Adrian Melgar                  |
