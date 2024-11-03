@@ -2565,7 +2565,7 @@ En la siguiente sección, vamos a describir con precisión los programas y plata
 
 ### 7.1.2. Source Code Management 
 
-En la siguiente sección, presentaremos los medios que usaremos para el seguimiento del código de ReWear, usaremos GitHub como plataforma ysistema de control de versiones.
+En la siguiente sección, presentaremos los medios que usaremos para el seguimiento del código de LockItem, usaremos GitHub como plataforma ysistema de control de versiones.
 
 A continuación se detalla la aplicación de GitFlow como un WorkFlow para el control de versiones en el desarrollo de ramas o branches.
 
