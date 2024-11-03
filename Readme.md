@@ -45,115 +45,175 @@ ___
 
 # Contenido
 
+- [Registro de versiones del informe](#registro-de-versiones-del-informe)
+- [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [1.1. Startup Profile](#11-startup-profile)
-        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-        - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-        - [1.2.2 Lean UX Process](#122-lean-ux-process)
-            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [2.1. Competidores](#21-competidores)
-        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-        - [2.3.1. User Personas](#231-user-personas)
-        - [2.3.2. User Task Matrix](#232-user-task-matrix)
-        - [2.3.3. Empathy Mapping](#233-empathy-mapping)
-        - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. Empathy Mapping](#233-empathy-mapping)
+    - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.2. User Stories](#32-user-stories)
-    - [3.3. Impact Mapping](#33-impact-mapping)
-    - [3.4. Product Backlog](#34-product-backlog)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
-    - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
-        - [4.1.1. Design Purpose](#411-design-purpose)
-        - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
-            - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-Primary-functionality-(-primary-user-stories-))
-            - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
-            - [4.1.2.3. Constraints](#4123-constraints)
-        - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
-        - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
-        - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
-    - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
-        - [4.2.1. EventStorming](#421-eventstorming)
-        - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
-        - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
-        - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
-        - [4.2.5. Context Mapping](#425-context-mapping)
-    - [4.3. Software Architecture](#43-software-architecture)
-        - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
-        - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
-        - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
-        - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
-
-    - [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
-        - [5.1. Bounded Context: User](#51-bounded-context-user)
-            - [5.1.1. Domain Layer ](#511-domain-layer)
-            - [5.1.2. Interface Layer](#512-interface-layer)
-            - [5.1.3. Application Layer](#513-application-layer)
-            - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
-            - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
-            - [5.1.6. Bounded Context Software Architecture Code Level Diagrams ](#516-bounded-context-software-architecture-code-level-diagrams)
-                - [5.1.6.1. Bounded Context Domain Layer Class Diagrams ](#5161-bounded-context-domain-layer-class-diagrams)
-                - [5.1.6.2. Bounded Context Database Design Diagram ](#5162-bounded-context-database-design-diagram)
-        - [5.2. Bounded Context: IoT device](#52-bounded-context-iot-device)
-            - [5.2.1. Domain Layer ](#521-domain-layer)
-            - [5.2.2. Interface Layer](#522-interface-layer)
-            - [5.2.3. Application Layer](#523-application-layer)
-            - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
-            - [5.2.5. Bounded Context Software Architecture Component Level Diagrams](#525-bounded-context-software-architecture-component-level-diagrams)
-            - [5.2.6. Bounded Context Software Architecture Code Level Diagrams ](#526-bounded-context-software-architecture-code-level-diagrams)
-                - [5.2.6.1. Bounded Context Domain Layer Class Diagrams ](#5261-bounded-context-domain-layer-class-diagrams)
-                - [5.2.6.2. Bounded Context Database Design Diagram ](#5262-bounded-context-database-design-diagram)
-        - [5.3. Bounded Context: Inventory](#53-bounded-context-inventory)
-            - [5.3.1. Domain Layer ](#531-domain-layer)
-            - [5.3.2. Interface Layer](#532-interface-layer)
-            - [5.3.3. Application Layer](#533-application-layer)
-            - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
-            - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
-            - [5.3.6. Bounded Context Software Architecture Code Level Diagrams ](#536-bounded-context-software-architecture-code-level-diagrams)
-                - [5.3.6.1. Bounded Context Domain Layer Class Diagrams ](#5361-bounded-context-domain-layer-class-diagrams)
-                - [5.3.6.2. Bounded Context Database Design Diagram ](#5362-bounded-context-database-design-diagram)
-        - [5.4. Bounded Context: ERP](#54-bounded-context-erp)
-            - [5.4.1. Domain Layer ](#541-domain-layer)
-            - [5.4.2. Interface Layer](#542-interface-layer)
-            - [5.4.3. Application Layer](#543-application-layer)
-            - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
-            - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
-            - [5.4.6. Bounded Context Software Architecture Code Level Diagrams ](#546-bounded-context-software-architecture-code-level-diagrams)
-                - [5.4.6.1. Bounded Context Domain Layer Class Diagrams ](#5461-bounded-context-domain-layer-class-diagrams)
-                - [5.4.6.2. Bounded Context Database Design Diagram ](#5462-bounded-context-database-design-diagram)
-
+  - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
+    - [4.1.1. Design Purpose](#411-design-purpose)
+    - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
+      - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
+      - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
+      - [4.1.2.3. Constraints](#4123-constraints)
+    - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
+    - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
+    - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
+  - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
+    - [4.2.1. EventStorming](#421-eventstorming)
+    - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
+    - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
+    - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
+      - [User bounded context canvas](#user-bounded-context-canvas)
+      - [Iot device management bounded context canvas](#iot-device-management-bounded-context-canvas)
+      - [Inventory management bounded context canvas](#inventory-management-bounded-context-canvas)
+      - [ERP integration bounded context canvas](#erp-integration-bounded-context-canvas)
+    - [4.2.5. Context Mapping](#425-context-mapping)
+  - [4.3. Software Architecture](#43-software-architecture)
+    - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
+    - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
+    - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
+    - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+- [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
+  - [5.1. Bounded Context: User](#51-bounded-context-user)
+    - [5.1.1. Domain Layer](#511-domain-layer)
+    - [5.1.2. Interface Layer](#512-interface-layer)
+    - [5.1.3. Application Layer](#513-application-layer)
+    - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
+    - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
+    - [5.1.6. Bounded Context Software Architecture Code Level Diagrams](#516-bounded-context-software-architecture-code-level-diagrams)
+      - [5.1.6.1. Bounded Context Domain Layer Class Diagrams](#5161-bounded-context-domain-layer-class-diagrams)
+      - [5.1.6.2. Bounded Context Database Design Diagram](#5162-bounded-context-database-design-diagram)
+  - [5.2. Bounded Context: IoT device](#52-bounded-context-iot-device)
+    - [5.2.1. Domain Layer](#521-domain-layer)
+    - [5.2.2. Interface Layer](#522-interface-layer)
+    - [5.2.3. Application Layer](#523-application-layer)
+    - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
+    - [5.2.5. Bounded Context Software Architecture Component Level Diagrams](#525-bounded-context-software-architecture-component-level-diagrams)
+    - [5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)
+      - [5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)
+      - [5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)
+  - [5.3. Bounded Context: Inventory](#53-bounded-context-inventory)
+    - [5.3.1. Domain Layer](#531-domain-layer)
+    - [5.3.2. Interface Layer](#532-interface-layer)
+    - [5.3.3. Application Layer](#533-application-layer)
+    - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
+    - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
+    - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
+      - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
+      - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
+  - [5.4. Bounded Context: ERP](#54-bounded-context-erp)
+    - [5.4.1. Domain Layer](#541-domain-layer)
+    - [1. ERPUser](#1-erpuser)
+    - [2. ERPOrder](#2-erporder)
+    - [5.4.2. Interface Layer](#542-interface-layer)
+  - [Interfaces para ERPUser](#interfaces-para-erpuser)
+    - [Interfaces](#interfaces)
+    - [DTOs (Data Transfer Objects)](#dtos-data-transfer-objects)
+    - [Response Objects](#response-objects)
+  - [Interfaces para ERPOrder](#interfaces-para-erporder)
+    - [Interfaces](#interfaces-1)
+    - [DTOs (Data Transfer Objects)](#dtos-data-transfer-objects-1)
+    - [Response Objects](#response-objects-1)
+    - [5.4.3. Application Layer](#543-application-layer)
+  - [Application Services para ERPUser](#application-services-para-erpuser)
+    - [Servicios de Aplicación](#servicios-de-aplicación)
+  - [Application Services para ERPOrder](#application-services-para-erporder)
+    - [Servicios de Aplicación](#servicios-de-aplicación-1)
+  - [Controladores](#controladores)
+    - [UserController](#usercontroller)
+    - [OrderController](#ordercontroller)
+  - [Patrones de Diseño](#patrones-de-diseño)
+  - [Manejo de Excepciones](#manejo-de-excepciones)
+    - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
+  - [Repositorios](#repositorios)
+    - [UserRepository](#userrepository)
+    - [OrderRepository](#orderrepository)
+  - [Servicios de Infraestructura](#servicios-de-infraestructura)
+    - [Servicios de Mensajería](#servicios-de-mensajería)
+    - [Servicios de Conexión](#servicios-de-conexión)
+  - [Seguridad y Autenticación](#seguridad-y-autenticación)
+    - [SecurityService](#securityservice)
+  - [Gestión de Configuraciones](#gestión-de-configuraciones)
+    - [ConfigurationManager](#configurationmanager)
+  - [Caching](#caching)
+    - [CacheManager](#cachemanager)
+  - [Logging](#logging)
+    - [Logger](#logger)
+    - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
+    - [5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)
+      - [5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)
+      - [5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)
 - [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
-    - [6.1. Style Guidelines](#61-style-guidelines)
-        - [6.1.1. General Style Guidelines](#611-general-style-guidelines)
-        - [6.1.2. Web, Mobile & Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
-    - [6.2. Information Architecture](#62-information-architecture)
-        - [6.2.1. Labeling Systems](#621-labeling-systems)
-        - [6.2.2. Searching Systems](#622-searching-systems)
-        - [6.2.3. SEO Tags and Meta Tags ](#623-seo-tags-and-meta-tags)
-        - [6.2.4. Navigation Systems](#624-navigation-systems)
-    - [6.3. Landing Page UI Design](#63-landing-page-ui-design)
-        - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
-        - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
-    - [6.4. Applications UX/UI Design](#64-applications-ux-ui-design)
-        - [6.4.1. Applications Wireframes](#641-applications-wireframes)
-        - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
-        - [6.4.3. Applications Mock-ups](#643-applications-mock-ups)
-        - [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
+  - [6.1. Style Guidelines](#61-style-guidelines)
+    - [6.1.1. General Style Guidelines](#611-general-style-guidelines)
+    - [6.1.2. Web, Mobile \& Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
+  - [6.2. Information Architecture](#62-information-architecture)
+    - [6.2.1. Labeling Systems](#621-labeling-systems)
+    - [6.2.2. Searching Systems](#622-searching-systems)
+    - [6.2.3. SEO Tags and Meta Tags](#623-seo-tags-and-meta-tags)
+    - [6.2.4. Navigation Systems](#624-navigation-systems)
+  - [6.3. Landing Page UI Design](#63-landing-page-ui-design)
+    - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
+    - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
+  - [6.4. Applications UX/UI Design](#64-applications-uxui-design)
+    - [6.4.1. Applications Wireframes](#641-applications-wireframes)
+    - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
+    - [6.4.3. Applications Mock-ups](#643-applications-mock-ups)
+    - [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
+  - [6.5. Applications Prototyping](#65-applications-prototyping)
+- [Capítulo VII: Product Implementation, Validation \& Deployment](#capítulo-vii-product-implementation-validation--deployment)
+  - [7.1. Software Configuration Management](#71-software-configuration-management)
+    - [7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration)
+    - [7.1.2. Source Code Management](#712-source-code-management)
+    - [7.1.3. Source Code Style Guide \& Conventions](#713-source-code-style-guide--conventions)
+    - [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
+  - [7.2. Solution Implementation](#72-solution-implementation)
+    - [7.2.1. Sprint 1](#721-sprint-1)
+    - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+      - [7.2.1.2. Sprint Backlog 1.](#7212-sprint-backlog-1)
+      - [7.2.1.3. Development Evidence for Sprint Review.](#7213-development-evidence-for-sprint-review)
+      - [7.2.1.4. Testing Suite Evidence for Sprint Review.](#7214-testing-suite-evidence-for-sprint-review)
+      - [7.2.1.5. Execution Evidence for Sprint Review.](#7215-execution-evidence-for-sprint-review)
+      - [7.2.1.6. Services Documentation Evidence for Sprint Review.](#7216-services-documentation-evidence-for-sprint-review)
+      - [7.2.1.7. Software Deployment Evidence for Sprint Review.](#7217-software-deployment-evidence-for-sprint-review)
+      - [7.2.1.8. Team Collaboration Insights during Sprint.](#7218-team-collaboration-insights-during-sprint)
+  - [7.3. Validation Interviews.](#73-validation-interviews)
+    - [7.3.1. Diseño de Entrevistas.](#731-diseño-de-entrevistas)
+    - [7.3.2. Registro de Entrevistas.](#732-registro-de-entrevistas)
+    - [7.3.3. Evaluaciones según heurísticas.](#733-evaluaciones-según-heurísticas)
+
+
 
 ---
 
@@ -2478,3 +2538,74 @@ Cuando el usaurio le guste una prenda del catálogo, puede darle al boton del co
 llamado 'Saved'.
 
 ![uf7](./assets/capitulo6/application_design/userflows_diagrams/uf7.jpg)
+
+## 6.5. Applications Prototyping
+
+# Capítulo VII: Product Implementation, Validation & Deployment 
+
+## 7.1. Software Configuration Management
+
+### 7.1.1. Software Development Environment Configuration 
+
+### 7.1.2. Source Code Management 
+
+### 7.1.3. Source Code Style Guide & Conventions 
+
+### 7.1.4. Software Deployment Configuration
+
+## 7.2. Solution Implementation 
+
+### 7.2.1. Sprint 1 
+
+### 7.2.1.1. Sprint Planning 1
+
+#### 7.2.1.2. Sprint Backlog 1.
+
+#### 7.2.1.3. Development Evidence for Sprint Review.
+
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review.
+
+#### 7.2.1.5. Execution Evidence for Sprint Review.
+
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+
+#### 7.2.1.8. Team Collaboration Insights during Sprint.
+
+## 7.3. Validation Interviews.
+
+### 7.3.1. Diseño de Entrevistas.
+Para esta entrega de nuestro trabajos hemos identificado las siguientes preguntas para nuestros entrevistados luego de presentarles nuestra aplicación:
+
+Para Clientes de Tiendas de Ropa
+
+¿Qué aspectos de la app móvil de LockItem te parecen más atractivos?
+¿Consideras que la funcionalidad de localizar prendas en tiempo real mejoraría tu experiencia de compra? ¿Por qué?
+¿Cuánto tiempo sueles pasar buscando una prenda específica en una tienda? ¿Crees que esta solución reduciría ese tiempo?
+¿Te sentirías cómodo utilizando tu smartphone para buscar y localizar productos dentro de una tienda?
+¿Hay algo en la app de LockItem que te gustaría que fuera diferente o que agregarías para mejorarla?
+¿Qué tan importante es para ti la eficiencia y rapidez en tus compras en tiendas físicas?
+¿Usarías una app como LockItem con regularidad al visitar tiendas de ropa?
+¿Qué tan fácil te pareció la navegación y el uso de la app de LockItem?
+¿Qué otras funcionalidades te gustaría que tuviera la app para hacer tu experiencia de compra más completa?
+¿Te motivaría esta tecnología a visitar más frecuentemente tiendas que la implementen?
+
+Para Dueños de Tiendas de Ropa
+
+¿Qué te parece la idea de integrar LockItem en tu tienda? ¿Cuáles crees que serían los beneficios más relevantes?
+¿Cómo evalúas la posible mejora en la gestión de inventarios al usar esta solución?
+¿Crees que la implementación de LockItem podría ayudar a reducir los costos operativos de tu tienda? ¿De qué manera?
+¿Qué tan sencillo te parece el proceso de adopción e integración de esta tecnología en tu negocio?
+¿Consideras que LockItem puede mejorar la satisfacción del cliente y aumentar sus visitas? ¿Por qué?
+¿Qué preocupaciones o retos crees que enfrentarías al implementar una solución basada en IoT como LockItem?
+¿Cuál es tu nivel de familiaridad con el uso de tecnología IoT en tu negocio? ¿Qué otros sistemas similares has considerado?
+¿Qué aspectos específicos de la app te resultan más útiles o atractivos para tu tienda?
+¿Cuánto estarías dispuesto a invertir en una tecnología que mejore la experiencia de tus clientes y la gestión de inventario?
+¿Qué otras características o mejoras te gustaría ver en LockItem para que se ajuste mejor a las necesidades de tu tienda?
+
+### 7.3.2. Registro de Entrevistas.
+
+
+
+### 7.3.3. Evaluaciones según heurísticas.
