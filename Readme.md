@@ -50,169 +50,189 @@ ___
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [1.1. Startup Profile](#11-startup-profile)
-        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-        - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-        - [1.2.2 Lean UX Process](#122-lean-ux-process)
-            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [2.1. Competidores](#21-competidores)
-        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-        - [2.3.1. User Personas](#231-user-personas)
-        - [2.3.2. User Task Matrix](#232-user-task-matrix)
-        - [2.3.3. Empathy Mapping](#233-empathy-mapping)
-        - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. Empathy Mapping](#233-empathy-mapping)
+    - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.2. User Stories](#32-user-stories)
-    - [3.3. Impact Mapping](#33-impact-mapping)
-    - [3.4. Product Backlog](#34-product-backlog)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
-    - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
-        - [4.1.1. Design Purpose](#411-design-purpose)
-        - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
-            - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
-            - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
-            - [4.1.2.3. Constraints](#4123-constraints)
-        - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
-        - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
-        - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
-    - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
-        - [4.2.1. EventStorming](#421-eventstorming)
-        - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
-        - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
-        - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
-            - [User bounded context canvas](#user-bounded-context-canvas)
-            - [Iot device management bounded context canvas](#iot-device-management-bounded-context-canvas)
-            - [Inventory management bounded context canvas](#inventory-management-bounded-context-canvas)
-            - [ERP integration bounded context canvas](#erp-integration-bounded-context-canvas)
-        - [4.2.5. Context Mapping](#425-context-mapping)
-    - [4.3. Software Architecture](#43-software-architecture)
-        - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
-        - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
-        - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
-        - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+  - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
+    - [4.1.1. Design Purpose](#411-design-purpose)
+    - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
+      - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
+      - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
+      - [4.1.2.3. Constraints](#4123-constraints)
+    - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
+    - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
+    - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
+  - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
+    - [4.2.1. EventStorming](#421-eventstorming)
+    - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
+    - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
+    - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
+      - [User bounded context canvas](#user-bounded-context-canvas)
+      - [Iot device management bounded context canvas](#iot-device-management-bounded-context-canvas)
+      - [Inventory management bounded context canvas](#inventory-management-bounded-context-canvas)
+      - [ERP integration bounded context canvas](#erp-integration-bounded-context-canvas)
+    - [4.2.5. Context Mapping](#425-context-mapping)
+  - [4.3. Software Architecture](#43-software-architecture)
+    - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
+    - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
+    - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
+    - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
 - [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
-    - [5.1. Bounded Context: User](#51-bounded-context-user)
-        - [5.1.1. Domain Layer](#511-domain-layer)
-        - [5.1.2. Interface Layer](#512-interface-layer)
-        - [5.1.3. Application Layer](#513-application-layer)
-        - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
-        - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
-        - [5.1.6. Bounded Context Software Architecture Code Level Diagrams](#516-bounded-context-software-architecture-code-level-diagrams)
-            - [5.1.6.1. Bounded Context Domain Layer Class Diagrams](#5161-bounded-context-domain-layer-class-diagrams)
-            - [5.1.6.2. Bounded Context Database Design Diagram](#5162-bounded-context-database-design-diagram)
-    - [5.2. Bounded Context: IoT device](#52-bounded-context-iot-device)
-        - [5.2.1. Domain Layer](#521-domain-layer)
-        - [5.2.2. Interface Layer](#522-interface-layer)
-        - [5.2.3. Application Layer](#523-application-layer)
-        - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
-        - [5.2.5. Bounded Context Software Architecture Component Level Diagrams](#525-bounded-context-software-architecture-component-level-diagrams)
-        - [5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)
-            - [5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)
-            - [5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)
-    - [5.3. Bounded Context: Inventory](#53-bounded-context-inventory)
-        - [5.3.1. Domain Layer](#531-domain-layer)
-        - [5.3.2. Interface Layer](#532-interface-layer)
-        - [5.3.3. Application Layer](#533-application-layer)
-        - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
-        - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
-        - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
-            - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
-            - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
-    - [5.4. Bounded Context: ERP](#54-bounded-context-erp)
-        - [5.4.1. Domain Layer](#541-domain-layer)
-        - [1. ERPUser](#1-erpuser)
-        - [2. ERPOrder](#2-erporder)
-        - [5.4.2. Interface Layer](#542-interface-layer)
-    - [Interfaces para ERPUser](#interfaces-para-erpuser)
-        - [Interfaces](#interfaces)
-        - [DTOs (Data Transfer Objects)](#dtos-data-transfer-objects)
-        - [Response Objects](#response-objects)
-    - [Interfaces para ERPOrder](#interfaces-para-erporder)
-        - [Interfaces](#interfaces-1)
-        - [DTOs (Data Transfer Objects)](#dtos-data-transfer-objects-1)
-        - [Response Objects](#response-objects-1)
-        - [5.4.3. Application Layer](#543-application-layer)
-    - [Application Services para ERPUser](#application-services-para-erpuser)
-        - [Servicios de Aplicación](#servicios-de-aplicación)
-    - [Application Services para ERPOrder](#application-services-para-erporder)
-        - [Servicios de Aplicación](#servicios-de-aplicación-1)
-    - [Controladores](#controladores)
-        - [UserController](#usercontroller)
-        - [OrderController](#ordercontroller)
-    - [Patrones de Diseño](#patrones-de-diseño)
-    - [Manejo de Excepciones](#manejo-de-excepciones)
-        - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
-    - [Repositorios](#repositorios)
-        - [UserRepository](#userrepository)
-        - [OrderRepository](#orderrepository)
-    - [Servicios de Infraestructura](#servicios-de-infraestructura)
-        - [Servicios de Mensajería](#servicios-de-mensajería)
-        - [Servicios de Conexión](#servicios-de-conexión)
-    - [Seguridad y Autenticación](#seguridad-y-autenticación)
-        - [SecurityService](#securityservice)
-    - [Gestión de Configuraciones](#gestión-de-configuraciones)
-        - [ConfigurationManager](#configurationmanager)
-    - [Caching](#caching)
-        - [CacheManager](#cachemanager)
-    - [Logging](#logging)
-        - [Logger](#logger)
-        - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
-        - [5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)
-            - [5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)
-            - [5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)
+  - [5.1. Bounded Context: User](#51-bounded-context-user)
+    - [5.1.1. Domain Layer](#511-domain-layer)
+    - [5.1.2. Interface Layer](#512-interface-layer)
+    - [5.1.3. Application Layer](#513-application-layer)
+    - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
+    - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
+    - [5.1.6. Bounded Context Software Architecture Code Level Diagrams](#516-bounded-context-software-architecture-code-level-diagrams)
+      - [5.1.6.1. Bounded Context Domain Layer Class Diagrams](#5161-bounded-context-domain-layer-class-diagrams)
+      - [5.1.6.2. Bounded Context Database Design Diagram](#5162-bounded-context-database-design-diagram)
+  - [5.2. Bounded Context: IoT device](#52-bounded-context-iot-device)
+    - [5.2.1. Domain Layer](#521-domain-layer)
+    - [5.2.2. Interface Layer](#522-interface-layer)
+    - [5.2.3. Application Layer](#523-application-layer)
+    - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
+    - [5.2.5. Bounded Context Software Architecture Component Level Diagrams](#525-bounded-context-software-architecture-component-level-diagrams)
+    - [5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)
+      - [5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)
+      - [5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)
+  - [5.3. Bounded Context: Inventory](#53-bounded-context-inventory)
+    - [5.3.1. Domain Layer](#531-domain-layer)
+    - [5.3.2. Interface Layer](#532-interface-layer)
+    - [5.3.3. Application Layer](#533-application-layer)
+    - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
+    - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
+    - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
+      - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
+      - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
+  - [5.4. Bounded Context: ERP](#54-bounded-context-erp)
+    - [5.4.1. Domain Layer](#541-domain-layer)
+    - [1. ERPUser](#1-erpuser)
+    - [2. ERPOrder](#2-erporder)
+    - [5.4.2. Interface Layer](#542-interface-layer)
+  - [Interfaces para ERPUser](#interfaces-para-erpuser)
+    - [Interfaces](#interfaces)
+    - [DTOs (Data Transfer Objects)](#dtos-data-transfer-objects)
+    - [Response Objects](#response-objects)
+  - [Interfaces para ERPOrder](#interfaces-para-erporder)
+    - [Interfaces](#interfaces-1)
+    - [DTOs (Data Transfer Objects)](#dtos-data-transfer-objects-1)
+    - [Response Objects](#response-objects-1)
+    - [5.4.3. Application Layer](#543-application-layer)
+  - [Application Services para ERPUser](#application-services-para-erpuser)
+    - [Servicios de Aplicación](#servicios-de-aplicación)
+  - [Application Services para ERPOrder](#application-services-para-erporder)
+    - [Servicios de Aplicación](#servicios-de-aplicación-1)
+  - [Controladores](#controladores)
+    - [UserController](#usercontroller)
+    - [OrderController](#ordercontroller)
+  - [Patrones de Diseño](#patrones-de-diseño)
+  - [Manejo de Excepciones](#manejo-de-excepciones)
+    - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
+  - [Repositorios](#repositorios)
+    - [UserRepository](#userrepository)
+    - [OrderRepository](#orderrepository)
+  - [Servicios de Infraestructura](#servicios-de-infraestructura)
+    - [Servicios de Mensajería](#servicios-de-mensajería)
+    - [Servicios de Conexión](#servicios-de-conexión)
+  - [Seguridad y Autenticación](#seguridad-y-autenticación)
+    - [SecurityService](#securityservice)
+  - [Gestión de Configuraciones](#gestión-de-configuraciones)
+    - [ConfigurationManager](#configurationmanager)
+  - [Caching](#caching)
+    - [CacheManager](#cachemanager)
+  - [Logging](#logging)
+    - [Logger](#logger)
+    - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
+    - [5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)
+      - [5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)
+      - [5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)
 - [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
-    - [6.1. Style Guidelines](#61-style-guidelines)
-        - [6.1.1. General Style Guidelines](#611-general-style-guidelines)
-        - [6.1.2. Web, Mobile \& Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
-    - [6.2. Information Architecture](#62-information-architecture)
-        - [6.2.1. Labeling Systems](#621-labeling-systems)
-        - [6.2.2. Searching Systems](#622-searching-systems)
-        - [6.2.3. SEO Tags and Meta Tags](#623-seo-tags-and-meta-tags)
-        - [6.2.4. Navigation Systems](#624-navigation-systems)
-    - [6.3. Landing Page UI Design](#63-landing-page-ui-design)
-        - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
-        - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
-    - [6.4. Applications UX/UI Design](#64-applications-uxui-design)
-        - [6.4.1. Applications Wireframes](#641-applications-wireframes)
-        - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
-        - [6.4.3. Applications Mock-ups](#643-applications-mock-ups)
-        - [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
-    - [6.5. Applications Prototyping](#65-applications-prototyping)
+  - [6.1. Style Guidelines](#61-style-guidelines)
+    - [6.1.1. General Style Guidelines](#611-general-style-guidelines)
+    - [6.1.2. Web, Mobile \& Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
+  - [6.2. Information Architecture](#62-information-architecture)
+    - [6.2.1. Labeling Systems](#621-labeling-systems)
+    - [6.2.2. Searching Systems](#622-searching-systems)
+    - [6.2.3. SEO Tags and Meta Tags](#623-seo-tags-and-meta-tags)
+    - [6.2.4. Navigation Systems](#624-navigation-systems)
+  - [6.3. Landing Page UI Design](#63-landing-page-ui-design)
+    - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
+    - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
+  - [6.4. Applications UX/UI Design](#64-applications-uxui-design)
+    - [6.4.1. Applications Wireframes](#641-applications-wireframes)
+    - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
+    - [6.4.3. Applications Mock-ups](#643-applications-mock-ups)
+    - [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
+  - [6.5. Applications Prototyping](#65-applications-prototyping)
 - [Capítulo VII: Product Implementation, Validation \& Deployment](#capítulo-vii-product-implementation-validation--deployment)
-    - [7.1. Software Configuration Management](#71-software-configuration-management)
-        - [7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration)
-        - [7.1.2. Source Code Management](#712-source-code-management)
-        - [7.1.3. Source Code Style Guide \& Conventions](#713-source-code-style-guide--conventions)
-        - [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
-    - [7.2. Solution Implementation](#72-solution-implementation)
-        - [7.2.1. Sprint 1](#721-sprint-1)
-        - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
-            - [7.2.1.2. Sprint Backlog 1.](#7212-sprint-backlog-1)
-            - [7.2.1.3. Development Evidence for Sprint Review.](#7213-development-evidence-for-sprint-review)
-            - [7.2.1.4. Testing Suite Evidence for Sprint Review.](#7214-testing-suite-evidence-for-sprint-review)
-            - [7.2.1.5. Execution Evidence for Sprint Review.](#7215-execution-evidence-for-sprint-review)
-            - [7.2.1.6. Services Documentation Evidence for Sprint Review.](#7216-services-documentation-evidence-for-sprint-review)
-            - [7.2.1.7. Software Deployment Evidence for Sprint Review.](#7217-software-deployment-evidence-for-sprint-review)
-            - [7.2.1.8. Team Collaboration Insights during Sprint.](#7218-team-collaboration-insights-during-sprint)
-    - [7.3. Validation Interviews.](#73-validation-interviews)
-        - [7.3.1. Diseño de Entrevistas.](#731-diseño-de-entrevistas)
-        - [7.3.2. Registro de Entrevistas.](#732-registro-de-entrevistas)
-        - [7.3.3. Evaluaciones según heurísticas.](#733-evaluaciones-según-heurísticas)
+  - [7.1. Software Configuration Management](#71-software-configuration-management)
+    - [7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration)
+    - [7.1.2. Source Code Management](#712-source-code-management)
+    - [7.1.3. Source Code Style Guide \& Conventions](#713-source-code-style-guide--conventions)
+    - [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
+  - [7.2. Solution Implementation](#72-solution-implementation)
+    - [7.2.1. Sprint 1](#721-sprint-1)
+      - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+      - [7.2.1.2. Sprint Backlog 1.](#7212-sprint-backlog-1)
+      - [7.2.1.3. Development Evidence for Sprint Review.](#7213-development-evidence-for-sprint-review)
+      - [7.2.1.4. Testing Suite Evidence for Sprint Review.](#7214-testing-suite-evidence-for-sprint-review)
+      - [7.2.1.5. Execution Evidence for Sprint Review.](#7215-execution-evidence-for-sprint-review)
+      - [7.2.1.6. Services Documentation Evidence for Sprint Review.](#7216-services-documentation-evidence-for-sprint-review)
+      - [7.2.1.7. Software Deployment Evidence for Sprint Review.](#7217-software-deployment-evidence-for-sprint-review)
+      - [7.2.1.8. Team Collaboration Insights during Sprint.](#7218-team-collaboration-insights-during-sprint)
+    - [7.2.2. Sprint 2](#722-sprint-2)
+      - [7.2.2.1. Sprint Planning 2](#7221-sprint-planning-2)
+      - [7.2.2.2. Sprint Backlog 2.](#7222-sprint-backlog-2)
+      - [7.2.2.3. Development Evidence for Sprint Review.](#7223-development-evidence-for-sprint-review)
+      - [7.2.2.4. Testing Suite Evidence for Sprint Review.](#7224-testing-suite-evidence-for-sprint-review)
+      - [7.2.2.5. Execution Evidence for Sprint Review.](#7225-execution-evidence-for-sprint-review)
+      - [7.2.2.6. Services Documentation Evidence for Sprint Review.](#7226-services-documentation-evidence-for-sprint-review)
+      - [7.2.2.7. Software Deployment Evidence for Sprint Review.](#7227-software-deployment-evidence-for-sprint-review)
+      - [7.2.2.8. Team Collaboration Insights during Sprint.](#7228-team-collaboration-insights-during-sprint)
+  - [7.3. Validation Interviews.](#73-validation-interviews)
+    - [7.3.1. Diseño de Entrevistas.](#731-diseño-de-entrevistas)
+    - [7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
+    - [7.3.3. Evaluaciones según heurísticas.](#733-evaluaciones-según-heurísticas)
+      - [Evaluación de User Experience según Heurísticas](#evaluación-de-user-experience-según-heurísticas)
+        - [SITE o APP A EVALUAR:](#site-o-app-a-evaluar)
+        - [TAREAS A EVALUAR:](#tareas-a-evaluar)
+        - [ESCALA DE SEVERIDAD](#escala-de-severidad)
+        - [TABLA RESUMEN](#tabla-resumen)
+        - [DESCRIPCIÓN DE PROBLEMAS:](#descripción-de-problemas)
+          - [**PROBLEMA #1:**](#problema-1)
+          - [**PROBLEMA #2:**](#problema-2)
+          - [**PROBLEMA #3:**](#problema-3)
+          - [**PROBLEMA #4:**](#problema-4)
+- [Conclusiones](#conclusiones)
 
 ---
 
@@ -2760,6 +2780,19 @@ directamente desde un repositorio de GitHub. El proceso de despliegue fue el sig
 
 #### 7.2.1.2. Sprint Backlog 1.
 
+| Sprint 1 | Sprint 1 | | | | | | |
+|----|--------|----------|-----|----------|--------|-------------|------------|
+| User Story |  | Work-Item / Task | | | | | |
+| Id | Title | Id | Title | Description | Estimation(Hours) | Assigned To | Status (To-do / InProcess /ToReview /Done) |
+| US-001        | Implementación de Autenticación Segura | W-001        | Crear Autenticación Segura   | Desarrollar un sistema de autenticación robusto con multi-factor.          | 16                  | Josué David Arrunátegui | Done          |
+| US-002        | Gestión de Inventario en Tiempo Real   | W-002        | Gestionar Inventario          | Permitir a las tiendas visualizar y gestionar el inventario en tiempo real. | 16                  | Giakomo Causso           | Done       |
+| US-004        | Localización de Prendas                | W-003        | Funcionalidad de Localización| Desarrollar la funcionalidad para que los clientes puedan localizar prendas mediante la app. | 16 | Eduardo Chero | Done |
+| US-014        | Cifrado de Datos                       | W-004        | Implementar Cifrado          | Asegurar que todos los datos sensibles estén cifrados tanto en tránsito como en reposo. | 12 | Yoimer Dávila | Done |
+| US-012        | Mejoras de UI/UX                       | W-005        | Mejorar Interfaz             | Mejorar la interfaz de usuario y la experiencia del usuario basada en el feedback de los usuarios. | 8 | Adrian Melgar | Done |
+
+
+
+
 #### 7.2.1.3. Development Evidence for Sprint Review.
 
 Se completó la implementación de la Landing-page, se avanzó con los commits para la aplicación web, el Backend y el
@@ -2884,6 +2917,61 @@ se puede demostrar el trabajo colaborativo del sprint 1:
 ![S1 Repositories Collab](assets/capitulo7/Team_Collaboration/repositories.png)
 
 ![S1 Frontend Collab](assets/capitulo7/Team_Collaboration/frontend.png)
+
+### 7.2.2. Sprint 2
+
+#### 7.2.2.1. Sprint Planning 2
+
+| Sprint #                           | 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint Planning Background         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Date                               | 2024-11-5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Time                               | 08:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Location                           | Reunión virtual via Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Prepared By                        | Chero Emé, Eduardo André                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Attendees                          | Josué Arrunátegui / Giakomo Causso / Yoimer Dávila / Eduardo Chero / Adrian Melgar                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint n – 2 Review Summary        | Durante el Sprint 2, se completaron las tareas base del sistema, incluyendo la implementación de autenticación segura, la gestión de inventario en tiempo real y la funcionalidad de localización de prendas. Además, se avanzó en el cifrado de datos para la seguridad del sistema y en la mejora de la experiencia de usuario mediante ajustes en la interfaz. Aunque se enfrentaron pequeños retrasos en algunas tareas, se lograron los objetivos principales planificados para este segundo sprint.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint n – 2 Retrospective Summary | El equipo identificó la necesidad de mejorar la estimación de tiempos para las tareas y optimizar la coordinación interna para resolver dependencias críticas entre módulos. Las observaciones realizadas por el profesor ayudaron a redefinir prioridades y refinar los criterios de aceptación de cada tarea. Estos ajustes permitieron una mejor alineación del proyecto con los objetivos de desarrollo basados en los principios de Domain-Driven Design.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Sprint Goal & User Stories         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sprint n Goal                      | **Nos centramos en** completar el desarrollo y garantizar la funcionalidad integral del sistema, incluyendo la aplicación web, la aplicación móvil y el dispositivo IoT. Esto implica finalizar las pruebas del sistema, integrar completamente el backend con el frontend, desarrollar los reportes y análisis necesarios, y realizar el despliegue en un entorno de producción.<br><br>**Creemos que** este sprint asegurará que todas las funcionalidades clave estén operativas, brindando una solución lista para su uso por parte de tiendas y usuarios finales.<br><br>**Esto se confirmará cuando** la aplicación web y móvil estén completamente funcionales, el dispositivo IoT esté integrado y operando con datos reales, las pruebas del sistema validen el correcto funcionamiento del proyecto, y el despliegue final se realice con éxito en producción. |
+| Sprint n Velocity                  | 60                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sum of Story Points                | 48                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+
+
+#### 7.2.2.2. Sprint Backlog 2.
+
+| Sprint 2 | Sprint 2 | | | | | | |
+|----|--------|----------|-----|----------|--------|-------------|------------|
+| User Story |  | Work-Item / Task | | | | | |
+| Id | Title | Id | Title | Description | Estimation(Hours) | Assigned To | Status (To-do / InProcess /ToReview /Done) |
+| US-005        | Integración con ERP                    | W-008        | Integrar con ERP             | Integrar la solución LockItem con sistemas ERP de las tiendas.              | 16                  | Eduardo Chero            | Done       |
+| US-007        | Personalización de la Aplicación       | W-011        | Personalizar la App          | Permitir a los usuarios personalizar la interfaz y las notificaciones.      | 8                   | Josué David Arrunátegui | To-do           |
+| US-013        | Actualizaciones de Seguridad           | W-013        | Implementar Actualizaciones  | Implementar actualizaciones de seguridad para proteger los datos de los usuarios. | 8                   | Adrian Melgar            | Done            |
+| US-010        | Soporte Técnico Continuo               | W-014        | Establecer Soporte Técnico   | Establecer un servicio de soporte técnico 24/7 para las tiendas.            | 6                   | Eduardo Chero            | To-do           |
+| US-015        | Monitoreo de Actividad del Usuario     | W-015        | Crear Herramientas Monitoreo | Desarrollar herramientas para que los gerentes puedan monitorear la actividad de los usuarios. | 8 | Giakomo Causso | InProcess |
+
+#### 7.2.2.3. Development Evidence for Sprint Review.
+
+
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+
+
+
+#### 7.2.2.5. Execution Evidence for Sprint Review.
+
+
+
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+
+
+
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+
+
+
+#### 7.2.2.8. Team Collaboration Insights during Sprint.
 
 ## 7.3. Validation Interviews.
 
@@ -3063,3 +3151,17 @@ usuarios tengan que buscar más tiempo para encontrar lo que necesitan.
 
 **Recomendación:** Reorganizar los elementos visuales clave en la interfaz para seguir un diseño más limpio y lógico,
 alineado con los principios de diseño de prioridad visual.
+
+# Conclusiones
+
+**Innovación Tecnológica**: El proyecto LockItem demostró cómo la implementación de soluciones basadas en IoT puede transformar la experiencia de compra en tiendas físicas, ofreciendo herramientas para la localización en tiempo real de productos y la optimización de inventarios.
+
+**Impacto en la Eficiencia Operativa**: El uso de sensores IoT y una aplicación móvil contribuyó a reducir significativamente el tiempo de búsqueda de productos y mejoró la gestión de inventarios, lo cual repercutió directamente en la eficiencia operativa de las tiendas.
+
+**Enfoque en el Usuario**: Las entrevistas y validaciones realizadas con clientes y dueños de tiendas permitieron diseñar una solución alineada a las necesidades reales de los usuarios, demostrando la importancia de incorporar metodologías centradas en el usuario durante el desarrollo de tecnologías.
+
+**Competitividad del Mercado**: LockItem destaca como una solución innovadora que no solo mejora la experiencia del cliente, sino que también fortalece la posición competitiva de las tiendas en el mercado minorista peruano.
+
+**Escalabilidad y Adaptabilidad**: La arquitectura del sistema fue diseñada para ser escalable, permitiendo adaptarse a nuevas funcionalidades y necesidades de diferentes sectores minoristas, más allá de las tiendas de ropa.
+
+**Lecciones Aprendidas**: Durante el proyecto, se identificó la importancia de establecer una comunicación efectiva entre las partes interesadas, así como la necesidad de iterar sobre el diseño para garantizar una solución que aporte valor real.
