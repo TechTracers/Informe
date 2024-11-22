@@ -41,6 +41,7 @@ ___
 | 1.5     | 08/09/2024 | Yoimer Dávila     | Desarrollo del 4.2.4. Bounded Context Canvases hasta 4.3.4. Software Architecture Deployment Diagrams |
 | 1.6     | 26/09/2024 | Adrian Melgar     | Desarrollo de todo el punto 5.3. Bounded Context: Inventory                                           |
 | 1.7     | 02/11/2024 | Adrian Melgar     | Desarrollo de los puntos 7.1 al 7.1.3                                                                 |
+| 1.8     | 21/11/2024 | Adrian Melgar     | Desarrollo de los puntos 7.2.1.6                                                                      |
 
 ---
 
@@ -215,7 +216,7 @@ ___
       - [7.2.2.3. Development Evidence for Sprint Review.](#7223-development-evidence-for-sprint-review)
       - [7.2.2.4. Testing Suite Evidence for Sprint Review.](#7224-testing-suite-evidence-for-sprint-review)
       - [7.2.2.5. Execution Evidence for Sprint Review.](#7225-execution-evidence-for-sprint-review)
-      - [7.2.2.6. Services Documentation Evidence for Sprint Review.](#7226-services-documentation-evidence-for-sprint-review)
+      - [](#7226-services-documentation-evidence-for-sprint-review)
       - [7.2.2.7. Software Deployment Evidence for Sprint Review.](#7227-software-deployment-evidence-for-sprint-review)
       - [7.2.2.8. Team Collaboration Insights during Sprint.](#7228-team-collaboration-insights-during-sprint)
   - [7.3. Validation Interviews.](#73-validation-interviews)
@@ -2965,6 +2966,41 @@ se puede demostrar el trabajo colaborativo del sprint 1:
 
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 
+En esta sección se presenta la lista de Endpoints configurados en el Sprint 2.
+Dado que el RestAPI de LockItem dependeria de services externos de las tiendas, que compartirian la informacion de sus
+recursos, como productos y precios, se decidio implementar un servicio adicional para complementar ello, puesto que acceder
+a esa informacion no nos es posible.
+
+| Controller                  | Method | Endpoint                                  | Acción                                |
+|-----------------------------|--------|------------------------------------------|---------------------------------------|
+| users-controller           | GET    | /api/v1/users/{id}                       | Obtener usuario por ID               |
+| users-controller           | PUT    | /api/v1/users/{id}                       | Actualizar usuario por ID            |
+| users-controller           | DELETE | /api/v1/users/{id}                       | Borrar usuario por ID                |
+| users-controller           | GET    | /api/v1/users                            | Obtener todos los usuarios           |
+| users-controller           | POST   | /api/v1/users                            | Crear un nuevo usuario               |
+| users-controller           | POST   | /api/v1/users/login                      | Inicio de sesión de usuario          |
+| store-controller           | GET    | /api/v1/stores/{id}                      | Obtener tienda por ID                |
+| store-controller           | PUT    | /api/v1/stores/{id}                      | Actualizar tienda por ID             |
+| store-controller           | DELETE | /api/v1/stores/{id}                      | Borrar tienda por ID                 |
+| store-controller           | GET    | /api/v1/stores                           | Obtener todas las tiendas            |
+| store-controller           | POST   | /api/v1/stores                           | Crear una nueva tienda               |
+| store-product-controller   | GET    | /api/v1/stores/{id}/products             | Obtener todos los productos de la tienda por ID |
+| store-product-controller   | PUT    | /api/v1/stores/{id}/products             | Actualizar producto en tienda por ID |
+| store-product-controller   | POST   | /api/v1/stores/{id}/products             | Insertar producto en la tienda por ID |
+| store-product-controller   | GET    | /api/v1/stores/products                  | Obtener todos los productos          |
+| store-product-controller   | GET    | /api/v1/stores/products/{id}             | Obtener producto por ID              |
+| store-product-controller   | DELETE | /api/v1/stores/{id}/products/{productId} | Eliminar producto de la tienda por ID |
+| products-controller        | GET    | /api/v1/products/{id}                    | Obtener producto por ID              |
+| products-controller        | PUT    | /api/v1/products/{id}                    | Actualizar producto por ID           |
+| products-controller        | DELETE | /api/v1/products/{id}                    | Borrar producto por ID               |
+| products-controller        | GET    | /api/v1/products                         | Obtener todos los productos          |
+| products-controller        | POST   | /api/v1/products                         | Crear un nuevo producto              |
+| products-controller        | GET    | /api/v1/products/search/{name}           | Buscar productos por nombre          |
+| products-controller        | GET    | /api/v1/products/search/                 | Buscar productos                     |
+| product-categories-controller | GET  | /api/v1/product-categories               | Obtener todas las categorías de producto |
+| product-categories-controller | POST | /api/v1/product-categories               | Crear una nueva categoría de producto |
+| product-categories-controller | GET  | /api/v1/product-categories/{id}          | Obtener categoría por ID             |
+| product-categories-controller | DELETE | /api/v1/product-categories/{id}         | Eliminar categoría por ID            |
 
 
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
