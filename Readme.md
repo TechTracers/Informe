@@ -41,7 +41,7 @@ ___
 | 1.5     | 08/09/2024 | Yoimer Dávila     | Desarrollo del 4.2.4. Bounded Context Canvases hasta 4.3.4. Software Architecture Deployment Diagrams |
 | 1.6     | 26/09/2024 | Adrian Melgar     | Desarrollo de todo el punto 5.3. Bounded Context: Inventory                                           |
 | 1.7     | 02/11/2024 | Adrian Melgar     | Desarrollo de los puntos 7.1 al 7.1.3                                                                 |
-| 1.8     | 21/11/2024 | Adrian Melgar     | Desarrollo de los puntos 7.2.1.6                                                                      |
+| 2.1     | 21/11/2024 | Adrian Melgar     | Desarrollo de los puntos 7.2.1.6                                                                      |
 
 ---
 
