@@ -3082,9 +3082,33 @@ a esa informacion no nos es posible.
 
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
 
+En esta seccion, se muestran imagenes del proceso y deployment de los componentes desarrollados en el sprint 2
 
+App móvil:
+
+Para la aplicación móvil se desplegó mediante una apk, dicha apk se llegó a instalar en el telefono móvil de uno de nosotros.
+
+Aqui se muestra el icono de la app ya desplegada en uno de los dispositivos de los integrantes.
+
+![App movil deployment](assets/capitulo7/Software_Deployment/App_movil_desplegada_1.jpeg)
+
+Aquí se evidencia la aplicación completamente desplegada en el dispositivo móvil.
+
+![App movil deployment](assets/capitulo7/Software_Deployment/App_movil_desplegada_2.jpeg)
 
 #### 7.2.2.8. Team Collaboration Insights during Sprint.
+
+En nuestra organización de GitHub tenemos todos los repositorios para los diversos puntos de nuestras startup, los cuales son los siguientes:
+![Repositorios Organización](assets/capitulo7/Team_Collaboration/repos_sprint_2.png)
+* Web App:
+![Web App Collaboration Insights](assets/capitulo7/Team_Collaboration/App_Web.png)
+* Back-End:
+![Repositorios Organización](assets/capitulo7/Team_Collaboration/backend.png)
+* Mobile App:
+![Repositorios Organización](assets/capitulo7/Team_Collaboration/App_movil.png)
+* IoT Device:
+![Repositorios Organización](assets/capitulo7/Team_Collaboration/IoT_device.png)
+
 
 ## 7.3. Validation Interviews.
 
