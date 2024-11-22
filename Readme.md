@@ -2954,11 +2954,52 @@ se puede demostrar el trabajo colaborativo del sprint 1:
 
 #### 7.2.2.3. Development Evidence for Sprint Review.
 
+### Development Evidence for Sprint Review
+
+Se completó la implementación de la Landing-page, se completaron con los commits para la aplicación web, el Backend y el dispositivo IoT.
+
+#### Tablero de commits del repositorio de la Landing-page:
+
+| Repository               | Branch | Commit ID                                 |
+|--------------------------|--------|-------------------------------------------|
+| TechTracers/landing-page | main   | `a3414c1fc585256d44badf1c5450a4d27b3a716` |
+
+#### Tablero de commits del repositorio de la App Web:
+
+| Repository          | Branch                | Commit ID                                 |
+|---------------------|-----------------------|-------------------------------------------|
+| TechTracers/Frontend| main | `f7d886b6ac918ffa3c77be233d7d519163b84dcf` |
+
+#### Tablero de commits del repositorio del Backend:
+
+| Repository             | Branch | Commit ID                                 |
+|------------------------|--------|-------------------------------------------|
+| TechTracers/LockItemApi| main   | `0bbd6f0582c2401cb26c0a96304e6b2959717258` |
+
+#### Tablero de commits del repositorio del dispositivo IoT:
+
+| Repository         | Branch | Commit ID                                 |
+|--------------------|--------|-------------------------------------------|
+| TechTracers/LockItemIoT | main   | `04ffac8d4f0bd47438e0c2be1e4cb2172eeffbea` |
+
+#### Tablero de commits de errores encontrados:
+
+| Repository          | Branch  | Commit ID                                 |
+|---------------------|---------|-------------------------------------------|
+| TechTracers/Frontend| apiError| `93695d384c20f41e2e1a60aead621fdce2f65fa6` |
 
 
 #### 7.2.2.4. Testing Suite Evidence for Sprint Review.
 
+En esta sección, se detallan los Unit Tests, Integration Tests y Acceptance Tests automatizados para los Web Services relacionados con los User Stories especificados en el Sprint 1. Para los tests de BDD, se elaboran los archivos `.feature` utilizando el lenguaje Gherkin y los archivos Steps en el lenguaje de programación.
 
+| Repository | Branch                  | Commit Id | Commit Message | Date       |
+|------------|-------------------------|-----------|----------------|------------|
+| Frontend   | feature/section-login   |4988f92|add: modules| 20/11/2024 |
+| Frontend   | feature/section-signup  |c8efc3a|add: IAMcomplete| 20/11/2024 |
+| Frontend   | feature/search          |a9ab1e6|Implemented functionality with new API| 20/11/2024 |
+| Frontend   | feature/account         |5d84164|Updated profile component| 20/11/2024 |
+| Frontend   | apiError                |93695d3|new: endpointConnect| 20/11/2024 |
 
 #### 7.2.2.5. Execution Evidence for Sprint Review.
 
