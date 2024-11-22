@@ -2962,7 +2962,84 @@ se puede demostrar el trabajo colaborativo del sprint 1:
 
 #### 7.2.2.5. Execution Evidence for Sprint Review.
 
+En esta secci6n se presenta la ejecucion de los componentes desarrollados en el Sprint 2.
 
+##### Aplicacion movil
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+<p align="center">
+<i>Pantalla de login</i>
+<img src="assets/capitulo7/Execution_Evidence/mobile/login.png" alt="S2 Mobile Login">
+</p>
+
+<p align="center">
+<i>Pantalla de registro</i>
+<br/>
+<img src="assets/capitulo7/Execution_Evidence/mobile/register.png" alt="S2 Mobile Register">
+</p>
+
+<p align="center">
+<i>Pantalla home</i>
+<br/>
+<img src="assets/capitulo7/Execution_Evidence/mobile/home.png" alt="S2 Mobile Home">
+</p>
+
+<p align="center">
+<i>Pantalla profile</i>
+<br/>
+<img src="assets/capitulo7/Execution_Evidence/mobile/profile.png" alt="S2 Mobile Profile">
+</p>
+
+<p align="center">
+<i>Pantalla products</i>
+<br/>
+<img src="assets/capitulo7/Execution_Evidence/mobile/store_products.png" alt="S2 Mobile Products">
+</p>
+
+<p align="center">
+<i>Pantalla search</i>
+<br/>
+<img src="assets/capitulo7/Execution_Evidence/mobile/product_search.png" alt="S2 Mobile Search">
+</p>
+
+<p align="center">
+<i>Pantalla products favorites</i>
+<br/>
+<img src="assets/capitulo7/Execution_Evidence/mobile/product_favorite.png" alt="S2 Mobile Product Favorites">
+</p>
+
+<p align="center">
+<i>Pantalla product details</i>
+<br/>
+<img src="assets/capitulo7/Execution_Evidence/mobile/product_details.png" alt="S2 Mobile Product Details">
+</p>
+
+<p align="center">
+<i>Pantalla location</i>
+<br/>
+<img src="assets/capitulo7/Execution_Evidence/mobile/product_location_general.png" alt="S2 Mobile Location">
+</p>
+
+<p align="center">
+<i>Pantalla location specific</i>
+<br/>
+<img src="assets/capitulo7/Execution_Evidence/mobile/product_location_specific.png" alt="S2 Mobile Location Specific">
+</p>
+</div>
+
+##### Location Chip Simulation
+
+<p align="center">
+<i>Wokwi Simulation</i>
+<br/>
+<img src="assets/capitulo7/Execution_Evidence/iot/wokwi.png" alt="S2 IoT WokWi Simulation">
+</p>
+
+<p align="center">
+<i>Firebase Realtime Database</i>
+<br/>
+<img src="assets/capitulo7/Execution_Evidence/iot/firebase.png" alt="S2 IoT Firebase Realtime Database">
+</p>
 
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 
