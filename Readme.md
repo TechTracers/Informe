@@ -3265,6 +3265,10 @@ usuarios tengan que buscar más tiempo para encontrar lo que necesitan.
 **Recomendación:** Reorganizar los elementos visuales clave en la interfaz para seguir un diseño más limpio y lógico,
 alineado con los principios de diseño de prioridad visual.
 
+## 7.4. Video About-the-Product
+
+A continuacion se vera el enlace al video acerca del funcionamiento de la aplicacion [video about the product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/ESh605ZvXPFFm0Cg-EFog2sBDFA5XQ87U0uAJ_UHKPlNOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vhtwjS)
+
 # Conclusiones
 
 **Innovación Tecnológica**: El proyecto LockItem demostró cómo la implementación de soluciones basadas en IoT puede transformar la experiencia de compra en tiendas físicas, ofreciendo herramientas para la localización en tiempo real de productos y la optimización de inventarios.
